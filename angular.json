@@ -27,7 +27,12 @@
               "src/favicon.ico",
               "src/apple-touch-icon.png",
               "src/robots.txt",
-              "src/assets"
+              "src/assets",
+              {
+                "glob": "**/*",
+                "input": "node_modules/@jbouduin/holidays-lib/lib/assets",
+                "output": "assets/holidays/"
+              }
             ],
             "styles": [
               "src/main.scss"

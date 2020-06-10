@@ -8,6 +8,8 @@ import { SharedModule } from '@shared';
 import { MaterialModule } from '@app/material.module';
 import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './home.component';
+import { HierarchyTreeComponent } from './hierarchy-tree/hierarchy-tree.component';
+import { HolidayListComponent } from './holiday-list/holiday-list.component';
 
 @NgModule({
   imports: [
@@ -20,7 +22,9 @@ import { HomeComponent } from './home.component';
     HomeRoutingModule
   ],
   declarations: [
-    HomeComponent
+    HomeComponent,
+    HierarchyTreeComponent,
+    HolidayListComponent
   ]
 })
 export class HomeModule { }
