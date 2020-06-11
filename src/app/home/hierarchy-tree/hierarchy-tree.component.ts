@@ -10,21 +10,27 @@ import { IHierarchy } from '@jbouduin/holidays-lib';
 })
 export class HierarchyTreeComponent implements OnChanges, OnInit {
 
+  // <editor-fold desc='@Input/@Output'>
   @Input() public hierarchyTree: Array<IHierarchy>;
   @Output() public nodeSelected: EventEmitter<IHierarchy>;
+  // </editor-fold>
 
+  // <editor-fold desc='Public properties'>
   public selectedNode: IHierarchy | undefined;
   public treeControl: NestedTreeControl<IHierarchy>;
   public treeDataSource: MatTreeNestedDataSource<IHierarchy>;
+  // </editor-fold>
 
-  constructor() {
+  // <editor-fold desc='Constructor'>
+  public constructor() {
     this.treeControl = new NestedTreeControl<IHierarchy>(node => node.children);
     this.treeDataSource = new MatTreeNestedDataSource<IHierarchy>();
     this.nodeSelected = new EventEmitter<IHierarchy>();
   }
+  // </editor-fold>
 
-  ngOnInit(): void {
-  }
+  // <editor-fold desc='Angular interface methods'>
+  ngOnInit(): void { }
 
   ngOnChanges(changes: SimpleChanges): void {
     for (const propName in changes) {
@@ -38,7 +44,9 @@ export class HierarchyTreeComponent implements OnChanges, OnInit {
       }
     }
   }
+  // </editor-fold>
 
+  // <editor-fold desc='UI Triggered methods'>
   public hasChild(_: number, node: IHierarchy): boolean {
     return !!node.children && node.children.length > 0;
   }
@@ -48,4 +56,5 @@ export class HierarchyTreeComponent implements OnChanges, OnInit {
     console.log(node);
     this.nodeSelected.emit(node);
   }
+  // </editor-fold>
 }

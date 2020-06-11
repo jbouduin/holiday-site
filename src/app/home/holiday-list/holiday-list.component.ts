@@ -8,15 +8,23 @@ import { HolidayListItem } from '../holiday-list-item';
 })
 export class HolidayListComponent implements OnInit {
 
+  // <editor-fold desc='@Input'>
   @Input() public holidays: Array<HolidayListItem>;
-  public displayedColumns: string[];
+  // </editor-fold>
 
-  constructor() {
+  // <editor-fold desc='Public properties'>
+  public displayedColumns: string[];
+  // </editor-fold>
+  //
+  // <editor-fold desc='constructor'>
+  public constructor() {
     this.displayedColumns = [ "date", "location", "name" ];
     this.holidays = new Array<HolidayListItem>()
   }
+  // </editor-fold>
 
-  ngOnInit(): void {
-  }
+  // <editor-fold desc='Angular interface methods'>
+  public ngOnInit(): void { }
+  // </editor-fold>
 
 }

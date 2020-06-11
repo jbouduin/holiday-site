@@ -2,13 +2,18 @@
   <mat-card>
     <app-loader [isLoading]="isLoading" size="1.5"></app-loader>
     <mat-card-content fxLayout="row">
-      <!-- <mat-card-title translate>Hello world !</mat-card-title> -->
-      <!-- <mat-card-subtitle>
-
-        <q [hidden]="isLoading">{{quote}}</q>
-      </mat-card-subtitle> -->
       <div fxFlex="30">
-        <app-hierarchy-tree [hierarchyTree]="hierarchyTree" (nodeSelected)="hierarchySelected($event)"></app-hierarchy-tree>
+        <div fxLayout="column">
+          <form [formGroup]="formGroup">
+            <mat-form-field appearance="outline" class="mat-cell-input-number" >
+              <mat-label>Year</mat-label>
+              <mat-icon matPrefix (click)="yearDown()">chevron_left</mat-icon>
+	            <input matInput value="2020" formControlName="year">
+              <mat-icon matSuffix (click)="yearUp()">chevron_right</mat-icon>
+            </mat-form-field>
+          </form>
+          <app-hierarchy-tree [hierarchyTree]="hierarchyTree" (nodeSelected)="hierarchySelected($event)"></app-hierarchy-tree>
+        </div>
       </div>
       <div fxFlex>
         <app-holiday-list [holidays]="holidays"></app-holiday-list>

@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { TranslateModule } from '@ngx-translate/core';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
@@ -18,6 +19,8 @@ import { HolidayListComponent } from './holiday-list/holiday-list.component';
     CoreModule,
     SharedModule,
     FlexLayoutModule,
+    FormsModule,
+    ReactiveFormsModule,
     MaterialModule,
     HomeRoutingModule
   ],
