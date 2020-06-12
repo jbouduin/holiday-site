@@ -53,7 +53,6 @@ export class HierarchyTreeComponent implements OnChanges, OnInit {
 
   public clickNode(node: IHierarchy) {
     this.selectedNode = node;
-    console.log(node);
     this.nodeSelected.emit(node);
   }
   // </editor-fold>
