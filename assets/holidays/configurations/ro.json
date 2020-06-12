@@ -1,0 +1,81 @@
+{
+  "hierarchy": "ro",
+  "description": "Romania",
+  "holidays": [
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "EASTER",
+      "chronology": "JULIAN"
+    },
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "EASTER_MONDAY",
+      "chronology": "JULIAN"
+    },
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "PENTECOST",
+      "chronology": "JULIAN"
+    },
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "WHIT_MONDAY",
+      "chronology": "JULIAN"
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "NEW_YEAR",
+      "month": "JANUARY",
+      "day": 1
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "NEW_YEAR",
+      "month": "JANUARY",
+      "day": 2
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "UNIFICATION",
+      "month": "JANUARY",
+      "day": 24,
+      "validFrom": 2017
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "LABOUR_DAY",
+      "month": "MAY",
+      "day": 1
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "NAVY_DAY",
+      "month": "AUGUST",
+      "day": 15
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "ST_ANDREW",
+      "month": "NOVEMBER",
+      "day": 30
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "NATIONAL_DAY",
+      "month": "DECEMBER",
+      "day": 1
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "CHRISTMAS",
+      "month": "DECEMBER",
+      "day": 25
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "CHRISTMAS",
+      "month": "DECEMBER",
+      "day": 26
+    }
+  ]
+}

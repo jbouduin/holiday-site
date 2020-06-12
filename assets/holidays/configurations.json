@@ -1,0 +1,3172 @@
+[
+  {
+    "code": "ae",
+    "fullPath": "ae",
+    "description": "United Arab Emirates"
+  },
+  {
+    "code": "al",
+    "fullPath": "al",
+    "description": "Albania"
+  },
+  {
+    "code": "ar",
+    "fullPath": "ar",
+    "description": "Argentina"
+  },
+  {
+    "code": "at",
+    "fullPath": "at",
+    "description": "Austria",
+    "children": [
+      {
+        "code": "b",
+        "fullPath": "at/b",
+        "description": "Burgenland"
+      },
+      {
+        "code": "k",
+        "fullPath": "at/k",
+        "description": "Kärnten"
+      },
+      {
+        "code": "la",
+        "fullPath": "at/la",
+        "description": "Niederösterreich"
+      },
+      {
+        "code": "ua",
+        "fullPath": "at/ua",
+        "description": "Oberösterreich"
+      },
+      {
+        "code": "s",
+        "fullPath": "at/s",
+        "description": "Salzburg"
+      },
+      {
+        "code": "st",
+        "fullPath": "at/st",
+        "description": "Steiermark"
+      },
+      {
+        "code": "t",
+        "fullPath": "at/t",
+        "description": "Tirol"
+      },
+      {
+        "code": "va",
+        "fullPath": "at/va",
+        "description": "Vorarlberg"
+      },
+      {
+        "code": "w",
+        "fullPath": "at/w",
+        "description": "Wien"
+      }
+    ]
+  },
+  {
+    "code": "au",
+    "fullPath": "au",
+    "description": "Australia",
+    "children": [
+      {
+        "code": "act",
+        "fullPath": "au/act",
+        "description": "Australian Capital Territory"
+      },
+      {
+        "code": "nsw",
+        "fullPath": "au/nsw",
+        "description": "New South Wales"
+      },
+      {
+        "code": "nt",
+        "fullPath": "au/nt",
+        "description": "Nothern Territory"
+      },
+      {
+        "code": "qld",
+        "fullPath": "au/qld",
+        "description": "Queensland",
+        "children": [
+          {
+            "code": "br",
+            "fullPath": "au/qld/br",
+            "description": "Brisbane Area"
+          }
+        ]
+      },
+      {
+        "code": "sa",
+        "fullPath": "au/sa",
+        "description": "South Australia"
+      },
+      {
+        "code": "tas",
+        "fullPath": "au/tas",
+        "description": "Tasmania",
+        "children": [
+          {
+            "code": "ho",
+            "fullPath": "au/tas/ho",
+            "description": "Hobart Area"
+          },
+          {
+            "code": "nh",
+            "fullPath": "au/tas/nh",
+            "description": "Non-Hobart Area"
+          }
+        ]
+      },
+      {
+        "code": "vic",
+        "fullPath": "au/vic",
+        "description": "Victoria"
+      },
+      {
+        "code": "wa",
+        "fullPath": "au/wa",
+        "description": "Western Australia"
+      }
+    ]
+  },
+  {
+    "code": "ba",
+    "fullPath": "ba",
+    "description": "Bosnia and Herzegovina",
+    "children": [
+      {
+        "code": "rs",
+        "fullPath": "ba/rs",
+        "description": "Republika Srpska"
+      },
+      {
+        "code": "fbh",
+        "fullPath": "ba/fbh",
+        "description": "Federation of Bosnia and Herzegovina"
+      }
+    ]
+  },
+  {
+    "code": "be",
+    "fullPath": "be",
+    "description": "Belgium"
+  },
+  {
+    "code": "bg",
+    "fullPath": "bg",
+    "description": "Bulgaria"
+  },
+  {
+    "code": "bo",
+    "fullPath": "bo",
+    "description": "Bolivia"
+  },
+  {
+    "code": "br",
+    "fullPath": "br",
+    "description": "Brazil",
+    "children": [
+      {
+        "code": "rj",
+        "fullPath": "br/rj",
+        "description": "Rio de Janeiro",
+        "children": [
+          {
+            "code": "crj",
+            "fullPath": "br/rj/crj",
+            "description": "City of Rio de Janeiro"
+          }
+        ]
+      },
+      {
+        "code": "sp",
+        "fullPath": "br/sp",
+        "description": "Sao Paulo",
+        "children": [
+          {
+            "code": "csp",
+            "fullPath": "br/sp/csp",
+            "description": "City of Sao Paulo"
+          }
+        ]
+      },
+      {
+        "code": "mg",
+        "fullPath": "br/mg",
+        "description": "Minas Gerais"
+      },
+      {
+        "code": "ms",
+        "fullPath": "br/ms",
+        "description": "Mato Grosso do Sul",
+        "children": [
+          {
+            "code": "cg",
+            "fullPath": "br/ms/cg",
+            "description": "Campo Grande"
+          },
+          {
+            "code": "do",
+            "fullPath": "br/ms/do",
+            "description": "Dourados"
+          }
+        ]
+      },
+      {
+        "code": "pr",
+        "fullPath": "br/pr",
+        "description": "Parana"
+      },
+      {
+        "code": "rs",
+        "fullPath": "br/rs",
+        "description": "Rio Grande do Sul",
+        "children": [
+          {
+            "code": "sm",
+            "fullPath": "br/rs/sm",
+            "description": "Santa Maria"
+          }
+        ]
+      },
+      {
+        "code": "rn",
+        "fullPath": "br/rn",
+        "description": "Rio Grande do Norte",
+        "children": [
+          {
+            "code": "na",
+            "fullPath": "br/rn/na",
+            "description": "Natal"
+          }
+        ]
+      },
+      {
+        "code": "go",
+        "fullPath": "br/go",
+        "description": "Goiás"
+      },
+      {
+        "code": "pe",
+        "fullPath": "br/pe",
+        "description": "Pernambuco"
+      },
+      {
+        "code": "pb",
+        "fullPath": "br/pb",
+        "description": "Paraíba",
+        "children": [
+          {
+            "code": "jpa",
+            "fullPath": "br/pb/jpa",
+            "description": "João Pessoa"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "by",
+    "fullPath": "by",
+    "description": "Belarus"
+  },
+  {
+    "code": "ca",
+    "fullPath": "ca",
+    "description": "Canada",
+    "children": [
+      {
+        "code": "on",
+        "fullPath": "ca/on",
+        "description": "Ontario"
+      },
+      {
+        "code": "yt",
+        "fullPath": "ca/yt",
+        "description": "Yukon"
+      },
+      {
+        "code": "qc",
+        "fullPath": "ca/qc",
+        "description": "Quebec"
+      },
+      {
+        "code": "ns",
+        "fullPath": "ca/ns",
+        "description": "Nova Scotia"
+      },
+      {
+        "code": "nb",
+        "fullPath": "ca/nb",
+        "description": "New Brunswick"
+      },
+      {
+        "code": "mb",
+        "fullPath": "ca/mb",
+        "description": "Manitoba"
+      },
+      {
+        "code": "nt",
+        "fullPath": "ca/nt",
+        "description": "Northwest Territories"
+      },
+      {
+        "code": "nu",
+        "fullPath": "ca/nu",
+        "description": "Nunavut"
+      },
+      {
+        "code": "bc",
+        "fullPath": "ca/bc",
+        "description": "British Columbia"
+      },
+      {
+        "code": "pe",
+        "fullPath": "ca/pe",
+        "description": "Prince Edward Island"
+      },
+      {
+        "code": "sk",
+        "fullPath": "ca/sk",
+        "description": "Saskatchewan"
+      },
+      {
+        "code": "ab",
+        "fullPath": "ca/ab",
+        "description": "Alberta"
+      },
+      {
+        "code": "nl",
+        "fullPath": "ca/nl",
+        "description": "Newfoundland and Labrador"
+      }
+    ]
+  },
+  {
+    "code": "ch",
+    "fullPath": "ch",
+    "description": "Switzerland",
+    "children": [
+      {
+        "code": "ag",
+        "fullPath": "ch/ag",
+        "description": "Aargau"
+      },
+      {
+        "code": "ai",
+        "fullPath": "ch/ai",
+        "description": "Appenzell Innerrhoden"
+      },
+      {
+        "code": "ar",
+        "fullPath": "ch/ar",
+        "description": "Appenzell Ausserrhoden"
+      },
+      {
+        "code": "be",
+        "fullPath": "ch/be",
+        "description": "Bern"
+      },
+      {
+        "code": "bl",
+        "fullPath": "ch/bl",
+        "description": "Basel-Landschaft"
+      },
+      {
+        "code": "bs",
+        "fullPath": "ch/bs",
+        "description": "Basel-Stadt"
+      },
+      {
+        "code": "fr",
+        "fullPath": "ch/fr",
+        "description": "Freiburg"
+      },
+      {
+        "code": "ge",
+        "fullPath": "ch/ge",
+        "description": "Genf"
+      },
+      {
+        "code": "gl",
+        "fullPath": "ch/gl",
+        "description": "Glarus"
+      },
+      {
+        "code": "gr",
+        "fullPath": "ch/gr",
+        "description": "Graubünden"
+      },
+      {
+        "code": "ju",
+        "fullPath": "ch/ju",
+        "description": "Jura"
+      },
+      {
+        "code": "lu",
+        "fullPath": "ch/lu",
+        "description": "Luzern"
+      },
+      {
+        "code": "ne",
+        "fullPath": "ch/ne",
+        "description": "Neuenburg"
+      },
+      {
+        "code": "nw",
+        "fullPath": "ch/nw",
+        "description": "Nidwalden"
+      },
+      {
+        "code": "ow",
+        "fullPath": "ch/ow",
+        "description": "Obwalden"
+      },
+      {
+        "code": "sg",
+        "fullPath": "ch/sg",
+        "description": "St.Gallen"
+      },
+      {
+        "code": "sh",
+        "fullPath": "ch/sh",
+        "description": "Schaffhausen"
+      },
+      {
+        "code": "so",
+        "fullPath": "ch/so",
+        "description": "Solothurn"
+      },
+      {
+        "code": "sz",
+        "fullPath": "ch/sz",
+        "description": "Schwyz"
+      },
+      {
+        "code": "tg",
+        "fullPath": "ch/tg",
+        "description": "Thurgau"
+      },
+      {
+        "code": "ti",
+        "fullPath": "ch/ti",
+        "description": "Tessin"
+      },
+      {
+        "code": "ur",
+        "fullPath": "ch/ur",
+        "description": "Uri"
+      },
+      {
+        "code": "vd",
+        "fullPath": "ch/vd",
+        "description": "Waadt"
+      },
+      {
+        "code": "vs",
+        "fullPath": "ch/vs",
+        "description": "Wallis"
+      },
+      {
+        "code": "zg",
+        "fullPath": "ch/zg",
+        "description": "Zug"
+      },
+      {
+        "code": "zh",
+        "fullPath": "ch/zh",
+        "description": "Zürich"
+      }
+    ]
+  },
+  {
+    "code": "cl",
+    "fullPath": "cl",
+    "description": "Chile"
+  },
+  {
+    "code": "co",
+    "fullPath": "co",
+    "description": "Colombia"
+  },
+  {
+    "code": "cr",
+    "fullPath": "cr",
+    "description": "Costa Rica"
+  },
+  {
+    "code": "cz",
+    "fullPath": "cz",
+    "description": "Czech Republic"
+  },
+  {
+    "code": "de",
+    "fullPath": "de",
+    "description": "Germany",
+    "children": [
+      {
+        "code": "be",
+        "fullPath": "de/be",
+        "description": "Berlin"
+      },
+      {
+        "code": "bb",
+        "fullPath": "de/bb",
+        "description": "Brandenburg"
+      },
+      {
+        "code": "bw",
+        "fullPath": "de/bw",
+        "description": "Baden-Württemberg"
+      },
+      {
+        "code": "by",
+        "fullPath": "de/by",
+        "description": "Bavaria",
+        "children": [
+          {
+            "code": "mu",
+            "fullPath": "de/by/mu",
+            "description": "Munich"
+          },
+          {
+            "code": "ag",
+            "fullPath": "de/by/ag",
+            "description": "Augsburg"
+          },
+          {
+            "code": "wu",
+            "fullPath": "de/by/wu",
+            "description": "Würzburg"
+          },
+          {
+            "code": "re",
+            "fullPath": "de/by/re",
+            "description": "Regensburg"
+          },
+          {
+            "code": "in",
+            "fullPath": "de/by/in",
+            "description": "Ingolstadt"
+          }
+        ]
+      },
+      {
+        "code": "he",
+        "fullPath": "de/he",
+        "description": "Hesse"
+      },
+      {
+        "code": "mv",
+        "fullPath": "de/mv",
+        "description": "Mecklenburg-Vorpommern"
+      },
+      {
+        "code": "nw",
+        "fullPath": "de/nw",
+        "description": "North Rhine-Westphalia"
+      },
+      {
+        "code": "rp",
+        "fullPath": "de/rp",
+        "description": "Rhineland-Palatinate"
+      },
+      {
+        "code": "sl",
+        "fullPath": "de/sl",
+        "description": "Saarland"
+      },
+      {
+        "code": "sn",
+        "fullPath": "de/sn",
+        "description": "Saxony"
+      },
+      {
+        "code": "st",
+        "fullPath": "de/st",
+        "description": "Saxony-Anhalt"
+      },
+      {
+        "code": "th",
+        "fullPath": "de/th",
+        "description": "Thuringia"
+      },
+      {
+        "code": "sh",
+        "fullPath": "de/sh",
+        "description": "Schleswig-Holstein"
+      },
+      {
+        "code": "hh",
+        "fullPath": "de/hh",
+        "description": "Hamburg"
+      },
+      {
+        "code": "hb",
+        "fullPath": "de/hb",
+        "description": "Bremen"
+      },
+      {
+        "code": "ni",
+        "fullPath": "de/ni",
+        "description": "Lower-Saxony"
+      }
+    ]
+  },
+  {
+    "code": "dj-stoxx",
+    "fullPath": "dj-stoxx",
+    "description": "DowJones STOXX"
+  },
+  {
+    "code": "dk",
+    "fullPath": "dk",
+    "description": "Denmark"
+  },
+  {
+    "code": "ec",
+    "fullPath": "ec",
+    "description": "Ecuador"
+  },
+  {
+    "code": "ee",
+    "fullPath": "ee",
+    "description": "Estonia"
+  },
+  {
+    "code": "eg",
+    "fullPath": "eg",
+    "description": "Egypt"
+  },
+  {
+    "code": "es",
+    "fullPath": "es",
+    "description": "Spain",
+    "children": [
+      {
+        "code": "an",
+        "fullPath": "es/an",
+        "description": "Andalucia"
+      },
+      {
+        "code": "ar",
+        "fullPath": "es/ar",
+        "description": "Aragon"
+      },
+      {
+        "code": "ce",
+        "fullPath": "es/ce",
+        "description": "Ceuta"
+      },
+      {
+        "code": "ml",
+        "fullPath": "es/ml",
+        "description": "Melilla"
+      },
+      {
+        "code": "cl",
+        "fullPath": "es/cl",
+        "description": "Castile and Leon"
+      },
+      {
+        "code": "cm",
+        "fullPath": "es/cm",
+        "description": "Castile - La Mancha"
+      },
+      {
+        "code": "cn",
+        "fullPath": "es/cn",
+        "description": "Canary Islands"
+      },
+      {
+        "code": "ct",
+        "fullPath": "es/ct",
+        "description": "Catalonia",
+        "children": [
+          {
+            "code": "bcn",
+            "fullPath": "es/ct/bcn",
+            "description": "Barcelona"
+          }
+        ]
+      },
+      {
+        "code": "ex",
+        "fullPath": "es/ex",
+        "description": "Extremadura"
+      },
+      {
+        "code": "ga",
+        "fullPath": "es/ga",
+        "description": "Galicia"
+      },
+      {
+        "code": "ib",
+        "fullPath": "es/ib",
+        "description": "Balearic Island"
+      },
+      {
+        "code": "lo",
+        "fullPath": "es/lo",
+        "description": "La Rioja"
+      },
+      {
+        "code": "m",
+        "fullPath": "es/m",
+        "description": "Madrid"
+      },
+      {
+        "code": "mu",
+        "fullPath": "es/mu",
+        "description": "Murcia"
+      },
+      {
+        "code": "na",
+        "fullPath": "es/na",
+        "description": "Navarre"
+      },
+      {
+        "code": "o",
+        "fullPath": "es/o",
+        "description": "Asturias"
+      },
+      {
+        "code": "pv",
+        "fullPath": "es/pv",
+        "description": "Euskadi"
+      },
+      {
+        "code": "s",
+        "fullPath": "es/s",
+        "description": "Cantabria"
+      },
+      {
+        "code": "vc",
+        "fullPath": "es/vc",
+        "description": "Valencia"
+      }
+    ]
+  },
+  {
+    "code": "et",
+    "fullPath": "et",
+    "description": "Ethiopia"
+  },
+  {
+    "code": "fi",
+    "fullPath": "fi",
+    "description": "Finland",
+    "children": [
+      {
+        "code": "ax",
+        "fullPath": "fi/ax",
+        "description": "Aland"
+      }
+    ]
+  },
+  {
+    "code": "fr",
+    "fullPath": "fr",
+    "description": "France",
+    "children": [
+      {
+        "code": "ma",
+        "fullPath": "fr/ma",
+        "description": "Martinique"
+      },
+      {
+        "code": "gu",
+        "fullPath": "fr/gu",
+        "description": "Guadeloupe"
+      },
+      {
+        "code": "gy",
+        "fullPath": "fr/gy",
+        "description": "Guyane"
+      },
+      {
+        "code": "lr",
+        "fullPath": "fr/lr",
+        "description": "La Reunion"
+      },
+      {
+        "code": "br",
+        "fullPath": "fr/br",
+        "description": "Bas-Rhin"
+      },
+      {
+        "code": "hr",
+        "fullPath": "fr/hr",
+        "description": "Haut-Rhin"
+      },
+      {
+        "code": "mo",
+        "fullPath": "fr/mo",
+        "description": "Moselle"
+      }
+    ]
+  },
+  {
+    "code": "gb",
+    "fullPath": "gb",
+    "description": "United Kingdom",
+    "children": [
+      {
+        "code": "al",
+        "fullPath": "gb/al",
+        "description": "Alderney"
+      },
+      {
+        "code": "en",
+        "fullPath": "gb/en",
+        "description": "England"
+      },
+      {
+        "code": "gu",
+        "fullPath": "gb/gu",
+        "description": "Guernsey"
+      },
+      {
+        "code": "im",
+        "fullPath": "gb/im",
+        "description": "Isle of Man"
+      },
+      {
+        "code": "je",
+        "fullPath": "gb/je",
+        "description": "Jersey"
+      },
+      {
+        "code": "ni",
+        "fullPath": "gb/ni",
+        "description": "Northern Ireland"
+      },
+      {
+        "code": "sc",
+        "fullPath": "gb/sc",
+        "description": "Scotland"
+      },
+      {
+        "code": "wa",
+        "fullPath": "gb/wa",
+        "description": "Wales"
+      }
+    ]
+  },
+  {
+    "code": "gr",
+    "fullPath": "gr",
+    "description": "Greece"
+  },
+  {
+    "code": "hr",
+    "fullPath": "hr",
+    "description": "Croatia"
+  },
+  {
+    "code": "hu",
+    "fullPath": "hu",
+    "description": "Hungary"
+  },
+  {
+    "code": "ie",
+    "fullPath": "ie",
+    "description": "Ireland"
+  },
+  {
+    "code": "in",
+    "fullPath": "in",
+    "description": "India",
+    "children": [
+      {
+        "code": "ap",
+        "fullPath": "in/ap",
+        "description": "Andhra Pradesh"
+      },
+      {
+        "code": "ar",
+        "fullPath": "in/ar",
+        "description": "Arunachal Pradesh"
+      },
+      {
+        "code": "as",
+        "fullPath": "in/as",
+        "description": "Assam"
+      },
+      {
+        "code": "br",
+        "fullPath": "in/br",
+        "description": "Bihar"
+      },
+      {
+        "code": "ct",
+        "fullPath": "in/ct",
+        "description": "Chhattisgarh"
+      },
+      {
+        "code": "ga",
+        "fullPath": "in/ga",
+        "description": "Goa"
+      },
+      {
+        "code": "gj",
+        "fullPath": "in/gj",
+        "description": "Gujarat"
+      },
+      {
+        "code": "hr",
+        "fullPath": "in/hr",
+        "description": "Haryana"
+      },
+      {
+        "code": "hp",
+        "fullPath": "in/hp",
+        "description": "Himachal Pradesh"
+      },
+      {
+        "code": "jk",
+        "fullPath": "in/jk",
+        "description": "Jammu and Kashmir"
+      },
+      {
+        "code": "jh",
+        "fullPath": "in/jh",
+        "description": "Jharkhand"
+      },
+      {
+        "code": "ka",
+        "fullPath": "in/ka",
+        "description": "Karnataka"
+      },
+      {
+        "code": "kl",
+        "fullPath": "in/kl",
+        "description": "Kerala"
+      },
+      {
+        "code": "mp",
+        "fullPath": "in/mp",
+        "description": "Madhya Pradesh"
+      },
+      {
+        "code": "mh",
+        "fullPath": "in/mh",
+        "description": "Maharashtra"
+      },
+      {
+        "code": "mn",
+        "fullPath": "in/mn",
+        "description": "Manipur"
+      },
+      {
+        "code": "ml",
+        "fullPath": "in/ml",
+        "description": "Meghalaya"
+      },
+      {
+        "code": "mz",
+        "fullPath": "in/mz",
+        "description": "Mizoram"
+      },
+      {
+        "code": "nl",
+        "fullPath": "in/nl",
+        "description": "Nagaland"
+      },
+      {
+        "code": "or",
+        "fullPath": "in/or",
+        "description": "Orissa"
+      },
+      {
+        "code": "pb",
+        "fullPath": "in/pb",
+        "description": "Punjab"
+      },
+      {
+        "code": "rj",
+        "fullPath": "in/rj",
+        "description": "Rajasthan"
+      },
+      {
+        "code": "sk",
+        "fullPath": "in/sk",
+        "description": "Sikkim"
+      },
+      {
+        "code": "tn",
+        "fullPath": "in/tn",
+        "description": "Tamil Nadu"
+      },
+      {
+        "code": "tr",
+        "fullPath": "in/tr",
+        "description": "Tripura"
+      },
+      {
+        "code": "up",
+        "fullPath": "in/up",
+        "description": "Uttar Pradesh"
+      },
+      {
+        "code": "ul",
+        "fullPath": "in/ul",
+        "description": "Uttarakhand"
+      },
+      {
+        "code": "wb",
+        "fullPath": "in/wb",
+        "description": "West Bengal"
+      },
+      {
+        "code": "an",
+        "fullPath": "in/an",
+        "description": "Andaman and Nicobar Islands"
+      },
+      {
+        "code": "ch",
+        "fullPath": "in/ch",
+        "description": "Chandigarh"
+      },
+      {
+        "code": "dn",
+        "fullPath": "in/dn",
+        "description": "Dadra and Nagar Haveli"
+      },
+      {
+        "code": "dd",
+        "fullPath": "in/dd",
+        "description": "Daman and Diu"
+      },
+      {
+        "code": "ld",
+        "fullPath": "in/ld",
+        "description": "Lakshadweep"
+      },
+      {
+        "code": "dl",
+        "fullPath": "in/dl",
+        "description": "Delhi"
+      },
+      {
+        "code": "py",
+        "fullPath": "in/py",
+        "description": "Puducherry"
+      }
+    ]
+  },
+  {
+    "code": "is",
+    "fullPath": "is",
+    "description": "Iceland"
+  },
+  {
+    "code": "it",
+    "fullPath": "it",
+    "description": "Italy",
+    "children": [
+      {
+        "code": "bz",
+        "fullPath": "it/bz",
+        "description": "Südtirol"
+      }
+    ]
+  },
+  {
+    "code": "jp",
+    "fullPath": "jp",
+    "description": "Japan"
+  },
+  {
+    "code": "kz",
+    "fullPath": "kz",
+    "description": "Kazakhstan"
+  },
+  {
+    "code": "li",
+    "fullPath": "li",
+    "description": "Liechtenstein"
+  },
+  {
+    "code": "lme",
+    "fullPath": "lme",
+    "description": "London metal exchange"
+  },
+  {
+    "code": "lt",
+    "fullPath": "lt",
+    "description": "Lithuania"
+  },
+  {
+    "code": "lu",
+    "fullPath": "lu",
+    "description": "Luxembourg",
+    "children": [
+      {
+        "code": "clu",
+        "fullPath": "lu/clu",
+        "description": "City of Luxembourg"
+      }
+    ]
+  },
+  {
+    "code": "lv",
+    "fullPath": "lv",
+    "description": "Latvia"
+  },
+  {
+    "code": "md",
+    "fullPath": "md",
+    "description": "Moldova",
+    "children": [
+      {
+        "code": "bti",
+        "fullPath": "md/bti",
+        "description": "Balti"
+      }
+    ]
+  },
+  {
+    "code": "me",
+    "fullPath": "me",
+    "description": "Montenegro"
+  },
+  {
+    "code": "mk",
+    "fullPath": "mk",
+    "description": "Macedonia"
+  },
+  {
+    "code": "mt",
+    "fullPath": "mt",
+    "description": "Malta"
+  },
+  {
+    "code": "mx",
+    "fullPath": "mx",
+    "description": "Mexico",
+    "children": [
+      {
+        "code": "pue",
+        "fullPath": "mx/pue",
+        "description": "Puebla"
+      }
+    ]
+  },
+  {
+    "code": "ng",
+    "fullPath": "ng",
+    "description": "Nigeria",
+    "children": [
+      {
+        "code": "lag",
+        "fullPath": "ng/lag",
+        "description": "Lagos"
+      }
+    ]
+  },
+  {
+    "code": "ni",
+    "fullPath": "ni",
+    "description": "Nicaragua",
+    "children": [
+      {
+        "code": "bo",
+        "fullPath": "ni/bo",
+        "description": "Boaco"
+      },
+      {
+        "code": "so",
+        "fullPath": "ni/so",
+        "description": "Somoto"
+      },
+      {
+        "code": "mn",
+        "fullPath": "ni/mn",
+        "description": "Managua"
+      },
+      {
+        "code": "na",
+        "fullPath": "ni/na",
+        "description": "Nandaime"
+      },
+      {
+        "code": "ni",
+        "fullPath": "ni/ni",
+        "description": "Niquinohomo"
+      },
+      {
+        "code": "mo",
+        "fullPath": "ni/mo",
+        "description": "Moyogalpa"
+      },
+      {
+        "code": "om",
+        "fullPath": "ni/om",
+        "description": "Ometepe"
+      }
+    ]
+  },
+  {
+    "code": "nl",
+    "fullPath": "nl",
+    "description": "The Netherlands"
+  },
+  {
+    "code": "no",
+    "fullPath": "no",
+    "description": "Norway"
+  },
+  {
+    "code": "nsye-euronext",
+    "fullPath": "nsye-euronext",
+    "description": "nsye-euronext"
+  },
+  {
+    "code": "nyse",
+    "fullPath": "nyse",
+    "description": "New York Stock Exchange"
+  },
+  {
+    "code": "nz",
+    "fullPath": "nz",
+    "description": "New Zealand",
+    "children": [
+      {
+        "code": "auk",
+        "fullPath": "nz/auk",
+        "description": "Auckland"
+      },
+      {
+        "code": "tki",
+        "fullPath": "nz/tki",
+        "description": "Taranaki"
+      },
+      {
+        "code": "hkb",
+        "fullPath": "nz/hkb",
+        "description": "Hawke's Bay"
+      },
+      {
+        "code": "wgn",
+        "fullPath": "nz/wgn",
+        "description": "Wellington"
+      },
+      {
+        "code": "mbh",
+        "fullPath": "nz/mbh",
+        "description": "Marlborough"
+      },
+      {
+        "code": "nsn",
+        "fullPath": "nz/nsn",
+        "description": "Nelson"
+      },
+      {
+        "code": "can",
+        "fullPath": "nz/can",
+        "description": "Canterbury"
+      },
+      {
+        "code": "cans",
+        "fullPath": "nz/cans",
+        "description": "Canterbury (South)"
+      },
+      {
+        "code": "wtc",
+        "fullPath": "nz/wtc",
+        "description": "Westland"
+      },
+      {
+        "code": "ota",
+        "fullPath": "nz/ota",
+        "description": "Otago"
+      },
+      {
+        "code": "stl",
+        "fullPath": "nz/stl",
+        "description": "Southland"
+      },
+      {
+        "code": "cit",
+        "fullPath": "nz/cit",
+        "description": "Chatham Islands"
+      }
+    ]
+  },
+  {
+    "code": "pa",
+    "fullPath": "pa",
+    "description": "Panama"
+  },
+  {
+    "code": "pe",
+    "fullPath": "pe",
+    "description": "Peru"
+  },
+  {
+    "code": "pl",
+    "fullPath": "pl",
+    "description": "Poland"
+  },
+  {
+    "code": "pt",
+    "fullPath": "pt",
+    "description": "Portugal",
+    "children": [
+      {
+        "code": "ABT",
+        "fullPath": "pt/ABT",
+        "description": "Abrantes"
+      },
+      {
+        "code": "AGD",
+        "fullPath": "pt/AGD",
+        "description": "Águeda"
+      },
+      {
+        "code": "AGB",
+        "fullPath": "pt/AGB",
+        "description": "Aguiar da Beira"
+      },
+      {
+        "code": "ADL",
+        "fullPath": "pt/ADL",
+        "description": "Alandroal"
+      },
+      {
+        "code": "ALB",
+        "fullPath": "pt/ALB",
+        "description": "Albergaria-a-Velha"
+      },
+      {
+        "code": "ABF",
+        "fullPath": "pt/ABF",
+        "description": "Albufeira"
+      },
+      {
+        "code": "ASL",
+        "fullPath": "pt/ASL",
+        "description": "Alcácer do Sal"
+      },
+      {
+        "code": "ACN",
+        "fullPath": "pt/ACN",
+        "description": "Alcanena"
+      },
+      {
+        "code": "ACB",
+        "fullPath": "pt/ACB",
+        "description": "Alcobaça"
+      },
+      {
+        "code": "ACH",
+        "fullPath": "pt/ACH",
+        "description": "Alcochete"
+      },
+      {
+        "code": "ACT",
+        "fullPath": "pt/ACT",
+        "description": "Alcoutim"
+      },
+      {
+        "code": "ALQ",
+        "fullPath": "pt/ALQ",
+        "description": "Alenquer"
+      },
+      {
+        "code": "AFE",
+        "fullPath": "pt/AFE",
+        "description": "Alfândega da Fé"
+      },
+      {
+        "code": "ALJ",
+        "fullPath": "pt/ALJ",
+        "description": "Alijó"
+      },
+      {
+        "code": "AJZ",
+        "fullPath": "pt/AJZ",
+        "description": "Aljezur"
+      },
+      {
+        "code": "AJT",
+        "fullPath": "pt/AJT",
+        "description": "Aljustrel"
+      },
+      {
+        "code": "ALM",
+        "fullPath": "pt/ALM",
+        "description": "Almada"
+      },
+      {
+        "code": "ALD",
+        "fullPath": "pt/ALD",
+        "description": "Almeida"
+      },
+      {
+        "code": "ALR",
+        "fullPath": "pt/ALR",
+        "description": "Almeirim"
+      },
+      {
+        "code": "ADV",
+        "fullPath": "pt/ADV",
+        "description": "Almodôvar"
+      },
+      {
+        "code": "APC",
+        "fullPath": "pt/APC",
+        "description": "Alpiarça"
+      },
+      {
+        "code": "ALT",
+        "fullPath": "pt/ALT",
+        "description": "Alter do Chão"
+      },
+      {
+        "code": "AVZ",
+        "fullPath": "pt/AVZ",
+        "description": "Alvaiázere"
+      },
+      {
+        "code": "AVT",
+        "fullPath": "pt/AVT",
+        "description": "Alvito"
+      },
+      {
+        "code": "AMD",
+        "fullPath": "pt/AMD",
+        "description": "Amadora"
+      },
+      {
+        "code": "AMT",
+        "fullPath": "pt/AMT",
+        "description": "Amarante"
+      },
+      {
+        "code": "AMR",
+        "fullPath": "pt/AMR",
+        "description": "Amares"
+      },
+      {
+        "code": "AND",
+        "fullPath": "pt/AND",
+        "description": "Anadia"
+      },
+      {
+        "code": "AGH",
+        "fullPath": "pt/AGH",
+        "description": "Angra do Heroísmo"
+      },
+      {
+        "code": "ANS",
+        "fullPath": "pt/ANS",
+        "description": "Ansião"
+      },
+      {
+        "code": "AVV",
+        "fullPath": "pt/AVV",
+        "description": "Arcos de Valdevez"
+      },
+      {
+        "code": "AGN",
+        "fullPath": "pt/AGN",
+        "description": "Arganil"
+      },
+      {
+        "code": "AMM",
+        "fullPath": "pt/AMM",
+        "description": "Armamar"
+      },
+      {
+        "code": "ARC",
+        "fullPath": "pt/ARC",
+        "description": "Arouca"
+      },
+      {
+        "code": "ARL",
+        "fullPath": "pt/ARL",
+        "description": "Arraiolos"
+      },
+      {
+        "code": "ARR",
+        "fullPath": "pt/ARR",
+        "description": "Arronches"
+      },
+      {
+        "code": "ARV",
+        "fullPath": "pt/ARV",
+        "description": "Arruda dos Vinhos"
+      },
+      {
+        "code": "AVR",
+        "fullPath": "pt/AVR",
+        "description": "Aveiro"
+      },
+      {
+        "code": "AVS",
+        "fullPath": "pt/AVS",
+        "description": "Avis"
+      },
+      {
+        "code": "AZB",
+        "fullPath": "pt/AZB",
+        "description": "Azambuja"
+      },
+      {
+        "code": "BAO",
+        "fullPath": "pt/BAO",
+        "description": "Baião"
+      },
+      {
+        "code": "BCL",
+        "fullPath": "pt/BCL",
+        "description": "Barcelos"
+      },
+      {
+        "code": "BRC",
+        "fullPath": "pt/BRC",
+        "description": "Barrancos"
+      },
+      {
+        "code": "BRR",
+        "fullPath": "pt/BRR",
+        "description": "Barreiro"
+      },
+      {
+        "code": "BTL",
+        "fullPath": "pt/BTL",
+        "description": "Batalha"
+      },
+      {
+        "code": "BJA",
+        "fullPath": "pt/BJA",
+        "description": "Beja"
+      },
+      {
+        "code": "BMT",
+        "fullPath": "pt/BMT",
+        "description": "Belmonte"
+      },
+      {
+        "code": "BNV",
+        "fullPath": "pt/BNV",
+        "description": "Benavente"
+      },
+      {
+        "code": "BBR",
+        "fullPath": "pt/BBR",
+        "description": "Bombarral"
+      },
+      {
+        "code": "BRB",
+        "fullPath": "pt/BRB",
+        "description": "Borba"
+      },
+      {
+        "code": "BTC",
+        "fullPath": "pt/BTC",
+        "description": "Boticas"
+      },
+      {
+        "code": "BRG",
+        "fullPath": "pt/BRG",
+        "description": "Braga"
+      },
+      {
+        "code": "BGC",
+        "fullPath": "pt/BGC",
+        "description": "Bragança"
+      },
+      {
+        "code": "CBC",
+        "fullPath": "pt/CBC",
+        "description": "Cabeceiras de Basto"
+      },
+      {
+        "code": "CDV",
+        "fullPath": "pt/CDV",
+        "description": "Cadaval"
+      },
+      {
+        "code": "CLD",
+        "fullPath": "pt/CLD",
+        "description": "Caldas da Rainha"
+      },
+      {
+        "code": "CHT",
+        "fullPath": "pt/CHT",
+        "description": "Calheta (Açores)"
+      },
+      {
+        "code": "CLT",
+        "fullPath": "pt/CLT",
+        "description": "Calheta (Madeira)"
+      },
+      {
+        "code": "CML",
+        "fullPath": "pt/CML",
+        "description": "Câmara de Lobos"
+      },
+      {
+        "code": "CMN",
+        "fullPath": "pt/CMN",
+        "description": "Caminha"
+      },
+      {
+        "code": "CMR",
+        "fullPath": "pt/CMR",
+        "description": "Campo Maior"
+      },
+      {
+        "code": "CNT",
+        "fullPath": "pt/CNT",
+        "description": "Cantanhede"
+      },
+      {
+        "code": "CRZ",
+        "fullPath": "pt/CRZ",
+        "description": "Carrazeda de Ansiães"
+      },
+      {
+        "code": "CTX",
+        "fullPath": "pt/CTX",
+        "description": "Cartaxo"
+      },
+      {
+        "code": "CSC",
+        "fullPath": "pt/CSC",
+        "description": "Cascais"
+      },
+      {
+        "code": "CTB",
+        "fullPath": "pt/CTB",
+        "description": "Castelo Branco"
+      },
+      {
+        "code": "CPV",
+        "fullPath": "pt/CPV",
+        "description": "Castelo de Paiva"
+      },
+      {
+        "code": "CVD",
+        "fullPath": "pt/CVD",
+        "description": "Castelo de Vide"
+      },
+      {
+        "code": "CDR",
+        "fullPath": "pt/CDR",
+        "description": "Castro Daire"
+      },
+      {
+        "code": "CTM",
+        "fullPath": "pt/CTM",
+        "description": "Castro Marim"
+      },
+      {
+        "code": "CVR",
+        "fullPath": "pt/CVR",
+        "description": "Castro Verde"
+      },
+      {
+        "code": "CLB",
+        "fullPath": "pt/CLB",
+        "description": "Celorico da Beira"
+      },
+      {
+        "code": "CBT",
+        "fullPath": "pt/CBT",
+        "description": "Celorico de Basto"
+      },
+      {
+        "code": "CHM",
+        "fullPath": "pt/CHM",
+        "description": "Chamusca"
+      },
+      {
+        "code": "CHV",
+        "fullPath": "pt/CHV",
+        "description": "Chaves"
+      },
+      {
+        "code": "CNF",
+        "fullPath": "pt/CNF",
+        "description": "Cinfães"
+      },
+      {
+        "code": "CBR",
+        "fullPath": "pt/CBR",
+        "description": "Coimbra"
+      },
+      {
+        "code": "CDN",
+        "fullPath": "pt/CDN",
+        "description": "Condeixa-a-Nova"
+      },
+      {
+        "code": "CNS",
+        "fullPath": "pt/CNS",
+        "description": "Constância"
+      },
+      {
+        "code": "CCH",
+        "fullPath": "pt/CCH",
+        "description": "Coruche"
+      },
+      {
+        "code": "CVL",
+        "fullPath": "pt/CVL",
+        "description": "Covilhã"
+      },
+      {
+        "code": "CRT",
+        "fullPath": "pt/CRT",
+        "description": "Crato"
+      },
+      {
+        "code": "CBA",
+        "fullPath": "pt/CBA",
+        "description": "Cuba"
+      },
+      {
+        "code": "ELV",
+        "fullPath": "pt/ELV",
+        "description": "Elvas"
+      },
+      {
+        "code": "ENT",
+        "fullPath": "pt/ENT",
+        "description": "Entroncamento"
+      },
+      {
+        "code": "ESP",
+        "fullPath": "pt/ESP",
+        "description": "Espinho"
+      },
+      {
+        "code": "EPS",
+        "fullPath": "pt/EPS",
+        "description": "Esposende"
+      },
+      {
+        "code": "ETR",
+        "fullPath": "pt/ETR",
+        "description": "Estarreja"
+      },
+      {
+        "code": "ETZ",
+        "fullPath": "pt/ETZ",
+        "description": "Estremoz"
+      },
+      {
+        "code": "EVR",
+        "fullPath": "pt/EVR",
+        "description": "Évora"
+      },
+      {
+        "code": "FAF",
+        "fullPath": "pt/FAF",
+        "description": "Fafe"
+      },
+      {
+        "code": "FAR",
+        "fullPath": "pt/FAR",
+        "description": "Faro"
+      },
+      {
+        "code": "FLG",
+        "fullPath": "pt/FLG",
+        "description": "Felgueiras"
+      },
+      {
+        "code": "FAL",
+        "fullPath": "pt/FAL",
+        "description": "Ferreira do Alentejo"
+      },
+      {
+        "code": "FZZ",
+        "fullPath": "pt/FZZ",
+        "description": "Ferreira do Zêzere"
+      },
+      {
+        "code": "FIG",
+        "fullPath": "pt/FIG",
+        "description": "Figueira da Foz"
+      },
+      {
+        "code": "FCR",
+        "fullPath": "pt/FCR",
+        "description": "Figueira de Castelo Rodrigo"
+      },
+      {
+        "code": "FVN",
+        "fullPath": "pt/FVN",
+        "description": "Figueiró dos Vinhos"
+      },
+      {
+        "code": "FAG",
+        "fullPath": "pt/FAG",
+        "description": "Fornos de Algodres"
+      },
+      {
+        "code": "FEC",
+        "fullPath": "pt/FEC",
+        "description": "Freixo de Espada à Cinta"
+      },
+      {
+        "code": "FTR",
+        "fullPath": "pt/FTR",
+        "description": "Fronteira"
+      },
+      {
+        "code": "FNC",
+        "fullPath": "pt/FNC",
+        "description": "Funchal"
+      },
+      {
+        "code": "FND",
+        "fullPath": "pt/FND",
+        "description": "Fundão"
+      },
+      {
+        "code": "GAV",
+        "fullPath": "pt/GAV",
+        "description": "Gavião"
+      },
+      {
+        "code": "GOI",
+        "fullPath": "pt/GOI",
+        "description": "Góis"
+      },
+      {
+        "code": "GLG",
+        "fullPath": "pt/GLG",
+        "description": "Golegã"
+      },
+      {
+        "code": "GDM",
+        "fullPath": "pt/GDM",
+        "description": "Gondomar"
+      },
+      {
+        "code": "GVA",
+        "fullPath": "pt/GVA",
+        "description": "Gouveia"
+      },
+      {
+        "code": "GDL",
+        "fullPath": "pt/GDL",
+        "description": "Grândola"
+      },
+      {
+        "code": "GRD",
+        "fullPath": "pt/GRD",
+        "description": "Guarda"
+      },
+      {
+        "code": "GMR",
+        "fullPath": "pt/GMR",
+        "description": "Guimarães"
+      },
+      {
+        "code": "HRT",
+        "fullPath": "pt/HRT",
+        "description": "Horta"
+      },
+      {
+        "code": "IDN",
+        "fullPath": "pt/IDN",
+        "description": "Idanha-a-Nova"
+      },
+      {
+        "code": "ILH",
+        "fullPath": "pt/ILH",
+        "description": "Ílhavo"
+      },
+      {
+        "code": "LAG",
+        "fullPath": "pt/LAG",
+        "description": "Lagoa (Açores)"
+      },
+      {
+        "code": "LGA",
+        "fullPath": "pt/LGA",
+        "description": "Lagoa (Algarve)"
+      },
+      {
+        "code": "LGS",
+        "fullPath": "pt/LGS",
+        "description": "Lagos"
+      },
+      {
+        "code": "LGF",
+        "fullPath": "pt/LGF",
+        "description": "Lajes das Flores"
+      },
+      {
+        "code": "LGP",
+        "fullPath": "pt/LGP",
+        "description": "Lajes do Pico"
+      },
+      {
+        "code": "LMG",
+        "fullPath": "pt/LMG",
+        "description": "Lamego"
+      },
+      {
+        "code": "LRA",
+        "fullPath": "pt/LRA",
+        "description": "Leiria"
+      },
+      {
+        "code": "LSB",
+        "fullPath": "pt/LSB",
+        "description": "Lisboa"
+      },
+      {
+        "code": "LLE",
+        "fullPath": "pt/LLE",
+        "description": "Loulé"
+      },
+      {
+        "code": "LRS",
+        "fullPath": "pt/LRS",
+        "description": "Loures"
+      },
+      {
+        "code": "LNH",
+        "fullPath": "pt/LNH",
+        "description": "Lourinhã"
+      },
+      {
+        "code": "LSA",
+        "fullPath": "pt/LSA",
+        "description": "Lousã"
+      },
+      {
+        "code": "MAC",
+        "fullPath": "pt/MAC",
+        "description": "Mação"
+      },
+      {
+        "code": "MCD",
+        "fullPath": "pt/MCD",
+        "description": "Macedo de Cavaleiros"
+      },
+      {
+        "code": "MCH",
+        "fullPath": "pt/MCH",
+        "description": "Machico"
+      },
+      {
+        "code": "MAD",
+        "fullPath": "pt/MAD",
+        "description": "Madalena"
+      },
+      {
+        "code": "MFR",
+        "fullPath": "pt/MFR",
+        "description": "Mafra"
+      },
+      {
+        "code": "MAI",
+        "fullPath": "pt/MAI",
+        "description": "Maia"
+      },
+      {
+        "code": "MGL",
+        "fullPath": "pt/MGL",
+        "description": "Mangualde"
+      },
+      {
+        "code": "MTG",
+        "fullPath": "pt/MTG",
+        "description": "Manteigas"
+      },
+      {
+        "code": "MCN",
+        "fullPath": "pt/MCN",
+        "description": "Marco de Canaveses"
+      },
+      {
+        "code": "MGR",
+        "fullPath": "pt/MGR",
+        "description": "Marinha Grande"
+      },
+      {
+        "code": "MRV",
+        "fullPath": "pt/MRV",
+        "description": "Marvão"
+      },
+      {
+        "code": "MTS",
+        "fullPath": "pt/MTS",
+        "description": "Matosinhos"
+      },
+      {
+        "code": "MLD",
+        "fullPath": "pt/MLD",
+        "description": "Mealhada"
+      },
+      {
+        "code": "MED",
+        "fullPath": "pt/MED",
+        "description": "Mêda"
+      },
+      {
+        "code": "MLG",
+        "fullPath": "pt/MLG",
+        "description": "Melgaço"
+      },
+      {
+        "code": "MTL",
+        "fullPath": "pt/MTL",
+        "description": "Mértola"
+      },
+      {
+        "code": "MSF",
+        "fullPath": "pt/MSF",
+        "description": "Mesão Frio"
+      },
+      {
+        "code": "MIR",
+        "fullPath": "pt/MIR",
+        "description": "Mira"
+      },
+      {
+        "code": "MCV",
+        "fullPath": "pt/MCV",
+        "description": "Miranda do Corvo"
+      },
+      {
+        "code": "MDR",
+        "fullPath": "pt/MDR",
+        "description": "Miranda do Douro"
+      },
+      {
+        "code": "MDL",
+        "fullPath": "pt/MDL",
+        "description": "Mirandela"
+      },
+      {
+        "code": "MGD",
+        "fullPath": "pt/MGD",
+        "description": "Mogadouro"
+      },
+      {
+        "code": "MBR",
+        "fullPath": "pt/MBR",
+        "description": "Moimenta da Beira"
+      },
+      {
+        "code": "MTA",
+        "fullPath": "pt/MTA",
+        "description": "Moita"
+      },
+      {
+        "code": "MNC",
+        "fullPath": "pt/MNC",
+        "description": "Monção"
+      },
+      {
+        "code": "MCQ",
+        "fullPath": "pt/MCQ",
+        "description": "Monchique"
+      },
+      {
+        "code": "MDB",
+        "fullPath": "pt/MDB",
+        "description": "Mondim de Basto"
+      },
+      {
+        "code": "MFT",
+        "fullPath": "pt/MFT",
+        "description": "Monforte"
+      },
+      {
+        "code": "MTR",
+        "fullPath": "pt/MTR",
+        "description": "Montalegre"
+      },
+      {
+        "code": "MMN",
+        "fullPath": "pt/MMN",
+        "description": "Montemor-o-Novo"
+      },
+      {
+        "code": "MMV",
+        "fullPath": "pt/MMV",
+        "description": "Montemor-o-Velho"
+      },
+      {
+        "code": "MTJ",
+        "fullPath": "pt/MTJ",
+        "description": "Montijo"
+      },
+      {
+        "code": "MOR",
+        "fullPath": "pt/MOR",
+        "description": "Mora"
+      },
+      {
+        "code": "MRT",
+        "fullPath": "pt/MRT",
+        "description": "Mortágua"
+      },
+      {
+        "code": "MRA",
+        "fullPath": "pt/MRA",
+        "description": "Moura"
+      },
+      {
+        "code": "MOU",
+        "fullPath": "pt/MOU",
+        "description": "Mourão"
+      },
+      {
+        "code": "MUR",
+        "fullPath": "pt/MUR",
+        "description": "Murça"
+      },
+      {
+        "code": "MRS",
+        "fullPath": "pt/MRS",
+        "description": "Murtosa"
+      },
+      {
+        "code": "NZR",
+        "fullPath": "pt/NZR",
+        "description": "Nazaré"
+      },
+      {
+        "code": "NLS",
+        "fullPath": "pt/NLS",
+        "description": "Nelas"
+      },
+      {
+        "code": "NIS",
+        "fullPath": "pt/NIS",
+        "description": "Nisa"
+      },
+      {
+        "code": "OBD",
+        "fullPath": "pt/OBD",
+        "description": "Óbidos"
+      },
+      {
+        "code": "ODM",
+        "fullPath": "pt/ODM",
+        "description": "Odemira"
+      },
+      {
+        "code": "ODV",
+        "fullPath": "pt/ODV",
+        "description": "Odivelas"
+      },
+      {
+        "code": "OER",
+        "fullPath": "pt/OER",
+        "description": "Oeiras"
+      },
+      {
+        "code": "OLR",
+        "fullPath": "pt/OLR",
+        "description": "Oleiros"
+      },
+      {
+        "code": "OAZ",
+        "fullPath": "pt/OAZ",
+        "description": "Oliveira de Azeméis"
+      },
+      {
+        "code": "OFR",
+        "fullPath": "pt/OFR",
+        "description": "Oliveira de Frades"
+      },
+      {
+        "code": "OBR",
+        "fullPath": "pt/OBR",
+        "description": "Oliveira do Bairro"
+      },
+      {
+        "code": "OHP",
+        "fullPath": "pt/OHP",
+        "description": "Oliveira do Hospital"
+      },
+      {
+        "code": "ORM",
+        "fullPath": "pt/ORM",
+        "description": "Ourém"
+      },
+      {
+        "code": "ORQ",
+        "fullPath": "pt/ORQ",
+        "description": "Ourique"
+      },
+      {
+        "code": "OVR",
+        "fullPath": "pt/OVR",
+        "description": "Ovar"
+      },
+      {
+        "code": "PFR",
+        "fullPath": "pt/PFR",
+        "description": "Paços de Ferreira"
+      },
+      {
+        "code": "PLM",
+        "fullPath": "pt/PLM",
+        "description": "Palmela"
+      },
+      {
+        "code": "PPS",
+        "fullPath": "pt/PPS",
+        "description": "Pampilhosa da Serra"
+      },
+      {
+        "code": "PRD",
+        "fullPath": "pt/PRD",
+        "description": "Paredes"
+      },
+      {
+        "code": "PCR",
+        "fullPath": "pt/PCR",
+        "description": "Paredes de Coura"
+      },
+      {
+        "code": "PCV",
+        "fullPath": "pt/PCV",
+        "description": "Penacova"
+      },
+      {
+        "code": "PNF",
+        "fullPath": "pt/PNF",
+        "description": "Penafiel"
+      },
+      {
+        "code": "PNC",
+        "fullPath": "pt/PNC",
+        "description": "Penamacor"
+      },
+      {
+        "code": "PND",
+        "fullPath": "pt/PND",
+        "description": "Penedono"
+      },
+      {
+        "code": "PNL",
+        "fullPath": "pt/PNL",
+        "description": "Penela"
+      },
+      {
+        "code": "PNI",
+        "fullPath": "pt/PNI",
+        "description": "Peniche"
+      },
+      {
+        "code": "PRG",
+        "fullPath": "pt/PRG",
+        "description": "Peso da Régua"
+      },
+      {
+        "code": "PNH",
+        "fullPath": "pt/PNH",
+        "description": "Pinhel"
+      },
+      {
+        "code": "PBL",
+        "fullPath": "pt/PBL",
+        "description": "Pombal"
+      },
+      {
+        "code": "PDL",
+        "fullPath": "pt/PDL",
+        "description": "Ponta Delgada"
+      },
+      {
+        "code": "PTS",
+        "fullPath": "pt/PTS",
+        "description": "Ponta do Sol"
+      },
+      {
+        "code": "PTB",
+        "fullPath": "pt/PTB",
+        "description": "Ponte da Barca"
+      },
+      {
+        "code": "PTL",
+        "fullPath": "pt/PTL",
+        "description": "Ponte de Lima"
+      },
+      {
+        "code": "PSR",
+        "fullPath": "pt/PSR",
+        "description": "Ponte de Sor"
+      },
+      {
+        "code": "PTG",
+        "fullPath": "pt/PTG",
+        "description": "Portalegre"
+      },
+      {
+        "code": "PRL",
+        "fullPath": "pt/PRL",
+        "description": "Portel"
+      },
+      {
+        "code": "PTM",
+        "fullPath": "pt/PTM",
+        "description": "Portimão"
+      },
+      {
+        "code": "PRT",
+        "fullPath": "pt/PRT",
+        "description": "Porto"
+      },
+      {
+        "code": "PMS",
+        "fullPath": "pt/PMS",
+        "description": "Porto de Mós"
+      },
+      {
+        "code": "PMZ",
+        "fullPath": "pt/PMZ",
+        "description": "Porto Moniz"
+      },
+      {
+        "code": "PST",
+        "fullPath": "pt/PST",
+        "description": "Porto Santo"
+      },
+      {
+        "code": "PVL",
+        "fullPath": "pt/PVL",
+        "description": "Póvoa de Lanhoso"
+      },
+      {
+        "code": "PVZ",
+        "fullPath": "pt/PVZ",
+        "description": "Póvoa de Varzim"
+      },
+      {
+        "code": "PVC",
+        "fullPath": "pt/PVC",
+        "description": "Povoação"
+      },
+      {
+        "code": "VPV",
+        "fullPath": "pt/VPV",
+        "description": "Praia da Vitória"
+      },
+      {
+        "code": "PNV",
+        "fullPath": "pt/PNV",
+        "description": "Proença-a-Nova"
+      },
+      {
+        "code": "RDD",
+        "fullPath": "pt/RDD",
+        "description": "Redondo"
+      },
+      {
+        "code": "RMZ",
+        "fullPath": "pt/RMZ",
+        "description": "Reguengos de Monsaraz"
+      },
+      {
+        "code": "RSD",
+        "fullPath": "pt/RSD",
+        "description": "Resende"
+      },
+      {
+        "code": "RBR",
+        "fullPath": "pt/RBR",
+        "description": "Ribeira Brava"
+      },
+      {
+        "code": "RPN",
+        "fullPath": "pt/RPN",
+        "description": "Ribeira de Pena"
+      },
+      {
+        "code": "RGR",
+        "fullPath": "pt/RGR",
+        "description": "Ribeira Grande"
+      },
+      {
+        "code": "RMR",
+        "fullPath": "pt/RMR",
+        "description": "Rio Maior"
+      },
+      {
+        "code": "SBS",
+        "fullPath": "pt/SBS",
+        "description": "Sabrosa"
+      },
+      {
+        "code": "SBG",
+        "fullPath": "pt/SBG",
+        "description": "Sabugal"
+      },
+      {
+        "code": "SMG",
+        "fullPath": "pt/SMG",
+        "description": "Salvaterra de Magos"
+      },
+      {
+        "code": "SCD",
+        "fullPath": "pt/SCD",
+        "description": "Santa Comba Dão"
+      },
+      {
+        "code": "SCR",
+        "fullPath": "pt/SCR",
+        "description": "Santa Cruz"
+      },
+      {
+        "code": "SCG",
+        "fullPath": "pt/SCG",
+        "description": "Santa Cruz da Graciosa"
+      },
+      {
+        "code": "SCF",
+        "fullPath": "pt/SCF",
+        "description": "Santa Cruz das Flores"
+      },
+      {
+        "code": "VFR",
+        "fullPath": "pt/VFR",
+        "description": "Santa Maria da Feira"
+      },
+      {
+        "code": "SMP",
+        "fullPath": "pt/SMP",
+        "description": "Santa Marta de Penaguião"
+      },
+      {
+        "code": "STN",
+        "fullPath": "pt/STN",
+        "description": "Santana"
+      },
+      {
+        "code": "STR",
+        "fullPath": "pt/STR",
+        "description": "Santarém"
+      },
+      {
+        "code": "STC",
+        "fullPath": "pt/STC",
+        "description": "Santiago do Cacém"
+      },
+      {
+        "code": "STS",
+        "fullPath": "pt/STS",
+        "description": "Santo Tirso"
+      },
+      {
+        "code": "SBA",
+        "fullPath": "pt/SBA",
+        "description": "São Brás de Alportel"
+      },
+      {
+        "code": "SJM",
+        "fullPath": "pt/SJM",
+        "description": "São João da Madeira"
+      },
+      {
+        "code": "SPS",
+        "fullPath": "pt/SPS",
+        "description": "São Pedro do Sul"
+      },
+      {
+        "code": "SRQ",
+        "fullPath": "pt/SRQ",
+        "description": "São Roque do Pico"
+      },
+      {
+        "code": "SVC",
+        "fullPath": "pt/SVC",
+        "description": "São Vicente"
+      },
+      {
+        "code": "SRD",
+        "fullPath": "pt/SRD",
+        "description": "Sardoal"
+      },
+      {
+        "code": "SAT",
+        "fullPath": "pt/SAT",
+        "description": "Sátão"
+      },
+      {
+        "code": "SEI",
+        "fullPath": "pt/SEI",
+        "description": "Seia"
+      },
+      {
+        "code": "SXL",
+        "fullPath": "pt/SXL",
+        "description": "Seixal"
+      },
+      {
+        "code": "SRN",
+        "fullPath": "pt/SRN",
+        "description": "Sernancelhe"
+      },
+      {
+        "code": "SRT",
+        "fullPath": "pt/SRT",
+        "description": "Sertã"
+      },
+      {
+        "code": "SSB",
+        "fullPath": "pt/SSB",
+        "description": "Sesimbra"
+      },
+      {
+        "code": "STB",
+        "fullPath": "pt/STB",
+        "description": "Setúbal"
+      },
+      {
+        "code": "SVV",
+        "fullPath": "pt/SVV",
+        "description": "Sever do Vouga"
+      },
+      {
+        "code": "SLV",
+        "fullPath": "pt/SLV",
+        "description": "Silves"
+      },
+      {
+        "code": "SNS",
+        "fullPath": "pt/SNS",
+        "description": "Sines"
+      },
+      {
+        "code": "SNT",
+        "fullPath": "pt/SNT",
+        "description": "Sintra"
+      },
+      {
+        "code": "SMA",
+        "fullPath": "pt/SMA",
+        "description": "Sobral de Monte Agraço"
+      },
+      {
+        "code": "SRE",
+        "fullPath": "pt/SRE",
+        "description": "Soure"
+      },
+      {
+        "code": "SSL",
+        "fullPath": "pt/SSL",
+        "description": "Sousel"
+      },
+      {
+        "code": "TBU",
+        "fullPath": "pt/TBU",
+        "description": "Tábua"
+      },
+      {
+        "code": "TBC",
+        "fullPath": "pt/TBC",
+        "description": "Tabuaço"
+      },
+      {
+        "code": "TRC",
+        "fullPath": "pt/TRC",
+        "description": "Tarouca"
+      },
+      {
+        "code": "TVR",
+        "fullPath": "pt/TVR",
+        "description": "Tavira"
+      },
+      {
+        "code": "TBR",
+        "fullPath": "pt/TBR",
+        "description": "Terras de Bouro"
+      },
+      {
+        "code": "TMR",
+        "fullPath": "pt/TMR",
+        "description": "Tomar"
+      },
+      {
+        "code": "TND",
+        "fullPath": "pt/TND",
+        "description": "Tondela"
+      },
+      {
+        "code": "TMC",
+        "fullPath": "pt/TMC",
+        "description": "Torre de Moncorvo"
+      },
+      {
+        "code": "TNV",
+        "fullPath": "pt/TNV",
+        "description": "Torres Novas"
+      },
+      {
+        "code": "TVD",
+        "fullPath": "pt/TVD",
+        "description": "Torres Vedras"
+      },
+      {
+        "code": "TCR",
+        "fullPath": "pt/TCR",
+        "description": "Trancoso"
+      },
+      {
+        "code": "TRF",
+        "fullPath": "pt/TRF",
+        "description": "Trofa"
+      },
+      {
+        "code": "VGS",
+        "fullPath": "pt/VGS",
+        "description": "Vagos"
+      },
+      {
+        "code": "VAC",
+        "fullPath": "pt/VAC",
+        "description": "Vale de Cambra"
+      },
+      {
+        "code": "VLC",
+        "fullPath": "pt/VLC",
+        "description": "Valença"
+      },
+      {
+        "code": "VLG",
+        "fullPath": "pt/VLG",
+        "description": "Valongo"
+      },
+      {
+        "code": "VPC",
+        "fullPath": "pt/VPC",
+        "description": "Valpaços"
+      },
+      {
+        "code": "VLS",
+        "fullPath": "pt/VLS",
+        "description": "Velas"
+      },
+      {
+        "code": "VND",
+        "fullPath": "pt/VND",
+        "description": "Vendas Novas"
+      },
+      {
+        "code": "VNT",
+        "fullPath": "pt/VNT",
+        "description": "Viana do Alentejo"
+      },
+      {
+        "code": "VCT",
+        "fullPath": "pt/VCT",
+        "description": "Viana do Castelo"
+      },
+      {
+        "code": "VDG",
+        "fullPath": "pt/VDG",
+        "description": "Vidigueira"
+      },
+      {
+        "code": "VRM",
+        "fullPath": "pt/VRM",
+        "description": "Vieira do Minho"
+      },
+      {
+        "code": "VBP",
+        "fullPath": "pt/VBP",
+        "description": "Vila do Bispo"
+      },
+      {
+        "code": "VCD",
+        "fullPath": "pt/VCD",
+        "description": "Vila do Conde"
+      },
+      {
+        "code": "VPT",
+        "fullPath": "pt/VPT",
+        "description": "Vila do Porto"
+      },
+      {
+        "code": "VFL",
+        "fullPath": "pt/VFL",
+        "description": "Vila Flor"
+      },
+      {
+        "code": "VFX",
+        "fullPath": "pt/VFX",
+        "description": "Vila Franca de Xira"
+      },
+      {
+        "code": "VFC",
+        "fullPath": "pt/VFC",
+        "description": "Vila Franca do Campo"
+      },
+      {
+        "code": "VNB",
+        "fullPath": "pt/VNB",
+        "description": "Vila Nova da Barquinha"
+      },
+      {
+        "code": "VNC",
+        "fullPath": "pt/VNC",
+        "description": "Vila Nova de Cerveira"
+      },
+      {
+        "code": "VNF",
+        "fullPath": "pt/VNF",
+        "description": "Vila Nova de Famalicão"
+      },
+      {
+        "code": "VLF",
+        "fullPath": "pt/VLF",
+        "description": "Vila Nova de Foz Côa"
+      },
+      {
+        "code": "VNG",
+        "fullPath": "pt/VNG",
+        "description": "Vila Nova de Gaia"
+      },
+      {
+        "code": "VNP",
+        "fullPath": "pt/VNP",
+        "description": "Vila Nova de Paiva"
+      },
+      {
+        "code": "PRS",
+        "fullPath": "pt/PRS",
+        "description": "Vila Nova de Poiares"
+      },
+      {
+        "code": "VPA",
+        "fullPath": "pt/VPA",
+        "description": "Vila Pouca de Aguiar"
+      },
+      {
+        "code": "VRL",
+        "fullPath": "pt/VRL",
+        "description": "Vila Real"
+      },
+      {
+        "code": "VRS",
+        "fullPath": "pt/VRS",
+        "description": "Vila Real de Santo António"
+      },
+      {
+        "code": "VVR",
+        "fullPath": "pt/VVR",
+        "description": "Vila Velha de Ródão"
+      },
+      {
+        "code": "VVD",
+        "fullPath": "pt/VVD",
+        "description": "Vila Verde"
+      },
+      {
+        "code": "VVC",
+        "fullPath": "pt/VVC",
+        "description": "Vila Viçosa"
+      },
+      {
+        "code": "VMS",
+        "fullPath": "pt/VMS",
+        "description": "Vimioso"
+      },
+      {
+        "code": "VNH",
+        "fullPath": "pt/VNH",
+        "description": "Vinhais"
+      },
+      {
+        "code": "VIS",
+        "fullPath": "pt/VIS",
+        "description": "Viseu"
+      },
+      {
+        "code": "VIZ",
+        "fullPath": "pt/VIZ",
+        "description": "Vizela"
+      },
+      {
+        "code": "VZL",
+        "fullPath": "pt/VZL",
+        "description": "Vouzela"
+      }
+    ]
+  },
+  {
+    "code": "py",
+    "fullPath": "py",
+    "description": "Paraguay"
+  },
+  {
+    "code": "ro",
+    "fullPath": "ro",
+    "description": "Romania"
+  },
+  {
+    "code": "rs",
+    "fullPath": "rs",
+    "description": "Serbia"
+  },
+  {
+    "code": "ru",
+    "fullPath": "ru",
+    "description": "Russian Federation"
+  },
+  {
+    "code": "se",
+    "fullPath": "se",
+    "description": "Sweden"
+  },
+  {
+    "code": "si",
+    "fullPath": "si",
+    "description": "Slovenia"
+  },
+  {
+    "code": "sk",
+    "fullPath": "sk",
+    "description": "Slovakia"
+  },
+  {
+    "code": "target",
+    "fullPath": "target",
+    "description": "Trans-European Automated Real-time Gross settlement Express Transfer system closing dates"
+  },
+  {
+    "code": "tr",
+    "fullPath": "tr",
+    "description": "Turkey"
+  },
+  {
+    "code": "ua",
+    "fullPath": "ua",
+    "description": "Ukraine"
+  },
+  {
+    "code": "us",
+    "fullPath": "us",
+    "description": "United States",
+    "children": [
+      {
+        "code": "al",
+        "fullPath": "us/al",
+        "description": "Alabama"
+      },
+      {
+        "code": "ak",
+        "fullPath": "us/ak",
+        "description": "Alaska"
+      },
+      {
+        "code": "az",
+        "fullPath": "us/az",
+        "description": "Arizona"
+      },
+      {
+        "code": "ar",
+        "fullPath": "us/ar",
+        "description": "Arkansas"
+      },
+      {
+        "code": "ca",
+        "fullPath": "us/ca",
+        "description": "California",
+        "children": [
+          {
+            "code": "be",
+            "fullPath": "us/ca/be",
+            "description": "Berkeley"
+          }
+        ]
+      },
+      {
+        "code": "co",
+        "fullPath": "us/co",
+        "description": "Colorado"
+      },
+      {
+        "code": "ct",
+        "fullPath": "us/ct",
+        "description": "Connecticut"
+      },
+      {
+        "code": "de",
+        "fullPath": "us/de",
+        "description": "Delaware"
+      },
+      {
+        "code": "fl",
+        "fullPath": "us/fl",
+        "description": "Florida"
+      },
+      {
+        "code": "ga",
+        "fullPath": "us/ga",
+        "description": "Georgia"
+      },
+      {
+        "code": "hi",
+        "fullPath": "us/hi",
+        "description": "Hawaii"
+      },
+      {
+        "code": "id",
+        "fullPath": "us/id",
+        "description": "Idaho"
+      },
+      {
+        "code": "il",
+        "fullPath": "us/il",
+        "description": "Illinois"
+      },
+      {
+        "code": "in",
+        "fullPath": "us/in",
+        "description": "Indiana"
+      },
+      {
+        "code": "ia",
+        "fullPath": "us/ia",
+        "description": "Iowa"
+      },
+      {
+        "code": "ks",
+        "fullPath": "us/ks",
+        "description": "Kansas"
+      },
+      {
+        "code": "ky",
+        "fullPath": "us/ky",
+        "description": "Kentucky"
+      },
+      {
+        "code": "la",
+        "fullPath": "us/la",
+        "description": "Louisiana"
+      },
+      {
+        "code": "me",
+        "fullPath": "us/me",
+        "description": "Maine"
+      },
+      {
+        "code": "md",
+        "fullPath": "us/md",
+        "description": "Maryland"
+      },
+      {
+        "code": "ma",
+        "fullPath": "us/ma",
+        "description": "Massachusetts",
+        "children": [
+          {
+            "code": "sc",
+            "fullPath": "us/ma/sc",
+            "description": "Suffolk County"
+          },
+          {
+            "code": "ca",
+            "fullPath": "us/ma/ca",
+            "description": "Cambridge"
+          }
+        ]
+      },
+      {
+        "code": "mi",
+        "fullPath": "us/mi",
+        "description": "Michigan"
+      },
+      {
+        "code": "mn",
+        "fullPath": "us/mn",
+        "description": "Minnesota"
+      },
+      {
+        "code": "ms",
+        "fullPath": "us/ms",
+        "description": "Mississippi"
+      },
+      {
+        "code": "mo",
+        "fullPath": "us/mo",
+        "description": "Missouri"
+      },
+      {
+        "code": "mt",
+        "fullPath": "us/mt",
+        "description": "Montana"
+      },
+      {
+        "code": "ne",
+        "fullPath": "us/ne",
+        "description": "Nebraska"
+      },
+      {
+        "code": "nv",
+        "fullPath": "us/nv",
+        "description": "Nevada"
+      },
+      {
+        "code": "nh",
+        "fullPath": "us/nh",
+        "description": "New Hampshire"
+      },
+      {
+        "code": "nj",
+        "fullPath": "us/nj",
+        "description": "New Jersey"
+      },
+      {
+        "code": "nm",
+        "fullPath": "us/nm",
+        "description": "New Mexico"
+      },
+      {
+        "code": "ny",
+        "fullPath": "us/ny",
+        "description": "New York",
+        "children": [
+          {
+            "code": "nyc",
+            "fullPath": "us/ny/nyc",
+            "description": "New York City"
+          }
+        ]
+      },
+      {
+        "code": "nc",
+        "fullPath": "us/nc",
+        "description": "North Carolina",
+        "children": [
+          {
+            "code": "ce",
+            "fullPath": "us/nc/ce",
+            "description": "Charlotte"
+          },
+          {
+            "code": "me",
+            "fullPath": "us/nc/me",
+            "description": "Mecklenburg"
+          }
+        ]
+      },
+      {
+        "code": "nd",
+        "fullPath": "us/nd",
+        "description": "North Dakota"
+      },
+      {
+        "code": "oh",
+        "fullPath": "us/oh",
+        "description": "Ohio"
+      },
+      {
+        "code": "ok",
+        "fullPath": "us/ok",
+        "description": "Oklahoma"
+      },
+      {
+        "code": "or",
+        "fullPath": "us/or",
+        "description": "Oregon"
+      },
+      {
+        "code": "pa",
+        "fullPath": "us/pa",
+        "description": "Pennsylvania"
+      },
+      {
+        "code": "ri",
+        "fullPath": "us/ri",
+        "description": "Rhode Island"
+      },
+      {
+        "code": "sc",
+        "fullPath": "us/sc",
+        "description": "South Carolina"
+      },
+      {
+        "code": "sd",
+        "fullPath": "us/sd",
+        "description": "South Dakota"
+      },
+      {
+        "code": "tn",
+        "fullPath": "us/tn",
+        "description": "Tennesee"
+      },
+      {
+        "code": "tx",
+        "fullPath": "us/tx",
+        "description": "Texas"
+      },
+      {
+        "code": "ut",
+        "fullPath": "us/ut",
+        "description": "Utah"
+      },
+      {
+        "code": "vt",
+        "fullPath": "us/vt",
+        "description": "Vermont"
+      },
+      {
+        "code": "va",
+        "fullPath": "us/va",
+        "description": "Virginia"
+      },
+      {
+        "code": "wa",
+        "fullPath": "us/wa",
+        "description": "Washington"
+      },
+      {
+        "code": "dc",
+        "fullPath": "us/dc",
+        "description": "District of Columbia"
+      },
+      {
+        "code": "wv",
+        "fullPath": "us/wv",
+        "description": "West Virginia"
+      },
+      {
+        "code": "wi",
+        "fullPath": "us/wi",
+        "description": "Wisconsin"
+      },
+      {
+        "code": "wy",
+        "fullPath": "us/wy",
+        "description": "Wyoming"
+      }
+    ]
+  },
+  {
+    "code": "uy",
+    "fullPath": "uy",
+    "description": "Uruguay"
+  },
+  {
+    "code": "ve",
+    "fullPath": "ve",
+    "description": "Venezuela"
+  },
+  {
+    "code": "za",
+    "fullPath": "za",
+    "description": "South Africa"
+  }
+]

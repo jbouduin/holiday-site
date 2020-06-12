@@ -1,0 +1,60 @@
+{
+  "hierarchy": "by",
+  "description": "Belarus",
+  "holidays": [
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "NEW_YEAR",
+      "month": "JANUARY",
+      "day": 1
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "CHRISTMAS",
+      "month": "JANUARY",
+      "day": 7
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "INTERNATIONAL_WOMAN",
+      "month": "MARCH",
+      "day": 8
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "CONSTITUTION_DAY",
+      "month": "MARCH",
+      "day": 15
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "LABOUR_DAY",
+      "month": "MAY",
+      "day": 1
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "VICTORY",
+      "month": "MAY",
+      "day": 9
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "INDEPENDENCE_DAY",
+      "month": "JULY",
+      "day": 3
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "OCT_REVOLUTION",
+      "month": "NOVEMBER",
+      "day": 7
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "CHRISTMAS",
+      "month": "DECEMBER",
+      "day": 25
+    }
+  ]
+}

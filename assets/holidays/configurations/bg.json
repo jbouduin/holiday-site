@@ -1,0 +1,81 @@
+{
+  "hierarchy": "bg",
+  "description": "Bulgaria",
+  "holidays": [
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "EASTER",
+      "chronology": "JULIAN"
+    },
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "GOOD_FRIDAY",
+      "chronology": "JULIAN"
+    },
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "EASTER_MONDAY",
+      "chronology": "JULIAN"
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "NEW_YEAR",
+      "month": "JANUARY",
+      "day": 1
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "LIBERATION",
+      "month": "MARCH",
+      "day": 3
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "LABOUR_DAY",
+      "month": "MAY",
+      "day": 1
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "ST_GEORGE",
+      "month": "MAY",
+      "day": 6
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "EDU_CULTURE",
+      "month": "MAY",
+      "day": 24
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "UNIFICATION",
+      "month": "SEPTEMBER",
+      "day": 6
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "INDEPENDENCE_DAY",
+      "month": "SEPTEMBER",
+      "day": 22
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "CHRISTMAS_EVE",
+      "month": "DECEMBER",
+      "day": 24
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "CHRISTMAS",
+      "month": "DECEMBER",
+      "day": 25
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "NEW_YEARS_EVE",
+      "month": "DECEMBER",
+      "day": 31
+    }
+  ]
+}

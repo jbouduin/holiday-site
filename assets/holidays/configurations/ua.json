@@ -1,0 +1,221 @@
+{
+  "hierarchy": "ua",
+  "description": "Ukraine",
+  "holidays": [
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "EASTER",
+      "chronology": "JULIAN",
+      "moves": [
+        {
+          "condition": "IS_SUNDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        }
+      ]
+    },
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "PENTECOST",
+      "chronology": "JULIAN",
+      "moves": [
+        {
+          "condition": "IS_SUNDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        }
+      ]
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "NEW_YEAR",
+      "month": "JANUARY",
+      "day": 1,
+      "moves": [
+        {
+          "condition": "IS_SATURDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        },
+        {
+          "condition": "IS_SUNDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        }
+      ]
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "CHRISTMAS",
+      "month": "JANUARY",
+      "day": 7,
+      "moves": [
+        {
+          "condition": "IS_SATURDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        },
+        {
+          "condition": "IS_SUNDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        }
+      ]
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "INTERNATIONAL_WOMAN",
+      "month": "MARCH",
+      "day": 8,
+      "moves": [
+        {
+          "condition": "IS_SATURDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        },
+        {
+          "condition": "IS_SUNDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        }
+      ]
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "LABOUR_DAY",
+      "month": "MAY",
+      "day": 1,
+      "moves": [
+        {
+          "condition": "IS_SATURDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        },
+        {
+          "condition": "IS_SUNDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        }
+      ]
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "LABOUR_DAY",
+      "month": "MAY",
+      "day": 2,
+      "validTo": 2017,
+      "moves": [
+        {
+          "condition": "IS_SATURDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        },
+        {
+          "condition": "IS_SUNDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        }
+      ]
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "LABOUR_DAY",
+      "month": "MAY",
+      "day": 3,
+      "validFrom": 2016,
+      "validTo": 2016
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "VICTORY",
+      "month": "MAY",
+      "day": 9,
+      "moves": [
+        {
+          "condition": "IS_SATURDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        },
+        {
+          "condition": "IS_SUNDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        }
+      ]
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "CONSTITUTION_DAY",
+      "month": "JUNE",
+      "day": 28,
+      "moves": [
+        {
+          "condition": "IS_SATURDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        },
+        {
+          "condition": "IS_SUNDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        }
+      ]
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "INDEPENDENCE_DAY",
+      "month": "AUGUST",
+      "day": 24,
+      "moves": [
+        {
+          "condition": "IS_SATURDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        },
+        {
+          "condition": "IS_SUNDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        }
+      ]
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "DEFENDER_OF_UKRAINE",
+      "month": "OCTOBER",
+      "day": 14,
+      "validFrom": 2015,
+      "moves": [
+        {
+          "condition": "IS_SATURDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        },
+        {
+          "condition": "IS_SUNDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        }
+      ]
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "CHRISTMAS",
+      "month": "DECEMBER",
+      "day": 25,
+      "validFrom": 2017,
+      "moves": [
+        {
+          "condition": "IS_SATURDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        },
+        {
+          "condition": "IS_SUNDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        }
+      ]
+    }
+  ]
+}

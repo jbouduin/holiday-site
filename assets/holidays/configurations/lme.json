@@ -1,0 +1,93 @@
+{
+  "hierarchy": "lme",
+  "description": "London metal exchange",
+  "holidays": [
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "EASTER"
+    },
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "GOOD_FRIDAY"
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "NEW_YEARS_DAY",
+      "month": "JANUARY",
+      "day": 1
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "BANK_HOLIDAY",
+      "month": "AUGUST",
+      "day": 28
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "BOXING_DAY",
+      "month": "DECEMBER",
+      "day": 26,
+      "moves": [
+        {
+          "condition": "IS_SATURDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        },
+        {
+          "condition": "IS_SUNDAY",
+          "moveTo": "NEXT",
+          "weekday": "TUESDAY"
+        },
+        {
+          "condition": "IS_MONDAY",
+          "moveTo": "NEXT",
+          "weekday": "TUESDAY"
+        }
+      ]
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "NEW_YEARS_EVE",
+      "month": "DECEMBER",
+      "day": 31
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "CHRISTMAS_EVE",
+      "month": "DECEMBER",
+      "day": 24
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "CHRISTMAS",
+      "month": "DECEMBER",
+      "day": 25,
+      "moves": [
+        {
+          "condition": "IS_SATURDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        },
+        {
+          "condition": "IS_SUNDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        }
+      ]
+    },
+    {
+      "holidayType": "FIXED_WEEKDAY",
+      "key": "BANK_HOLIDAY",
+      "which": "FIRST",
+      "weekday": "MONDAY",
+      "month": "MAY"
+    },
+    {
+      "holidayType": "FIXED_WEEKDAY",
+      "key": "BANK_HOLIDAY",
+      "which": "LAST",
+      "weekday": "MONDAY",
+      "month": "MAY"
+    }
+  ]
+}

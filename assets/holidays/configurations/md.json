@@ -1,0 +1,72 @@
+{
+  "hierarchy": "md",
+  "description": "Moldova",
+  "holidays": [
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "EASTER",
+      "chronology": "JULIAN"
+    },
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "EASTER_MONDAY",
+      "chronology": "JULIAN"
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "NEW_YEAR",
+      "month": "JANUARY",
+      "day": 1
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "CHRISTMAS_EVE",
+      "month": "JANUARY",
+      "day": 7
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "CHRISTMAS",
+      "month": "JANUARY",
+      "day": 8
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "LABOUR_DAY",
+      "month": "MAY",
+      "day": 1
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "VICTORY",
+      "month": "MAY",
+      "day": 9
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "INDEPENDENCE_DAY",
+      "month": "AUGUST",
+      "day": 27
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "LANGUAGE_DAY",
+      "month": "AUGUST",
+      "day": 31
+    }
+  ],
+  "subConfigurations": [
+    {
+      "hierarchy": "bti",
+      "description": "Balti",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "REGIONAL",
+          "month": "MAY",
+          "day": 22
+        }
+      ]
+    }
+  ]
+}

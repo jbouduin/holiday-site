@@ -1,0 +1,85 @@
+{
+  "hierarchy": "mk",
+  "description": "Macedonia",
+  "holidays": [
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "EASTER",
+      "chronology": "JULIAN"
+    },
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "GOOD_FRIDAY",
+      "chronology": "JULIAN"
+    },
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "EASTER_MONDAY",
+      "chronology": "JULIAN"
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "NEW_YEAR",
+      "month": "JANUARY",
+      "day": 1
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "NEW_YEAR",
+      "month": "JANUARY",
+      "day": 2
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "CHRISTMAS",
+      "month": "JANUARY",
+      "day": 7
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "LABOUR_DAY",
+      "month": "MAY",
+      "day": 1
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "CYRUS_METHODIUS",
+      "month": "MAY",
+      "day": 24
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "REPUBLIC_DAY",
+      "month": "AUGUST",
+      "day": 2
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "INDEPENDENCE_DAY",
+      "month": "SEPTEMBER",
+      "day": 8
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "REVOLUTION",
+      "month": "OCTOBER",
+      "day": 11
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "NATIONAL_DAY",
+      "month": "OCTOBER",
+      "day": 23
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "SAINT_CLEMENT",
+      "month": "DECEMBER",
+      "day": 8
+    },
+    {
+      "holidayType": "ISLAMIC",
+      "key": "ID_AL_FITR"
+    }
+  ]
+}

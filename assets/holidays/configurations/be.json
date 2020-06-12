@@ -1,0 +1,105 @@
+{
+  "hierarchy": "be",
+  "description": "Belgium",
+  "holidays": [
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "EASTER",
+      "category": "OFFICIAL_HOLIDAY"
+    },
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "EASTER_MONDAY",
+      "category": "OFFICIAL_HOLIDAY"
+    },
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "ASCENSION_DAY",
+      "category": "OFFICIAL_HOLIDAY"
+    },
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "WHIT_MONDAY",
+      "category": "OFFICIAL_HOLIDAY"
+    },
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "PENTECOST",
+      "category": "OFFICIAL_HOLIDAY"
+    },
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "PENTECOST_MONDAY",
+      "category": "OFFICIAL_HOLIDAY"
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "NEW_YEAR",
+      "month": "JANUARY",
+      "day": 1,
+      "category": "OFFICIAL_HOLIDAY"
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "LABOUR_DAY",
+      "month": "MAY",
+      "day": 1,
+      "category": "OFFICIAL_HOLIDAY"
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "NATIONAL_DAY",
+      "month": "JULY",
+      "day": 21,
+      "category": "OFFICIAL_HOLIDAY"
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "ASSUMPTION_DAY",
+      "month": "AUGUST",
+      "day": 15
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "ALL_SAINTS",
+      "month": "NOVEMBER",
+      "day": 1,
+      "category": "OFFICIAL_HOLIDAY"
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "ALL_SOULS",
+      "month": "NOVEMBER",
+      "day": 2,
+      "category": "UNOFFICIAL_HOLIDAY"
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "ARMISTICE",
+      "month": "NOVEMBER",
+      "day": 11,
+      "category": "OFFICIAL_HOLIDAY"
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "CHRISTMAS",
+      "month": "DECEMBER",
+      "day": 25,
+      "category": "OFFICIAL_HOLIDAY"
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "KINGS_FEAST",
+      "month": "NOVEMBER",
+      "day": 15,
+      "category": "UNOFFICIAL_HOLIDAY"
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "NEW_YEARS_EVE",
+      "month": "DECEMBER",
+      "day": 31,
+      "category": "UNOFFICIAL_HOLIDAY"
+    }
+  ]
+}

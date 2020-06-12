@@ -1,0 +1,442 @@
+{
+  "hierarchy": "ca",
+  "description": "Canada",
+  "holidays": [
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "GOOD_FRIDAY"
+    },
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "EASTER"
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "NEW_YEAR",
+      "month": "JANUARY",
+      "day": 1
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "NATIONAL_DAY",
+      "month": "JULY",
+      "day": 1
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "CHRISTMAS",
+      "month": "DECEMBER",
+      "day": 25
+    },
+    {
+      "holidayType": "FIXED_WEEKDAY",
+      "key": "LABOUR_DAY",
+      "which": "FIRST",
+      "weekday": "MONDAY",
+      "month": "SEPTEMBER"
+    }
+  ],
+  "subConfigurations": [
+    {
+      "hierarchy": "on",
+      "description": "Ontario",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "BOXING_DAY",
+          "month": "DECEMBER",
+          "day": 26
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "FAMILY_DAY",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "FEBRUARY"
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "THANKSGIVING",
+          "which": "SECOND",
+          "weekday": "MONDAY",
+          "month": "OCTOBER"
+        },
+        {
+          "holidayType": "RELATIVE_TO_DATE",
+          "key": "VICTORIA_DAY",
+          "relation": {
+            "weekday": "MONDAY",
+            "when": "BEFORE"
+          },
+          "fix": {
+            "month": "MAY",
+            "day": 24
+          }
+        }
+      ]
+    },
+    {
+      "hierarchy": "yt",
+      "description": "Yukon",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "REMEMBRANCE",
+          "month": "NOVEMBER",
+          "day": 11
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "THANKSGIVING",
+          "which": "SECOND",
+          "weekday": "MONDAY",
+          "month": "OCTOBER"
+        },
+        {
+          "holidayType": "RELATIVE_TO_DATE",
+          "key": "VICTORIA_DAY",
+          "relation": {
+            "weekday": "MONDAY",
+            "when": "BEFORE"
+          },
+          "fix": {
+            "month": "MAY",
+            "day": 24
+          }
+        }
+      ]
+    },
+    {
+      "hierarchy": "qc",
+      "description": "Quebec",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "EASTER_MONDAY"
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "SAINT_JEAN_BAPTISTE_DAY",
+          "month": "JUNE",
+          "day": 24
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "THANKSGIVING",
+          "which": "SECOND",
+          "weekday": "MONDAY",
+          "month": "OCTOBER"
+        },
+        {
+          "holidayType": "RELATIVE_TO_DATE",
+          "key": "VICTORIA_DAY",
+          "relation": {
+            "weekday": "MONDAY",
+            "when": "BEFORE"
+          },
+          "fix": {
+            "month": "MAY",
+            "day": 24
+          }
+        }
+      ]
+    },
+    {
+      "hierarchy": "ns",
+      "description": "Nova Scotia",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "REMEMBRANCE",
+          "month": "NOVEMBER",
+          "day": 11
+        }
+      ]
+    },
+    {
+      "hierarchy": "nb",
+      "description": "New Brunswick",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "REMEMBRANCE",
+          "month": "NOVEMBER",
+          "day": 11
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "NATIONAL_DAY",
+          "which": "FIRST",
+          "weekday": "MONDAY",
+          "month": "AUGUST"
+        }
+      ]
+    },
+    {
+      "hierarchy": "mb",
+      "description": "Manitoba",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "REMEMBRANCE",
+          "month": "NOVEMBER",
+          "day": 11
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "THANKSGIVING",
+          "which": "SECOND",
+          "weekday": "MONDAY",
+          "month": "OCTOBER"
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "FAMILY_DAY",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "FEBRUARY"
+        },
+        {
+          "holidayType": "RELATIVE_TO_DATE",
+          "key": "VICTORIA_DAY",
+          "relation": {
+            "weekday": "MONDAY",
+            "when": "BEFORE"
+          },
+          "fix": {
+            "month": "MAY",
+            "day": 24
+          }
+        }
+      ]
+    },
+    {
+      "hierarchy": "nt",
+      "description": "Northwest Territories",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "REMEMBRANCE",
+          "month": "NOVEMBER",
+          "day": 11
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "THANKSGIVING",
+          "which": "SECOND",
+          "weekday": "MONDAY",
+          "month": "OCTOBER"
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "CIVIC",
+          "which": "FIRST",
+          "weekday": "MONDAY",
+          "month": "AUGUST"
+        },
+        {
+          "holidayType": "RELATIVE_TO_DATE",
+          "key": "VICTORIA_DAY",
+          "relation": {
+            "weekday": "MONDAY",
+            "when": "BEFORE"
+          },
+          "fix": {
+            "month": "MAY",
+            "day": 24
+          }
+        }
+      ]
+    },
+    {
+      "hierarchy": "nu",
+      "description": "Nunavut",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "REMEMBRANCE",
+          "month": "NOVEMBER",
+          "day": 11
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "THANKSGIVING",
+          "which": "SECOND",
+          "weekday": "MONDAY",
+          "month": "OCTOBER"
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "CIVIC",
+          "which": "FIRST",
+          "weekday": "MONDAY",
+          "month": "AUGUST"
+        },
+        {
+          "holidayType": "RELATIVE_TO_DATE",
+          "key": "VICTORIA_DAY",
+          "relation": {
+            "weekday": "MONDAY",
+            "when": "BEFORE"
+          },
+          "fix": {
+            "month": "MAY",
+            "day": 24
+          }
+        }
+      ]
+    },
+    {
+      "hierarchy": "bc",
+      "description": "British Columbia",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "REMEMBRANCE",
+          "month": "NOVEMBER",
+          "day": 11
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "CIVIC",
+          "which": "FIRST",
+          "weekday": "MONDAY",
+          "month": "AUGUST"
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "THANKSGIVING",
+          "which": "SECOND",
+          "weekday": "MONDAY",
+          "month": "OCTOBER"
+        },
+        {
+          "holidayType": "RELATIVE_TO_DATE",
+          "key": "VICTORIA_DAY",
+          "relation": {
+            "weekday": "MONDAY",
+            "when": "BEFORE"
+          },
+          "fix": {
+            "month": "MAY",
+            "day": 24
+          }
+        }
+      ]
+    },
+    {
+      "hierarchy": "pe",
+      "description": "Prince Edward Island",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "REMEMBRANCE",
+          "month": "NOVEMBER",
+          "day": 11
+        }
+      ]
+    },
+    {
+      "hierarchy": "sk",
+      "description": "Saskatchewan",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "REMEMBRANCE",
+          "month": "NOVEMBER",
+          "day": 11
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "FAMILY_DAY",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "FEBRUARY"
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "THANKSGIVING",
+          "which": "SECOND",
+          "weekday": "MONDAY",
+          "month": "OCTOBER"
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "NATIONAL_DAY",
+          "which": "FIRST",
+          "weekday": "MONDAY",
+          "month": "AUGUST"
+        },
+        {
+          "holidayType": "RELATIVE_TO_DATE",
+          "key": "VICTORIA_DAY",
+          "relation": {
+            "weekday": "MONDAY",
+            "when": "BEFORE"
+          },
+          "fix": {
+            "month": "MAY",
+            "day": 24
+          }
+        }
+      ]
+    },
+    {
+      "hierarchy": "ab",
+      "description": "Alberta",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "REMEMBRANCE",
+          "month": "NOVEMBER",
+          "day": 11
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "HERITAGE",
+          "which": "FIRST",
+          "weekday": "MONDAY",
+          "month": "AUGUST"
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "FAMILY_DAY",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "FEBRUARY"
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "THANKSGIVING",
+          "which": "SECOND",
+          "weekday": "MONDAY",
+          "month": "OCTOBER"
+        },
+        {
+          "holidayType": "RELATIVE_TO_DATE",
+          "key": "VICTORIA_DAY",
+          "relation": {
+            "weekday": "MONDAY",
+            "when": "BEFORE"
+          },
+          "fix": {
+            "month": "MAY",
+            "day": 24
+          }
+        }
+      ]
+    },
+    {
+      "hierarchy": "nl",
+      "description": "Newfoundland and Labrador",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "REMEMBRANCE",
+          "month": "NOVEMBER",
+          "day": 11
+        }
+      ]
+    }
+  ]
+}

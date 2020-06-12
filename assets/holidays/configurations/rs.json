@@ -1,0 +1,57 @@
+{
+  "hierarchy": "rs",
+  "description": "Serbia",
+  "holidays": [
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "EASTER"
+    },
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "GOOD_FRIDAY",
+      "chronology": "JULIAN"
+    },
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "EASTER_MONDAY",
+      "chronology": "JULIAN"
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "NEW_YEAR",
+      "month": "JANUARY",
+      "day": 1
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "NEW_YEAR",
+      "month": "JANUARY",
+      "day": 2
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "CHRISTMAS",
+      "month": "JANUARY",
+      "day": 7
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "CONSTITUTION_DAY",
+      "month": "FEBRUARY",
+      "day": 15
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "LABOUR_DAY",
+      "month": "MAY",
+      "day": 1
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "VICTORY",
+      "month": "MAY",
+      "day": 9,
+      "category": "UNOFFICIAL_HOLIDAY"
+    }
+  ]
+}

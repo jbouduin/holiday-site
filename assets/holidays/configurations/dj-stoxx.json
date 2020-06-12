@@ -1,0 +1,26 @@
+{
+  "hierarchy": "dj-stoxx",
+  "description": "DowJones STOXX",
+  "holidays": [
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "GOOD_FRIDAY"
+    },
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "EASTER_MONDAY"
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "NEW_YEAR",
+      "month": "JANUARY",
+      "day": 1
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "CHRISTMAS",
+      "month": "DECEMBER",
+      "day": 25
+    }
+  ]
+}

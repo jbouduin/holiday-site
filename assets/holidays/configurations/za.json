@@ -1,0 +1,283 @@
+{
+  "hierarchy": "za",
+  "description": "South Africa",
+  "holidays": [
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "EASTER"
+    },
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "GOOD_FRIDAY"
+    },
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "EASTER_MONDAY"
+    },
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "ASCENSION_DAY",
+      "validFrom": 1910,
+      "validTo": 1993
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "NEW_YEAR",
+      "month": "JANUARY",
+      "day": 1,
+      "moves": [
+        {
+          "condition": "IS_SUNDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        }
+      ]
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "NEW_YEAR",
+      "month": "JANUARY",
+      "day": 2,
+      "validFrom": 2000,
+      "validTo": 2000,
+      "moves": [
+        {
+          "condition": "IS_SUNDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        }
+      ]
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "HUMAN_RIGHTS",
+      "month": "MARCH",
+      "day": 21,
+      "moves": [
+        {
+          "condition": "IS_SUNDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        }
+      ]
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "RIEBEECK",
+      "month": "APRIL",
+      "day": 6,
+      "validFrom": 1952,
+      "validTo": 1974
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "FOUNDATION",
+      "month": "APRIL",
+      "day": 6,
+      "validFrom": 1980,
+      "validTo": 1994
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "FREEDOM",
+      "month": "APRIL",
+      "day": 27,
+      "moves": [
+        {
+          "condition": "IS_SUNDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        }
+      ]
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "LABOUR_DAY",
+      "month": "MAY",
+      "day": 1,
+      "validFrom": 1990,
+      "moves": [
+        {
+          "condition": "IS_SUNDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        }
+      ]
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "HUMAN_RIGHTS",
+      "month": "MAY",
+      "day": 2,
+      "validFrom": 2008,
+      "validTo": 2008,
+      "moves": [
+        {
+          "condition": "IS_SUNDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        }
+      ]
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "EMPIRE",
+      "month": "MAY",
+      "day": 24,
+      "validFrom": 1910,
+      "validTo": 1951
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "REPUBLIC_DAY",
+      "month": "MAY",
+      "day": 31,
+      "validFrom": 1910,
+      "validTo": 1993
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "YOUTH",
+      "month": "JUNE",
+      "day": 16,
+      "moves": [
+        {
+          "condition": "IS_SUNDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        }
+      ]
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "__UNKNOWN__",
+      "month": "JULY",
+      "day": 10,
+      "validFrom": 1961,
+      "validTo": 1974
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "INTERNATIONAL_WOMAN",
+      "month": "AUGUST",
+      "day": 9,
+      "moves": [
+        {
+          "condition": "IS_SUNDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        }
+      ]
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "HERITAGE",
+      "month": "SEPTEMBER",
+      "day": 24,
+      "moves": [
+        {
+          "condition": "IS_SUNDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        }
+      ]
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "KRUGER",
+      "month": "OCTOBER",
+      "day": 10,
+      "validFrom": 1952,
+      "validTo": 1993
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "RECONCILIATION",
+      "month": "DECEMBER",
+      "day": 16,
+      "moves": [
+        {
+          "condition": "IS_SUNDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        }
+      ]
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "CHRISTMAS",
+      "month": "DECEMBER",
+      "day": 25,
+      "moves": [
+        {
+          "condition": "IS_SUNDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        }
+      ]
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "GOODWILL",
+      "month": "DECEMBER",
+      "day": 26,
+      "moves": [
+        {
+          "condition": "IS_SUNDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        }
+      ]
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "NEW_YEAR",
+      "month": "DECEMBER",
+      "day": 31,
+      "validFrom": 1999,
+      "validTo": 1999,
+      "moves": [
+        {
+          "condition": "IS_SUNDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        }
+      ]
+    },
+    {
+      "holidayType": "FIXED_WEEKDAY",
+      "key": "LABOUR_DAY",
+      "which": "FIRST",
+      "weekday": "FRIDAY",
+      "month": "MAY",
+      "validFrom": 1987,
+      "validTo": 1989
+    },
+    {
+      "holidayType": "FIXED_WEEKDAY",
+      "key": "QUEENS_BIRTHDAY",
+      "which": "SECOND",
+      "weekday": "MONDAY",
+      "month": "JULY",
+      "validFrom": 1952,
+      "validTo": 1960
+    },
+    {
+      "holidayType": "FIXED_WEEKDAY",
+      "key": "KINGS_DAY",
+      "which": "FIRST",
+      "weekday": "MONDAY",
+      "month": "AUGUST",
+      "validTo": 1951
+    },
+    {
+      "holidayType": "FIXED_WEEKDAY",
+      "key": "SETTLER",
+      "which": "FIRST",
+      "weekday": "MONDAY",
+      "month": "SEPTEMBER",
+      "validFrom": 1952,
+      "validTo": 1979
+    }
+  ]
+}

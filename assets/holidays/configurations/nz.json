@@ -1,0 +1,362 @@
+{
+  "hierarchy": "nz",
+  "description": "New Zealand",
+  "holidays": [
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "GOOD_FRIDAY"
+    },
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "EASTER_MONDAY"
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "NEW_YEAR",
+      "month": "JANUARY",
+      "day": 1,
+      "moves": [
+        {
+          "condition": "IS_SATURDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        },
+        {
+          "condition": "IS_SUNDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        }
+      ]
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "DAY_AFTER_NEW_YEAR",
+      "month": "JANUARY",
+      "day": 2,
+      "moves": [
+        {
+          "condition": "IS_SATURDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        },
+        {
+          "condition": "IS_SUNDAY",
+          "moveTo": "NEXT",
+          "weekday": "TUESDAY"
+        }
+      ]
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "WAITANGI_DAY",
+      "month": "FEBRUARY",
+      "day": 6,
+      "validTo": 2015
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "WAITANGI_DAY",
+      "month": "FEBRUARY",
+      "day": 6,
+      "validFrom": 2016,
+      "moves": [
+        {
+          "condition": "IS_SATURDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        },
+        {
+          "condition": "IS_SUNDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        }
+      ]
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "ANZAC",
+      "month": "APRIL",
+      "day": 25,
+      "validTo": 2014
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "ANZAC",
+      "month": "APRIL",
+      "day": 25,
+      "validFrom": 2015,
+      "moves": [
+        {
+          "condition": "IS_SATURDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        },
+        {
+          "condition": "IS_SUNDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        }
+      ]
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "CHRISTMAS",
+      "month": "DECEMBER",
+      "day": 25,
+      "moves": [
+        {
+          "condition": "IS_SATURDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        },
+        {
+          "condition": "IS_SUNDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        }
+      ]
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "BOXING_DAY",
+      "month": "DECEMBER",
+      "day": 26,
+      "moves": [
+        {
+          "condition": "IS_SATURDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        },
+        {
+          "condition": "IS_SUNDAY",
+          "moveTo": "NEXT",
+          "weekday": "TUESDAY"
+        }
+      ]
+    },
+    {
+      "holidayType": "FIXED_WEEKDAY",
+      "key": "QUEENS_BIRTHDAY",
+      "which": "FIRST",
+      "weekday": "MONDAY",
+      "month": "JUNE"
+    },
+    {
+      "holidayType": "FIXED_WEEKDAY",
+      "key": "LABOUR_DAY",
+      "which": "FOURTH",
+      "weekday": "MONDAY",
+      "month": "OCTOBER"
+    }
+  ],
+  "subConfigurations": [
+    {
+      "hierarchy": "auk",
+      "description": "Auckland",
+      "holidays": [
+        {
+          "holidayType": "RELATIVE_TO_DATE",
+          "key": "AUCKLAND_ANNIVERSARY",
+          "relation": {
+            "which": "FIRST",
+            "weekday": "MONDAY",
+            "when": "CLOSEST"
+          },
+          "fix": {
+            "month": "JANUARY",
+            "day": 29
+          }
+        }
+      ]
+    },
+    {
+      "hierarchy": "tki",
+      "description": "Taranaki",
+      "holidays": [
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "TARANAKI_ANNIVERSARY",
+          "which": "SECOND",
+          "weekday": "MONDAY",
+          "month": "MARCH"
+        }
+      ]
+    },
+    {
+      "hierarchy": "hkb",
+      "description": "Hawke's Bay",
+      "holidays": [
+        {
+          "holidayType": "RELATIVE_TO_WEEKDAY",
+          "key": "HAWKES_BAY_ANNIVERSARY",
+          "relation": {
+            "weekday": "FRIDAY",
+            "when": "BEFORE"
+          },
+          "fix": {
+            "which": "FOURTH",
+            "weekday": "MONDAY",
+            "month": "OCTOBER"
+          }
+        }
+      ]
+    },
+    {
+      "hierarchy": "wgn",
+      "description": "Wellington",
+      "holidays": [
+        {
+          "holidayType": "RELATIVE_TO_DATE",
+          "key": "WELLINGTON_ANNIVERSARY",
+          "relation": {
+            "which": "FIRST",
+            "weekday": "MONDAY",
+            "when": "CLOSEST"
+          },
+          "fix": {
+            "month": "JANUARY",
+            "day": 22
+          }
+        }
+      ]
+    },
+    {
+      "hierarchy": "mbh",
+      "description": "Marlborough",
+      "holidays": [
+        {
+          "holidayType": "RELATIVE_TO_WEEKDAY",
+          "key": "MARLBOROUGH_ANNIVERSARY",
+          "relation": {
+            "weekday": "MONDAY",
+            "when": "AFTER"
+          },
+          "fix": {
+            "which": "FOURTH",
+            "weekday": "MONDAY",
+            "month": "OCTOBER"
+          }
+        }
+      ]
+    },
+    {
+      "hierarchy": "nsn",
+      "description": "Nelson",
+      "holidays": [
+        {
+          "holidayType": "RELATIVE_TO_DATE",
+          "key": "NELSON_ANNIVERSARY",
+          "relation": {
+            "which": "FIRST",
+            "weekday": "MONDAY",
+            "when": "CLOSEST"
+          },
+          "fix": {
+            "month": "FEBRUARY",
+            "day": 1
+          }
+        }
+      ]
+    },
+    {
+      "hierarchy": "can",
+      "description": "Canterbury",
+      "holidays": []
+    },
+    {
+      "hierarchy": "cans",
+      "description": "Canterbury (South)",
+      "holidays": [
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "CANTERBURY_SOUTH_ANNIVERSARY",
+          "which": "FOURTH",
+          "weekday": "MONDAY",
+          "month": "SEPTEMBER"
+        }
+      ]
+    },
+    {
+      "hierarchy": "wtc",
+      "description": "Westland",
+      "holidays": [
+        {
+          "holidayType": "RELATIVE_TO_DATE",
+          "key": "WESTLAND_ANNIVERSARY",
+          "relation": {
+            "which": "FIRST",
+            "weekday": "MONDAY",
+            "when": "CLOSEST"
+          },
+          "fix": {
+            "month": "DECEMBER",
+            "day": 1
+          }
+        }
+      ]
+    },
+    {
+      "hierarchy": "ota",
+      "description": "Otago",
+      "holidays": [
+        {
+          "holidayType": "RELATIVE_TO_DATE",
+          "key": "OTAGO_ANNIVERSARY",
+          "relation": {
+            "which": "FIRST",
+            "weekday": "MONDAY",
+            "when": "CLOSEST"
+          },
+          "fix": {
+            "month": "MARCH",
+            "day": 23
+          }
+        }
+      ]
+    },
+    {
+      "hierarchy": "stl",
+      "description": "Southland",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "EASTER_TUESDAY",
+          "validFrom": 2012
+        },
+        {
+          "holidayType": "RELATIVE_TO_DATE",
+          "key": "SOUTHLAND_ANNIVERSARY",
+          "relation": {
+            "which": "FIRST",
+            "weekday": "MONDAY",
+            "when": "CLOSEST"
+          },
+          "fix": {
+            "month": "JANUARY",
+            "day": 17
+          },
+          "validTo": 2011
+        }
+      ]
+    },
+    {
+      "hierarchy": "cit",
+      "description": "Chatham Islands",
+      "holidays": [
+        {
+          "holidayType": "RELATIVE_TO_DATE",
+          "key": "CHATHAM_ISLANDS_ANNIVERSARY",
+          "relation": {
+            "which": "FIRST",
+            "weekday": "MONDAY",
+            "when": "CLOSEST"
+          },
+          "fix": {
+            "month": "NOVEMBER",
+            "day": 30
+          }
+        }
+      ]
+    }
+  ]
+}

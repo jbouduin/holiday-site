@@ -1,0 +1,54 @@
+{
+  "hierarchy": "bo",
+  "description": "Bolivia",
+  "holidays": [
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "EASTER"
+    },
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "GOOD_FRIDAY"
+    },
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "CORPUS_CHRISTI"
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "NEW_YEAR",
+      "month": "JANUARY",
+      "day": 1
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "CANDELARIA",
+      "month": "FEBRUARY",
+      "day": 2
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "LABOUR_DAY",
+      "month": "MAY",
+      "day": 1
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "INDEPENDENCE_DAY",
+      "month": "AUGUST",
+      "day": 6
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "ALL_SAINTS",
+      "month": "NOVEMBER",
+      "day": 1
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "CHRISTMAS",
+      "month": "DECEMBER",
+      "day": 25
+    }
+  ]
+}

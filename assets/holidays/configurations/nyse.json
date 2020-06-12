@@ -1,0 +1,131 @@
+{
+  "hierarchy": "nyse",
+  "description": "New York Stock Exchange",
+  "holidays": [
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "GOOD_FRIDAY"
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "NEW_YEAR",
+      "month": "JANUARY",
+      "day": 1,
+      "moves": [
+        {
+          "condition": "IS_SATURDAY",
+          "moveTo": "PREVIOUS",
+          "weekday": "FRIDAY"
+        },
+        {
+          "condition": "IS_SUNDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        }
+      ]
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "INDEPENDENCE_DAY",
+      "month": "JULY",
+      "day": 4,
+      "moves": [
+        {
+          "condition": "IS_SATURDAY",
+          "moveTo": "PREVIOUS",
+          "weekday": "FRIDAY"
+        },
+        {
+          "condition": "IS_SUNDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        }
+      ]
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "CHRISTMAS",
+      "month": "DECEMBER",
+      "day": 25,
+      "moves": [
+        {
+          "condition": "IS_SATURDAY",
+          "moveTo": "PREVIOUS",
+          "weekday": "FRIDAY"
+        },
+        {
+          "condition": "IS_SUNDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        }
+      ]
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "FUNERAL_OF_PRESIDENT_REAGAN",
+      "month": "JUNE",
+      "day": 11,
+      "validFrom": 2004,
+      "validTo": 2004
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "REMEMBERANCE_OF_PRESIDENT_FORD",
+      "month": "JANUARY",
+      "day": 2,
+      "validFrom": 2007,
+      "validTo": 2007
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "HURRICANE_SANDY",
+      "month": "OCTOBER",
+      "day": 29,
+      "validFrom": 2012,
+      "validTo": 2012
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "HURRICANE_SANDY",
+      "month": "OCTOBER",
+      "day": 30,
+      "validFrom": 2012,
+      "validTo": 2012
+    },
+    {
+      "holidayType": "FIXED_WEEKDAY",
+      "key": "MARTIN_LUTHER_KING",
+      "which": "THIRD",
+      "weekday": "MONDAY",
+      "month": "JANUARY"
+    },
+    {
+      "holidayType": "FIXED_WEEKDAY",
+      "key": "WASHINGTONS_BIRTHDAY",
+      "which": "THIRD",
+      "weekday": "MONDAY",
+      "month": "FEBRUARY"
+    },
+    {
+      "holidayType": "FIXED_WEEKDAY",
+      "key": "MEMORIAL_DAY",
+      "which": "LAST",
+      "weekday": "MONDAY",
+      "month": "MAY"
+    },
+    {
+      "holidayType": "FIXED_WEEKDAY",
+      "key": "LABOUR_DAY",
+      "which": "FIRST",
+      "weekday": "MONDAY",
+      "month": "SEPTEMBER"
+    },
+    {
+      "holidayType": "FIXED_WEEKDAY",
+      "key": "THANKSGIVING",
+      "which": "FOURTH",
+      "weekday": "THURSDAY",
+      "month": "NOVEMBER"
+    }
+  ]
+}

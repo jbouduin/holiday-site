@@ -1,0 +1,349 @@
+{
+  "hierarchy": "gb",
+  "description": "United Kingdom",
+  "holidays": [
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "EASTER"
+    },
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "GOOD_FRIDAY"
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "BOXING_DAY",
+      "month": "DECEMBER",
+      "day": 26,
+      "moves": [
+        {
+          "condition": "IS_SATURDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        },
+        {
+          "condition": "IS_SUNDAY",
+          "moveTo": "NEXT",
+          "weekday": "TUESDAY"
+        },
+        {
+          "condition": "IS_MONDAY",
+          "moveTo": "NEXT",
+          "weekday": "TUESDAY"
+        }
+      ]
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "CHRISTMAS",
+      "month": "DECEMBER",
+      "day": 25,
+      "moves": [
+        {
+          "condition": "IS_SATURDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        },
+        {
+          "condition": "IS_SUNDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        }
+      ]
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "BANK_HOLIDAY",
+      "month": "MAY",
+      "day": 8,
+      "validFrom": 2020,
+      "validTo": 2020
+    },
+    {
+      "holidayType": "FIXED_WEEKDAY",
+      "key": "BANK_HOLIDAY",
+      "which": "FIRST",
+      "weekday": "MONDAY",
+      "month": "MAY",
+      "validFrom": 1900,
+      "validTo": 2019
+    },
+    {
+      "holidayType": "FIXED_WEEKDAY",
+      "key": "BANK_HOLIDAY",
+      "which": "FIRST",
+      "weekday": "MONDAY",
+      "month": "MAY",
+      "validFrom": 2021
+    },
+    {
+      "holidayType": "FIXED_WEEKDAY",
+      "key": "BANK_HOLIDAY",
+      "which": "LAST",
+      "weekday": "MONDAY",
+      "month": "MAY"
+    }
+  ],
+  "subConfigurations": [
+    {
+      "hierarchy": "al",
+      "description": "Alderney",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "EASTER_MONDAY"
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "NEW_YEAR",
+          "month": "JANUARY",
+          "day": 1
+        }
+      ]
+    },
+    {
+      "hierarchy": "en",
+      "description": "England",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "EASTER_MONDAY"
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "NEW_YEAR",
+          "month": "JANUARY",
+          "day": 1,
+          "moves": [
+            {
+              "condition": "IS_SATURDAY",
+              "moveTo": "NEXT",
+              "weekday": "MONDAY"
+            },
+            {
+              "condition": "IS_SUNDAY",
+              "moveTo": "NEXT",
+              "weekday": "MONDAY"
+            }
+          ]
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "BANK_HOLIDAY",
+          "which": "LAST",
+          "weekday": "MONDAY",
+          "month": "AUGUST"
+        }
+      ]
+    },
+    {
+      "hierarchy": "gu",
+      "description": "Guernsey",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "EASTER_MONDAY"
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "NEW_YEAR",
+          "month": "JANUARY",
+          "day": 1
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "LIBERATION",
+          "month": "MAY",
+          "day": 9
+        }
+      ]
+    },
+    {
+      "hierarchy": "im",
+      "description": "Isle of Man",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "EASTER_MONDAY"
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "NEW_YEAR",
+          "month": "JANUARY",
+          "day": 1
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "TYNWALD",
+          "month": "JULY",
+          "day": 5
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "TOURIST_TROPHY",
+          "which": "SECOND",
+          "weekday": "FRIDAY",
+          "month": "JUNE"
+        }
+      ]
+    },
+    {
+      "hierarchy": "je",
+      "description": "Jersey",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "EASTER_MONDAY"
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "NEW_YEAR",
+          "month": "JANUARY",
+          "day": 1
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "LIBERATION",
+          "month": "MAY",
+          "day": 9
+        }
+      ]
+    },
+    {
+      "hierarchy": "ni",
+      "description": "Northern Ireland",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "EASTER_MONDAY"
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "NEW_YEAR",
+          "month": "JANUARY",
+          "day": 1
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "ST_PATRICK",
+          "month": "MARCH",
+          "day": 17,
+          "moves": [
+            {
+              "condition": "IS_SATURDAY",
+              "moveTo": "NEXT",
+              "weekday": "MONDAY"
+            },
+            {
+              "condition": "IS_SUNDAY",
+              "moveTo": "NEXT",
+              "weekday": "MONDAY"
+            }
+          ]
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "BATTLE_BOYNE",
+          "month": "JULY",
+          "day": 12,
+          "moves": [
+            {
+              "condition": "IS_SATURDAY",
+              "moveTo": "NEXT",
+              "weekday": "MONDAY"
+            },
+            {
+              "condition": "IS_SUNDAY",
+              "moveTo": "NEXT",
+              "weekday": "MONDAY"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hierarchy": "sc",
+      "description": "Scotland",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "NEW_YEAR",
+          "month": "JANUARY",
+          "day": 1,
+          "moves": [
+            {
+              "condition": "IS_SATURDAY",
+              "moveTo": "NEXT",
+              "weekday": "TUESDAY"
+            },
+            {
+              "condition": "IS_SUNDAY",
+              "moveTo": "NEXT",
+              "weekday": "TUESDAY"
+            }
+          ]
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "NEW_YEAR",
+          "month": "JANUARY",
+          "day": 2,
+          "moves": [
+            {
+              "condition": "IS_SATURDAY",
+              "moveTo": "NEXT",
+              "weekday": "MONDAY"
+            },
+            {
+              "condition": "IS_SUNDAY",
+              "moveTo": "NEXT",
+              "weekday": "MONDAY"
+            }
+          ]
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "BANK_HOLIDAY",
+          "which": "FIRST",
+          "weekday": "MONDAY",
+          "month": "AUGUST"
+        }
+      ]
+    },
+    {
+      "hierarchy": "wa",
+      "description": "Wales",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "EASTER_MONDAY"
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "NEW_YEAR",
+          "month": "JANUARY",
+          "day": 1,
+          "moves": [
+            {
+              "condition": "IS_SATURDAY",
+              "moveTo": "NEXT",
+              "weekday": "MONDAY"
+            },
+            {
+              "condition": "IS_SUNDAY",
+              "moveTo": "NEXT",
+              "weekday": "MONDAY"
+            }
+          ]
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "BANK_HOLIDAY",
+          "which": "FIRST",
+          "weekday": "MONDAY",
+          "month": "AUGUST"
+        }
+      ]
+    }
+  ]
+}

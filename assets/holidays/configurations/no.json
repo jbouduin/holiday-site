@@ -1,0 +1,64 @@
+{
+  "hierarchy": "no",
+  "description": "Norway",
+  "holidays": [
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "EASTER"
+    },
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "MAUNDY_THURSDAY"
+    },
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "GOOD_FRIDAY"
+    },
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "EASTER_MONDAY"
+    },
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "ASCENSION_DAY"
+    },
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "WHIT_MONDAY"
+    },
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "PENTECOST"
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "NEW_YEAR",
+      "month": "JANUARY",
+      "day": 1
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "LABOUR_DAY",
+      "month": "MAY",
+      "day": 1
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "CONSTITUTION_DAY",
+      "month": "MAY",
+      "day": 17
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "CHRISTMAS",
+      "month": "DECEMBER",
+      "day": 25
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "STEPHENS",
+      "month": "DECEMBER",
+      "day": 26
+    }
+  ]
+}

@@ -1,0 +1,2274 @@
+{
+  "hierarchy": "us",
+  "description": "United States",
+  "holidays": [
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "NEW_YEAR",
+      "month": "JANUARY",
+      "day": 1
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "MEMORIAL_DAY",
+      "month": "MAY",
+      "day": 30,
+      "validFrom": 1869,
+      "validTo": 1967
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "INDEPENDENCE_DAY",
+      "month": "JULY",
+      "day": 4,
+      "validFrom": 1776
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "VETERANS_DAY",
+      "month": "NOVEMBER",
+      "day": 11,
+      "validFrom": 1938
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "CHRISTMAS",
+      "month": "DECEMBER",
+      "day": 25
+    },
+    {
+      "holidayType": "FIXED_WEEKDAY",
+      "key": "MARTIN_LUTHER_KING",
+      "which": "THIRD",
+      "weekday": "MONDAY",
+      "month": "JANUARY",
+      "validFrom": 1986
+    },
+    {
+      "holidayType": "FIXED_WEEKDAY",
+      "key": "PRESIDENTS_DAY",
+      "which": "THIRD",
+      "weekday": "MONDAY",
+      "month": "FEBRUARY",
+      "validFrom": 1971
+    },
+    {
+      "holidayType": "FIXED_WEEKDAY",
+      "key": "MEMORIAL_DAY",
+      "which": "LAST",
+      "weekday": "MONDAY",
+      "month": "MAY",
+      "validFrom": 1968
+    },
+    {
+      "holidayType": "FIXED_WEEKDAY",
+      "key": "LABOUR_DAY",
+      "which": "FIRST",
+      "weekday": "MONDAY",
+      "month": "SEPTEMBER",
+      "validFrom": 1895
+    },
+    {
+      "holidayType": "FIXED_WEEKDAY",
+      "key": "COLUMBUS_DAY",
+      "which": "SECOND",
+      "weekday": "MONDAY",
+      "month": "OCTOBER",
+      "validFrom": 1937
+    },
+    {
+      "holidayType": "FIXED_WEEKDAY",
+      "key": "THANKSGIVING",
+      "which": "FOURTH",
+      "weekday": "THURSDAY",
+      "month": "NOVEMBER",
+      "validFrom": 1863
+    },
+    {
+      "holidayType": "RELATIVE_TO_WEEKDAY",
+      "key": "ELECTION_DAY",
+      "relation": {
+        "weekday": "TUESDAY",
+        "when": "AFTER"
+      },
+      "fix": {
+        "which": "FIRST",
+        "weekday": "MONDAY",
+        "month": "NOVEMBER"
+      },
+      "cycle": "EVEN_YEARS"
+    }
+  ],
+  "subConfigurations": [
+    {
+      "hierarchy": "al",
+      "description": "Alabama",
+      "holidays": [
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "MARTIN_LUTHER_KING",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "JANUARY",
+          "validFrom": 1986
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "FEBRUARY",
+          "validFrom": 1968
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "CONFEDERATE",
+          "which": "FOURTH",
+          "weekday": "MONDAY",
+          "month": "APRIL"
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "JEFFERSON_DAVIS",
+          "which": "FIRST",
+          "weekday": "MONDAY",
+          "month": "JUNE"
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "COLUMBUS_DAY",
+          "which": "SECOND",
+          "weekday": "MONDAY",
+          "month": "OCTOBER",
+          "validFrom": 1934
+        }
+      ]
+    },
+    {
+      "hierarchy": "ak",
+      "description": "Alaska",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "ALASKA",
+          "month": "OCTOBER",
+          "day": 18
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "MARTIN_LUTHER_KING",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "JANUARY",
+          "validFrom": 1986
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "FEBRUARY",
+          "validFrom": 1968
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "SEWARD",
+          "which": "LAST",
+          "weekday": "MONDAY",
+          "month": "MARCH"
+        }
+      ]
+    },
+    {
+      "hierarchy": "az",
+      "description": "Arizona",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "month": "FEBRUARY",
+          "day": 22,
+          "validFrom": 1879,
+          "validTo": 1967
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "MARTIN_LUTHER_KING",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "JANUARY",
+          "validFrom": 1986
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "FEBRUARY",
+          "validFrom": 1968
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "COLUMBUS_DAY",
+          "which": "SECOND",
+          "weekday": "MONDAY",
+          "month": "OCTOBER",
+          "validFrom": 1934
+        }
+      ]
+    },
+    {
+      "hierarchy": "ar",
+      "description": "Arkansas",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CHRISTMAS_EVE",
+          "month": "DECEMBER",
+          "day": 24
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "month": "FEBRUARY",
+          "day": 22,
+          "validFrom": 1879,
+          "validTo": 1967
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "MARTIN_LUTHER_KING",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "JANUARY",
+          "validFrom": 1986
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "FEBRUARY",
+          "validFrom": 1968
+        }
+      ]
+    },
+    {
+      "hierarchy": "ca",
+      "description": "California",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "LINCOLN",
+          "month": "FEBRUARY",
+          "day": 12
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CESAR_CHAVEZ",
+          "month": "MARCH",
+          "day": 31
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "month": "FEBRUARY",
+          "day": 22,
+          "validFrom": 1879,
+          "validTo": 1967
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "MARTIN_LUTHER_KING",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "JANUARY",
+          "validFrom": 1986
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "FEBRUARY",
+          "validFrom": 1968
+        }
+      ],
+      "subConfigurations": [
+        {
+          "hierarchy": "be",
+          "description": "Berkeley",
+          "holidays": [
+            {
+              "holidayType": "FIXED_DATE",
+              "key": "__UNKNOWN__",
+              "month": "MARCH",
+              "day": 8
+            },
+            {
+              "holidayType": "FIXED_DATE",
+              "key": "__UNKNOWN__",
+              "month": "OCTOBER",
+              "day": 21
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hierarchy": "co",
+      "description": "Colorado",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "month": "FEBRUARY",
+          "day": 22,
+          "validFrom": 1879,
+          "validTo": 1967
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "MARTIN_LUTHER_KING",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "JANUARY",
+          "validFrom": 1986
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "FEBRUARY",
+          "validFrom": 1968
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "COLUMBUS_DAY",
+          "which": "SECOND",
+          "weekday": "MONDAY",
+          "month": "OCTOBER",
+          "validFrom": 1906
+        }
+      ]
+    },
+    {
+      "hierarchy": "ct",
+      "description": "Connecticut",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "GOOD_FRIDAY"
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "LINCOLN",
+          "month": "FEBRUARY",
+          "day": 12
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "month": "FEBRUARY",
+          "day": 22,
+          "validFrom": 1879,
+          "validTo": 1967
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "MARTIN_LUTHER_KING",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "JANUARY",
+          "validFrom": 1986
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "FEBRUARY",
+          "validFrom": 1968
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "COLUMBUS_DAY",
+          "which": "SECOND",
+          "weekday": "MONDAY",
+          "month": "OCTOBER",
+          "validFrom": 1934
+        }
+      ]
+    },
+    {
+      "hierarchy": "de",
+      "description": "Delaware",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "GOOD_FRIDAY"
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "month": "FEBRUARY",
+          "day": 22,
+          "validFrom": 1879,
+          "validTo": 1967
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "MARTIN_LUTHER_KING",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "JANUARY",
+          "validFrom": 1986
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "FEBRUARY",
+          "validFrom": 1968
+        }
+      ]
+    },
+    {
+      "hierarchy": "fl",
+      "description": "Florida",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "month": "FEBRUARY",
+          "day": 22,
+          "validFrom": 1879,
+          "validTo": 1967
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "MARTIN_LUTHER_KING",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "JANUARY",
+          "validFrom": 1986
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "FEBRUARY",
+          "validFrom": 1968
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "COLUMBUS_DAY",
+          "which": "SECOND",
+          "weekday": "MONDAY",
+          "month": "OCTOBER",
+          "validFrom": 1934
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "CONFEDERATE",
+          "which": "FOURTH",
+          "weekday": "MONDAY",
+          "month": "APRIL"
+        }
+      ]
+    },
+    {
+      "hierarchy": "ga",
+      "description": "Georgia",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "month": "FEBRUARY",
+          "day": 22,
+          "validFrom": 1879,
+          "validTo": 1967
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "MARTIN_LUTHER_KING",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "JANUARY",
+          "validFrom": 1986
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "FEBRUARY",
+          "validFrom": 1968
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "COLUMBUS_DAY",
+          "which": "SECOND",
+          "weekday": "MONDAY",
+          "month": "OCTOBER",
+          "validFrom": 1934
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "CONFEDERATE",
+          "which": "FOURTH",
+          "weekday": "MONDAY",
+          "month": "APRIL"
+        }
+      ]
+    },
+    {
+      "hierarchy": "hi",
+      "description": "Hawaii",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "GOOD_FRIDAY"
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "KALANIANAOLE",
+          "month": "MARCH",
+          "day": 26
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "KAMEHAMEHA",
+          "month": "JUNE",
+          "day": 11
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "month": "FEBRUARY",
+          "day": 22,
+          "validFrom": 1879,
+          "validTo": 1967
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "MARTIN_LUTHER_KING",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "JANUARY",
+          "validFrom": 1986
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "FEBRUARY",
+          "validFrom": 1968
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "STATEHOOD",
+          "which": "THIRD",
+          "weekday": "FRIDAY",
+          "month": "AUGUST"
+        }
+      ]
+    },
+    {
+      "hierarchy": "id",
+      "description": "Idaho",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "month": "FEBRUARY",
+          "day": 22,
+          "validFrom": 1879,
+          "validTo": 1967
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "MARTIN_LUTHER_KING",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "JANUARY",
+          "validFrom": 1986
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "FEBRUARY",
+          "validFrom": 1968
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "COLUMBUS_DAY",
+          "which": "SECOND",
+          "weekday": "MONDAY",
+          "month": "OCTOBER",
+          "validFrom": 1934
+        }
+      ]
+    },
+    {
+      "hierarchy": "il",
+      "description": "Illinois",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "LINCOLN",
+          "month": "FEBRUARY",
+          "day": 12
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "month": "FEBRUARY",
+          "day": 22,
+          "validFrom": 1879,
+          "validTo": 1967
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "MARTIN_LUTHER_KING",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "JANUARY",
+          "validFrom": 1986
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "FEBRUARY",
+          "validFrom": 1968
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "COLUMBUS_DAY",
+          "which": "SECOND",
+          "weekday": "MONDAY",
+          "month": "OCTOBER",
+          "validFrom": 1934
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "PULASKI",
+          "which": "FIRST",
+          "weekday": "MONDAY",
+          "month": "MARCH"
+        },
+        {
+          "holidayType": "RELATIVE_TO_WEEKDAY",
+          "key": "ELECTION_DAY",
+          "relation": {
+            "weekday": "TUESDAY",
+            "when": "AFTER"
+          },
+          "fix": {
+            "which": "FIRST",
+            "weekday": "MONDAY",
+            "month": "NOVEMBER"
+          },
+          "cycle": "EVEN_YEARS"
+        }
+      ]
+    },
+    {
+      "hierarchy": "in",
+      "description": "Indiana",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "GOOD_FRIDAY"
+        },
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "EASTER_MONDAY"
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CHRISTMAS_EVE",
+          "month": "DECEMBER",
+          "day": 24
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "MARTIN_LUTHER_KING",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "JANUARY",
+          "validFrom": 1986
+        },
+        {
+          "holidayType": "RELATIVE_TO_WEEKDAY",
+          "key": "ELECTION_DAY",
+          "relation": {
+            "weekday": "TUESDAY",
+            "when": "AFTER"
+          },
+          "fix": {
+            "which": "FIRST",
+            "weekday": "MONDAY",
+            "month": "MAY"
+          }
+        },
+        {
+          "holidayType": "RELATIVE_TO_WEEKDAY",
+          "key": "ELECTION_DAY",
+          "relation": {
+            "weekday": "TUESDAY",
+            "when": "AFTER"
+          },
+          "fix": {
+            "which": "FIRST",
+            "weekday": "MONDAY",
+            "month": "NOVEMBER"
+          }
+        }
+      ]
+    },
+    {
+      "hierarchy": "ia",
+      "description": "Iowa",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CHRISTMAS_EVE",
+          "month": "DECEMBER",
+          "day": 24
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "NEW_YEARS_EVE",
+          "month": "DECEMBER",
+          "day": 31
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "MARTIN_LUTHER_KING",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "JANUARY",
+          "validFrom": 1986
+        }
+      ]
+    },
+    {
+      "hierarchy": "ks",
+      "description": "Kansas",
+      "holidays": [
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "MARTIN_LUTHER_KING",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "JANUARY",
+          "validFrom": 1986
+        }
+      ]
+    },
+    {
+      "hierarchy": "ky",
+      "description": "Kentucky",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "GOOD_FRIDAY"
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CHRISTMAS_EVE",
+          "month": "DECEMBER",
+          "day": 24
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "NEW_YEARS_EVE",
+          "month": "DECEMBER",
+          "day": 31
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "MARTIN_LUTHER_KING",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "JANUARY",
+          "validFrom": 1986
+        }
+      ]
+    },
+    {
+      "hierarchy": "la",
+      "description": "Louisiana",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "GOOD_FRIDAY"
+        },
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "MARDI_GRAS"
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "MARTIN_LUTHER_KING",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "JANUARY",
+          "validFrom": 1986
+        }
+      ]
+    },
+    {
+      "hierarchy": "me",
+      "description": "Maine",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "month": "FEBRUARY",
+          "day": 22,
+          "validFrom": 1879,
+          "validTo": 1967
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "MARTIN_LUTHER_KING",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "JANUARY",
+          "validFrom": 1986
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "FEBRUARY",
+          "validFrom": 1968
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "COLUMBUS_DAY",
+          "which": "SECOND",
+          "weekday": "MONDAY",
+          "month": "OCTOBER",
+          "validFrom": 1934
+        }
+      ]
+    },
+    {
+      "hierarchy": "md",
+      "description": "Maryland",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "month": "FEBRUARY",
+          "day": 22,
+          "validFrom": 1879,
+          "validTo": 1967
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "MARTIN_LUTHER_KING",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "JANUARY",
+          "validFrom": 1986
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "FEBRUARY",
+          "validFrom": 1968
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "COLUMBUS_DAY",
+          "which": "SECOND",
+          "weekday": "MONDAY",
+          "month": "OCTOBER",
+          "validFrom": 1934
+        },
+        {
+          "holidayType": "RELATIVE_TO_WEEKDAY",
+          "key": "SERVICE_REDUCTION",
+          "relation": {
+            "weekday": "FRIDAY",
+            "when": "BEFORE"
+          },
+          "fix": {
+            "which": "LAST",
+            "weekday": "MONDAY",
+            "month": "MAY"
+          }
+        },
+        {
+          "holidayType": "RELATIVE_TO_WEEKDAY",
+          "key": "ELECTION_DAY",
+          "relation": {
+            "weekday": "TUESDAY",
+            "when": "AFTER"
+          },
+          "fix": {
+            "which": "FIRST",
+            "weekday": "MONDAY",
+            "month": "NOVEMBER"
+          }
+        }
+      ]
+    },
+    {
+      "hierarchy": "ma",
+      "description": "Massachusetts",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "month": "FEBRUARY",
+          "day": 22,
+          "validFrom": 1879,
+          "validTo": 1967
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "MARTIN_LUTHER_KING",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "JANUARY",
+          "validFrom": 1986
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "FEBRUARY",
+          "validFrom": 1968
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "PATRIOT",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "APRIL"
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "COLUMBUS_DAY",
+          "which": "SECOND",
+          "weekday": "MONDAY",
+          "month": "OCTOBER",
+          "validFrom": 1934
+        }
+      ],
+      "subConfigurations": [
+        {
+          "hierarchy": "sc",
+          "description": "Suffolk County",
+          "holidays": [
+            {
+              "holidayType": "FIXED_DATE",
+              "key": "EVACUATION",
+              "month": "MARCH",
+              "day": 17
+            },
+            {
+              "holidayType": "FIXED_DATE",
+              "key": "BUNKER_HILL",
+              "month": "JUNE",
+              "day": 17
+            }
+          ]
+        },
+        {
+          "hierarchy": "ca",
+          "description": "Cambridge",
+          "holidays": [
+            {
+              "holidayType": "FIXED_DATE",
+              "key": "EVACUATION",
+              "month": "MARCH",
+              "day": 17
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hierarchy": "mi",
+      "description": "Michigan",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "EASTER_MONDAY"
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "__UNKNOWN__",
+          "month": "OCTOBER",
+          "day": 30
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CHRISTMAS_EVE",
+          "month": "DECEMBER",
+          "day": 24
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "NEW_YEARS_EVE",
+          "month": "DECEMBER",
+          "day": 31
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "month": "FEBRUARY",
+          "day": 22,
+          "validFrom": 1879,
+          "validTo": 1967
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "MARTIN_LUTHER_KING",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "JANUARY",
+          "validFrom": 1986
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "FEBRUARY",
+          "validFrom": 1968
+        }
+      ]
+    },
+    {
+      "hierarchy": "mn",
+      "description": "Minnesota",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "month": "FEBRUARY",
+          "day": 22,
+          "validFrom": 1879,
+          "validTo": 1967
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "MARTIN_LUTHER_KING",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "JANUARY",
+          "validFrom": 1986
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "FEBRUARY",
+          "validFrom": 1968
+        }
+      ]
+    },
+    {
+      "hierarchy": "ms",
+      "description": "Mississippi",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "month": "FEBRUARY",
+          "day": 22,
+          "validFrom": 1879,
+          "validTo": 1967
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "MARTIN_LUTHER_KING",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "JANUARY",
+          "validFrom": 1986
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "FEBRUARY",
+          "validFrom": 1968
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "CONFEDERATE",
+          "which": "FOURTH",
+          "weekday": "MONDAY",
+          "month": "APRIL"
+        }
+      ]
+    },
+    {
+      "hierarchy": "mo",
+      "description": "Missouri",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "LINCOLN",
+          "month": "FEBRUARY",
+          "day": 12
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "TRUMAN",
+          "month": "MAY",
+          "day": 8
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "month": "FEBRUARY",
+          "day": 22,
+          "validFrom": 1879,
+          "validTo": 1967
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "MARTIN_LUTHER_KING",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "JANUARY",
+          "validFrom": 1986
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "FEBRUARY",
+          "validFrom": 1968
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "COLUMBUS_DAY",
+          "which": "SECOND",
+          "weekday": "MONDAY",
+          "month": "OCTOBER",
+          "validFrom": 1934
+        }
+      ]
+    },
+    {
+      "hierarchy": "mt",
+      "description": "Montana",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CHRISTMAS_EVE",
+          "month": "DECEMBER",
+          "day": 24
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "NEW_YEARS_EVE",
+          "month": "DECEMBER",
+          "day": 31
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "month": "FEBRUARY",
+          "day": 22,
+          "validFrom": 1879,
+          "validTo": 1967
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "MARTIN_LUTHER_KING",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "JANUARY",
+          "validFrom": 1986
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "FEBRUARY",
+          "validFrom": 1968
+        },
+        {
+          "holidayType": "RELATIVE_TO_WEEKDAY",
+          "key": "THANKSGIVING",
+          "relation": {
+            "weekday": "TUESDAY",
+            "when": "AFTER"
+          },
+          "fix": {
+            "which": "FIRST",
+            "weekday": "MONDAY",
+            "month": "NOVEMBER"
+          }
+        }
+      ]
+    },
+    {
+      "hierarchy": "ne",
+      "description": "Nebraska",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "month": "FEBRUARY",
+          "day": 22,
+          "validFrom": 1879,
+          "validTo": 1967
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "MARTIN_LUTHER_KING",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "JANUARY",
+          "validFrom": 1986
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "FEBRUARY",
+          "validFrom": 1968
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "ARBOR",
+          "which": "LAST",
+          "weekday": "FRIDAY",
+          "month": "APRIL"
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "COLUMBUS_DAY",
+          "which": "SECOND",
+          "weekday": "MONDAY",
+          "month": "OCTOBER",
+          "validFrom": 1934
+        }
+      ]
+    },
+    {
+      "hierarchy": "nv",
+      "description": "Nevada",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "month": "FEBRUARY",
+          "day": 22,
+          "validFrom": 1879,
+          "validTo": 1967
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "MARTIN_LUTHER_KING",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "JANUARY",
+          "validFrom": 1986
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "FEBRUARY",
+          "validFrom": 1968
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "NEVADA",
+          "which": "LAST",
+          "weekday": "FRIDAY",
+          "month": "OCTOBER"
+        }
+      ]
+    },
+    {
+      "hierarchy": "nh",
+      "description": "New Hampshire",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "month": "FEBRUARY",
+          "day": 22,
+          "validFrom": 1879,
+          "validTo": 1967
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "MARTIN_LUTHER_KING",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "JANUARY",
+          "validFrom": 1986
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "FEBRUARY",
+          "validFrom": 1968
+        }
+      ]
+    },
+    {
+      "hierarchy": "nj",
+      "description": "New Jersey",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "GOOD_FRIDAY"
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "LINCOLN",
+          "month": "FEBRUARY",
+          "day": 12
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "month": "FEBRUARY",
+          "day": 22,
+          "validFrom": 1879,
+          "validTo": 1967
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "MARTIN_LUTHER_KING",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "JANUARY",
+          "validFrom": 1986
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "FEBRUARY",
+          "validFrom": 1968
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "COLUMBUS_DAY",
+          "which": "SECOND",
+          "weekday": "MONDAY",
+          "month": "OCTOBER",
+          "validFrom": 1934
+        },
+        {
+          "holidayType": "RELATIVE_TO_WEEKDAY",
+          "key": "ELECTION_DAY",
+          "relation": {
+            "weekday": "TUESDAY",
+            "when": "AFTER"
+          },
+          "fix": {
+            "which": "FIRST",
+            "weekday": "MONDAY",
+            "month": "NOVEMBER"
+          }
+        }
+      ]
+    },
+    {
+      "hierarchy": "nm",
+      "description": "New Mexico",
+      "holidays": [
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "MARTIN_LUTHER_KING",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "JANUARY",
+          "validFrom": 1986
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "COLUMBUS_DAY",
+          "which": "SECOND",
+          "weekday": "MONDAY",
+          "month": "OCTOBER",
+          "validFrom": 1934
+        }
+      ]
+    },
+    {
+      "hierarchy": "ny",
+      "description": "New York",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "EASTER_MONDAY"
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "month": "FEBRUARY",
+          "day": 22,
+          "validFrom": 1879,
+          "validTo": 1967
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "LINCOLN",
+          "month": "FEBRUARY",
+          "day": 12
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "MARTIN_LUTHER_KING",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "JANUARY",
+          "validFrom": 1986
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "FEBRUARY",
+          "validFrom": 1968
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "COLUMBUS_DAY",
+          "which": "SECOND",
+          "weekday": "MONDAY",
+          "month": "OCTOBER",
+          "validFrom": 1934
+        },
+        {
+          "holidayType": "RELATIVE_TO_WEEKDAY",
+          "key": "ELECTION_DAY",
+          "relation": {
+            "weekday": "TUESDAY",
+            "when": "AFTER"
+          },
+          "fix": {
+            "which": "FIRST",
+            "weekday": "MONDAY",
+            "month": "NOVEMBER"
+          }
+        }
+      ],
+      "subConfigurations": [
+        {
+          "hierarchy": "nyc",
+          "description": "New York City",
+          "holidays": [
+            {
+              "holidayType": "FIXED_WEEKDAY",
+              "key": "BROOKLY_QUEENS",
+              "which": "FIRST",
+              "weekday": "THURSDAY",
+              "month": "JUNE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hierarchy": "nc",
+      "description": "North Carolina",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "GOOD_FRIDAY"
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CHRISTMAS_EVE",
+          "month": "DECEMBER",
+          "day": 24
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "MARTIN_LUTHER_KING",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "JANUARY",
+          "validFrom": 1986
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "CONFEDERATE",
+          "which": "FOURTH",
+          "weekday": "MONDAY",
+          "month": "APRIL"
+        }
+      ],
+      "subConfigurations": [
+        {
+          "hierarchy": "ce",
+          "description": "Charlotte",
+          "holidays": [
+            {
+              "holidayType": "FIXED_DATE",
+              "key": "INDEPENDENCE_DAY",
+              "month": "MAY",
+              "day": 20
+            }
+          ]
+        },
+        {
+          "hierarchy": "me",
+          "description": "Mecklenburg",
+          "holidays": [
+            {
+              "holidayType": "FIXED_DATE",
+              "key": "INDEPENDENCE_DAY",
+              "month": "MAY",
+              "day": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hierarchy": "nd",
+      "description": "North Dakota",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "GOOD_FRIDAY"
+        },
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "EASTER_MONDAY"
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "month": "FEBRUARY",
+          "day": 22,
+          "validFrom": 1879,
+          "validTo": 1967
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "MARTIN_LUTHER_KING",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "JANUARY",
+          "validFrom": 1986
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "FEBRUARY",
+          "validFrom": 1968
+        }
+      ]
+    },
+    {
+      "hierarchy": "oh",
+      "description": "Ohio",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "month": "FEBRUARY",
+          "day": 22,
+          "validFrom": 1879,
+          "validTo": 1967
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "MARTIN_LUTHER_KING",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "JANUARY",
+          "validFrom": 1986
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "FEBRUARY",
+          "validFrom": 1968
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "COLUMBUS_DAY",
+          "which": "SECOND",
+          "weekday": "MONDAY",
+          "month": "OCTOBER",
+          "validFrom": 1934
+        }
+      ]
+    },
+    {
+      "hierarchy": "ok",
+      "description": "Oklahoma",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "month": "FEBRUARY",
+          "day": 22,
+          "validFrom": 1879,
+          "validTo": 1967
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "MARTIN_LUTHER_KING",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "JANUARY",
+          "validFrom": 1986
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "FEBRUARY",
+          "validFrom": 1968
+        }
+      ]
+    },
+    {
+      "hierarchy": "or",
+      "description": "Oregon",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "month": "FEBRUARY",
+          "day": 22,
+          "validFrom": 1879,
+          "validTo": 1967
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "MARTIN_LUTHER_KING",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "JANUARY",
+          "validFrom": 1986
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "FEBRUARY",
+          "validFrom": 1968
+        }
+      ]
+    },
+    {
+      "hierarchy": "pa",
+      "description": "Pennsylvania",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "month": "FEBRUARY",
+          "day": 22,
+          "validFrom": 1879,
+          "validTo": 1967
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "MARTIN_LUTHER_KING",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "JANUARY",
+          "validFrom": 1986
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "FEBRUARY",
+          "validFrom": 1968
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "COLUMBUS_DAY",
+          "which": "SECOND",
+          "weekday": "MONDAY",
+          "month": "OCTOBER",
+          "validFrom": 1934
+        }
+      ]
+    },
+    {
+      "hierarchy": "ri",
+      "description": "Rhode Island",
+      "holidays": [
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "VICTORY",
+          "which": "SECOND",
+          "weekday": "MONDAY",
+          "month": "AUGUST"
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "COLUMBUS_DAY",
+          "which": "SECOND",
+          "weekday": "MONDAY",
+          "month": "OCTOBER",
+          "validFrom": 1934
+        }
+      ]
+    },
+    {
+      "hierarchy": "sc",
+      "description": "South Carolina",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CONFEDERATE",
+          "month": "MAY",
+          "day": 10
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "month": "FEBRUARY",
+          "day": 22,
+          "validFrom": 1879,
+          "validTo": 1967
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "MARTIN_LUTHER_KING",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "JANUARY",
+          "validFrom": 1986
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "FEBRUARY",
+          "validFrom": 1968
+        },
+        {
+          "holidayType": "RELATIVE_TO_WEEKDAY",
+          "key": "ELECTION_DAY",
+          "relation": {
+            "weekday": "TUESDAY",
+            "when": "AFTER"
+          },
+          "fix": {
+            "which": "FIRST",
+            "weekday": "MONDAY",
+            "month": "NOVEMBER"
+          }
+        }
+      ]
+    },
+    {
+      "hierarchy": "sd",
+      "description": "South Dakota",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "month": "FEBRUARY",
+          "day": 22,
+          "validFrom": 1879,
+          "validTo": 1967
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "MARTIN_LUTHER_KING",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "JANUARY",
+          "validFrom": 1986
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "FEBRUARY",
+          "validFrom": 1968
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "COLUMBUS_DAY",
+          "which": "SECOND",
+          "weekday": "MONDAY",
+          "month": "OCTOBER",
+          "validFrom": 1934
+        }
+      ]
+    },
+    {
+      "hierarchy": "tn",
+      "description": "Tennesee",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "GOOD_FRIDAY"
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CHRISTMAS_EVE",
+          "month": "DECEMBER",
+          "day": 24
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "month": "FEBRUARY",
+          "day": 22,
+          "validFrom": 1879,
+          "validTo": 1967
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "MARTIN_LUTHER_KING",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "JANUARY",
+          "validFrom": 1986
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "FEBRUARY",
+          "validFrom": 1968
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "CONFEDERATE",
+          "which": "FOURTH",
+          "weekday": "MONDAY",
+          "month": "APRIL"
+        }
+      ]
+    },
+    {
+      "hierarchy": "tx",
+      "description": "Texas",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CHRISTMAS_EVE",
+          "month": "DECEMBER",
+          "day": 24
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "month": "FEBRUARY",
+          "day": 22,
+          "validFrom": 1879,
+          "validTo": 1967
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "MARTIN_LUTHER_KING",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "JANUARY",
+          "validFrom": 1986
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "FEBRUARY",
+          "validFrom": 1968
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "CONFEDERATE",
+          "which": "FOURTH",
+          "weekday": "MONDAY",
+          "month": "APRIL"
+        }
+      ]
+    },
+    {
+      "hierarchy": "ut",
+      "description": "Utah",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "PIONEER",
+          "month": "JULY",
+          "day": 24
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "month": "FEBRUARY",
+          "day": 22,
+          "validFrom": 1879,
+          "validTo": 1967
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "MARTIN_LUTHER_KING",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "JANUARY",
+          "validFrom": 1986
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "FEBRUARY",
+          "validFrom": 1968
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "COLUMBUS_DAY",
+          "which": "SECOND",
+          "weekday": "MONDAY",
+          "month": "OCTOBER",
+          "validFrom": 1934
+        }
+      ]
+    },
+    {
+      "hierarchy": "vt",
+      "description": "Vermont",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "month": "FEBRUARY",
+          "day": 22,
+          "validFrom": 1879,
+          "validTo": 1967
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "MARTIN_LUTHER_KING",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "JANUARY",
+          "validFrom": 1986
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "FEBRUARY",
+          "validFrom": 1968
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "BENNINGTON",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "AUGUST"
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "COLUMBUS_DAY",
+          "which": "SECOND",
+          "weekday": "MONDAY",
+          "month": "OCTOBER",
+          "validFrom": 1934
+        }
+      ]
+    },
+    {
+      "hierarchy": "va",
+      "description": "Virginia",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "month": "FEBRUARY",
+          "day": 22,
+          "validFrom": 1879,
+          "validTo": 1967
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "MARTIN_LUTHER_KING",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "JANUARY",
+          "validFrom": 1986
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "FEBRUARY",
+          "validFrom": 1968
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "COLUMBUS_DAY",
+          "which": "SECOND",
+          "weekday": "MONDAY",
+          "month": "OCTOBER",
+          "validFrom": 1934
+        },
+        {
+          "holidayType": "RELATIVE_TO_WEEKDAY",
+          "key": "LEE_JACKSON",
+          "relation": {
+            "weekday": "FRIDAY",
+            "when": "BEFORE"
+          },
+          "fix": {
+            "which": "THIRD",
+            "weekday": "MONDAY",
+            "month": "JANUARY"
+          }
+        }
+      ]
+    },
+    {
+      "hierarchy": "wa",
+      "description": "Washington",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "month": "FEBRUARY",
+          "day": 22,
+          "validFrom": 1879,
+          "validTo": 1967
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "MARTIN_LUTHER_KING",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "JANUARY",
+          "validFrom": 1986
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "FEBRUARY",
+          "validFrom": 1968
+        }
+      ]
+    },
+    {
+      "hierarchy": "dc",
+      "description": "District of Columbia",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "month": "FEBRUARY",
+          "day": 22,
+          "validFrom": 1879,
+          "validTo": 1967
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "MARTIN_LUTHER_KING",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "JANUARY",
+          "validFrom": 1986
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "FEBRUARY",
+          "validFrom": 1968
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "COLUMBUS_DAY",
+          "which": "SECOND",
+          "weekday": "MONDAY",
+          "month": "OCTOBER",
+          "validFrom": 1934
+        }
+      ]
+    },
+    {
+      "hierarchy": "wv",
+      "description": "West Virginia",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "WEST_VIRGINIA",
+          "month": "JUNE",
+          "day": 20
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "month": "FEBRUARY",
+          "day": 22,
+          "validFrom": 1879,
+          "validTo": 1967
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "MARTIN_LUTHER_KING",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "JANUARY",
+          "validFrom": 1986
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "FEBRUARY",
+          "validFrom": 1968
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "COLUMBUS_DAY",
+          "which": "SECOND",
+          "weekday": "MONDAY",
+          "month": "OCTOBER",
+          "validFrom": 1934
+        }
+      ]
+    },
+    {
+      "hierarchy": "wi",
+      "description": "Wisconsin",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "month": "FEBRUARY",
+          "day": 22,
+          "validFrom": 1879,
+          "validTo": 1967
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "MARTIN_LUTHER_KING",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "JANUARY",
+          "validFrom": 1986
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "FEBRUARY",
+          "validFrom": 1968
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "ELECTION_DAY",
+          "which": "SECOND",
+          "weekday": "TUESDAY",
+          "month": "SEPTEMBER"
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "COLUMBUS_DAY",
+          "which": "SECOND",
+          "weekday": "MONDAY",
+          "month": "OCTOBER",
+          "validFrom": 1934
+        },
+        {
+          "holidayType": "RELATIVE_TO_WEEKDAY",
+          "key": "ELECTION_DAY",
+          "relation": {
+            "weekday": "TUESDAY",
+            "when": "AFTER"
+          },
+          "fix": {
+            "which": "FIRST",
+            "weekday": "MONDAY",
+            "month": "NOVEMBER"
+          }
+        }
+      ]
+    },
+    {
+      "hierarchy": "wy",
+      "description": "Wyoming",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "month": "FEBRUARY",
+          "day": 22,
+          "validFrom": 1879,
+          "validTo": 1967
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "MARTIN_LUTHER_KING",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "JANUARY",
+          "validFrom": 1986
+        },
+        {
+          "holidayType": "FIXED_WEEKDAY",
+          "key": "WASHINGTONS_BIRTHDAY",
+          "which": "THIRD",
+          "weekday": "MONDAY",
+          "month": "FEBRUARY",
+          "validFrom": 1968
+        }
+      ]
+    }
+  ]
+}

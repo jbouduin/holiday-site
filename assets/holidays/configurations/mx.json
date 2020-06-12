@@ -1,0 +1,164 @@
+{
+  "hierarchy": "mx",
+  "description": "Mexico",
+  "holidays": [
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "ARMY_DAY",
+      "month": "FEBRUARY",
+      "day": 19,
+      "category": "UNOFFICIAL_HOLIDAY"
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "FLAG_DAY",
+      "month": "FEBRUARY",
+      "day": 24,
+      "category": "UNOFFICIAL_HOLIDAY",
+      "validFrom": 1937
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "OIL_EXPROPRIATION_DAY",
+      "month": "MARCH",
+      "day": 18,
+      "category": "UNOFFICIAL_HOLIDAY",
+      "validFrom": 1938
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "COLUMBUS_DAY",
+      "month": "OCTOBER",
+      "day": 12,
+      "category": "UNOFFICIAL_HOLIDAY"
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "NEW_YEAR",
+      "month": "JANUARY",
+      "day": 1,
+      "moves": [
+        {
+          "condition": "IS_SATURDAY",
+          "moveTo": "PREVIOUS",
+          "weekday": "FRIDAY"
+        },
+        {
+          "condition": "IS_SUNDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        }
+      ]
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "LABOUR_DAY",
+      "month": "MAY",
+      "day": 1,
+      "moves": [
+        {
+          "condition": "IS_SATURDAY",
+          "moveTo": "PREVIOUS",
+          "weekday": "FRIDAY"
+        },
+        {
+          "condition": "IS_SUNDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        }
+      ]
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "INDEPENDENCE_DAY",
+      "month": "SEPTEMBER",
+      "day": 16,
+      "moves": [
+        {
+          "condition": "IS_SATURDAY",
+          "moveTo": "PREVIOUS",
+          "weekday": "FRIDAY"
+        },
+        {
+          "condition": "IS_SUNDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        }
+      ]
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "GOVERNMENT_CHANGE",
+      "month": "DECEMBER",
+      "day": 1,
+      "cycle": "SIX_YEARS",
+      "validFrom": 1934,
+      "moves": [
+        {
+          "condition": "IS_SATURDAY",
+          "moveTo": "PREVIOUS",
+          "weekday": "FRIDAY"
+        },
+        {
+          "condition": "IS_SUNDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        }
+      ]
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "CHRISTMAS",
+      "month": "DECEMBER",
+      "day": 25,
+      "moves": [
+        {
+          "condition": "IS_SATURDAY",
+          "moveTo": "PREVIOUS",
+          "weekday": "FRIDAY"
+        },
+        {
+          "condition": "IS_SUNDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        }
+      ]
+    },
+    {
+      "holidayType": "FIXED_WEEKDAY",
+      "key": "CONSTITUTION_DAY",
+      "which": "FIRST",
+      "weekday": "MONDAY",
+      "month": "FEBRUARY"
+    },
+    {
+      "holidayType": "FIXED_WEEKDAY",
+      "key": "JUAREZ_BIRTHDAY",
+      "which": "THIRD",
+      "weekday": "MONDAY",
+      "month": "MARCH"
+    },
+    {
+      "holidayType": "FIXED_WEEKDAY",
+      "key": "REVOLUTION",
+      "which": "THIRD",
+      "weekday": "MONDAY",
+      "month": "NOVEMBER"
+    }
+  ],
+  "subConfigurations": [
+    {
+      "hierarchy": "pue",
+      "description": "Puebla",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "MAY_DAY",
+          "month": "MAY",
+          "day": 5,
+          "category": "UNOFFICIAL_HOLIDAY"
+        }
+      ]
+    }
+  ]
+}

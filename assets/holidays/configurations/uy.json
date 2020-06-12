@@ -1,0 +1,158 @@
+{
+  "hierarchy": "uy",
+  "description": "Uruguay",
+  "holidays": [
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "EASTER"
+    },
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "SHROVE_MONDAY"
+    },
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "CARNIVAL"
+    },
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "MAUNDY_THURSDAY"
+    },
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "GOOD_FRIDAY"
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "NEW_YEAR",
+      "month": "JANUARY",
+      "day": 1
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "EPIPHANY",
+      "month": "JANUARY",
+      "day": 6
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "LANDING_33_EASTERNERS",
+      "month": "APRIL",
+      "day": 19,
+      "moves": [
+        {
+          "condition": "IS_TUESDAY",
+          "moveTo": "PREVIOUS",
+          "weekday": "MONDAY"
+        },
+        {
+          "condition": "IS_WEDNESDAY",
+          "moveTo": "PREVIOUS",
+          "weekday": "MONDAY"
+        },
+        {
+          "condition": "IS_THURSDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        },
+        {
+          "condition": "IS_FRIDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        }
+      ]
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "LABOUR_DAY",
+      "month": "MAY",
+      "day": 1
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "LAS_PIEDRAS",
+      "month": "MAY",
+      "day": 18,
+      "moves": [
+        {
+          "condition": "IS_TUESDAY",
+          "moveTo": "PREVIOUS",
+          "weekday": "MONDAY"
+        },
+        {
+          "condition": "IS_WEDNESDAY",
+          "moveTo": "PREVIOUS",
+          "weekday": "MONDAY"
+        },
+        {
+          "condition": "IS_THURSDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        },
+        {
+          "condition": "IS_FRIDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        }
+      ]
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "ARTIGAS",
+      "month": "JUNE",
+      "day": 19
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "CONSTITUTION_DAY",
+      "month": "JULY",
+      "day": 18
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "INDEPENDENCE_DAY",
+      "month": "AUGUST",
+      "day": 25
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "ALL_SOULS",
+      "month": "NOVEMBER",
+      "day": 2
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "CHRISTMAS",
+      "month": "DECEMBER",
+      "day": 25
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "RACE",
+      "month": "OCTOBER",
+      "day": 12,
+      "moves": [
+        {
+          "condition": "IS_TUESDAY",
+          "moveTo": "PREVIOUS",
+          "weekday": "MONDAY"
+        },
+        {
+          "condition": "IS_WEDNESDAY",
+          "moveTo": "PREVIOUS",
+          "weekday": "MONDAY"
+        },
+        {
+          "condition": "IS_THURSDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        },
+        {
+          "condition": "IS_FRIDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        }
+      ]
+    }
+  ]
+}

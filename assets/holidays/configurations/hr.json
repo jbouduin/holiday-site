@@ -1,0 +1,84 @@
+{
+  "hierarchy": "hr",
+  "description": "Croatia",
+  "holidays": [
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "EASTER"
+    },
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "EASTER_MONDAY"
+    },
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "CORPUS_CHRISTI"
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "NEW_YEAR",
+      "month": "JANUARY",
+      "day": 1
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "EPIPHANY",
+      "month": "JANUARY",
+      "day": 6
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "LABOUR_DAY",
+      "month": "MAY",
+      "day": 1
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "ANTI_FACIST",
+      "month": "JUNE",
+      "day": 22
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "NATIONAL_DAY",
+      "month": "JUNE",
+      "day": 25
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "VICTORY",
+      "month": "AUGUST",
+      "day": 5
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "ASSUMPTION_MARY",
+      "month": "AUGUST",
+      "day": 15
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "INDEPENDENCE_DAY",
+      "month": "OCTOBER",
+      "day": 8
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "ALL_SAINTS",
+      "month": "NOVEMBER",
+      "day": 1
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "CHRISTMAS",
+      "month": "DECEMBER",
+      "day": 25
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "STEPHENS",
+      "month": "DECEMBER",
+      "day": 26
+    }
+  ]
+}

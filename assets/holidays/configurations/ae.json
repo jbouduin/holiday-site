@@ -1,0 +1,66 @@
+{
+  "hierarchy": "ae",
+  "description": "United Arab Emirates",
+  "holidays": [
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "NEW_YEAR",
+      "month": "JANUARY",
+      "day": 1
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "AE_COMMEORATION_DAY",
+      "month": "DECEMBER",
+      "day": 1
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "NATIONAL_DAY",
+      "month": "DECEMBER",
+      "day": 2
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "NATIONAL_DAY",
+      "month": "DECEMBER",
+      "day": 3
+    },
+    {
+      "holidayType": "ISLAMIC",
+      "key": "RAMADAN_END"
+    },
+    {
+      "holidayType": "ISLAMIC",
+      "key": "ID_AL_FITR"
+    },
+    {
+      "holidayType": "ISLAMIC",
+      "key": "ID_AL_FITR_2"
+    },
+    {
+      "holidayType": "ISLAMIC",
+      "key": "ID_AL_FITR_3"
+    },
+    {
+      "holidayType": "ISLAMIC",
+      "key": "ARAFAAT"
+    },
+    {
+      "holidayType": "ISLAMIC",
+      "key": "ID_UL_ADHA"
+    },
+    {
+      "holidayType": "ISLAMIC",
+      "key": "ID_UL_ADHA_2"
+    },
+    {
+      "holidayType": "ISLAMIC",
+      "key": "ID_UL_ADHA_3"
+    },
+    {
+      "holidayType": "ISLAMIC",
+      "key": "NEWYEAR"
+    }
+  ]
+}

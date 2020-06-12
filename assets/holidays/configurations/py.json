@@ -1,0 +1,72 @@
+{
+  "hierarchy": "py",
+  "description": "Paraguay",
+  "holidays": [
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "EASTER"
+    },
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "MAUNDY_THURSDAY"
+    },
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "GOOD_FRIDAY"
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "NEW_YEAR",
+      "month": "JANUARY",
+      "day": 1
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "HEROES",
+      "month": "MARCH",
+      "day": 1
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "LABOUR_DAY",
+      "month": "MAY",
+      "day": 1
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "INDEPENDENCE_DAY",
+      "month": "MAY",
+      "day": 15
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "CHACO_ARMISTICE",
+      "month": "JUNE",
+      "day": 12
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "FOUNDING_ASUNCION",
+      "month": "AUGUST",
+      "day": 15
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "VICTORY",
+      "month": "SEPTEMBER",
+      "day": 29
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "IMMACULATE_CONCEPTION",
+      "month": "DECEMBER",
+      "day": 8
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "CHRISTMAS",
+      "month": "DECEMBER",
+      "day": 25
+    }
+  ]
+}

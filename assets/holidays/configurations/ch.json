@@ -1,0 +1,1036 @@
+{
+  "hierarchy": "ch",
+  "description": "Switzerland",
+  "holidays": [
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "ASCENSION_DAY"
+    },
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "EASTER"
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "NEW_YEAR",
+      "month": "JANUARY",
+      "day": 1
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "NATIONAL_DAY",
+      "month": "AUGUST",
+      "day": 1
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "CHRISTMAS",
+      "month": "DECEMBER",
+      "day": 25
+    }
+  ],
+  "subConfigurations": [
+    {
+      "hierarchy": "ag",
+      "description": "Aargau",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "GOOD_FRIDAY"
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "LABOUR_DAY",
+          "month": "MAY",
+          "day": 1
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "ST_BERCHTHOLD",
+          "month": "JANUARY",
+          "day": 2
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "STEPHENS",
+          "month": "DECEMBER",
+          "day": 26
+        }
+      ]
+    },
+    {
+      "hierarchy": "ai",
+      "description": "Appenzell Innerrhoden",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "GOOD_FRIDAY"
+        },
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "EASTER_MONDAY"
+        },
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "WHIT_MONDAY"
+        },
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "CORPUS_CHRISTI"
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "LABOUR_DAY",
+          "month": "MAY",
+          "day": 1
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "ASSUMPTION_DAY",
+          "month": "AUGUST",
+          "day": 15
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "ALL_SAINTS",
+          "month": "NOVEMBER",
+          "day": 1
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "IMMACULATE_CONCEPTION",
+          "month": "DECEMBER",
+          "day": 8
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "STEPHENS",
+          "month": "DECEMBER",
+          "day": 26
+        }
+      ]
+    },
+    {
+      "hierarchy": "ar",
+      "description": "Appenzell Ausserrhoden",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "EASTER_MONDAY"
+        },
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "WHIT_MONDAY"
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "STEPHENS",
+          "month": "DECEMBER",
+          "day": 26
+        }
+      ]
+    },
+    {
+      "hierarchy": "be",
+      "description": "Bern",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "GOOD_FRIDAY"
+        },
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "EASTER_MONDAY"
+        },
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "WHIT_MONDAY"
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "ST_BERCHTHOLD",
+          "month": "JANUARY",
+          "day": 2
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "STEPHENS",
+          "month": "DECEMBER",
+          "day": 26
+        }
+      ]
+    },
+    {
+      "hierarchy": "bl",
+      "description": "Basel-Landschaft",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "GOOD_FRIDAY"
+        },
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "EASTER_MONDAY"
+        },
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "WHIT_MONDAY"
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "LABOUR_DAY",
+          "month": "MAY",
+          "day": 1
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "STEPHENS",
+          "month": "DECEMBER",
+          "day": 26
+        }
+      ]
+    },
+    {
+      "hierarchy": "bs",
+      "description": "Basel-Stadt",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "GOOD_FRIDAY"
+        },
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "EASTER_MONDAY"
+        },
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "WHIT_MONDAY"
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "LABOUR_DAY",
+          "month": "MAY",
+          "day": 1
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "STEPHENS",
+          "month": "DECEMBER",
+          "day": 26
+        }
+      ]
+    },
+    {
+      "hierarchy": "fr",
+      "description": "Freiburg",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "GOOD_FRIDAY"
+        },
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "EASTER_MONDAY"
+        },
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "WHIT_MONDAY"
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "ST_BERCHTHOLD",
+          "month": "JANUARY",
+          "day": 2
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "STEPHENS",
+          "month": "DECEMBER",
+          "day": 26
+        }
+      ]
+    },
+    {
+      "hierarchy": "ge",
+      "description": "Genf",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "GOOD_FRIDAY"
+        },
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "EASTER_MONDAY"
+        },
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "WHIT_MONDAY"
+        },
+        {
+          "holidayType": "RELATIVE_TO_WEEKDAY",
+          "key": "GENEVAN_FAST",
+          "relation": {
+            "weekday": "THURSDAY",
+            "when": "AFTER"
+          },
+          "fix": {
+            "which": "FIRST",
+            "weekday": "SUNDAY",
+            "month": "SEPTEMBER"
+          }
+        }
+      ]
+    },
+    {
+      "hierarchy": "gl",
+      "description": "Glarus",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "GOOD_FRIDAY"
+        },
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "EASTER_MONDAY"
+        },
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "WHIT_MONDAY"
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "ST_BERCHTHOLD",
+          "month": "JANUARY",
+          "day": 2
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "ALL_SAINTS",
+          "month": "NOVEMBER",
+          "day": 1
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "STEPHENS",
+          "month": "DECEMBER",
+          "day": 26
+        }
+      ]
+    },
+    {
+      "hierarchy": "gr",
+      "description": "Graubünden",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "GOOD_FRIDAY"
+        },
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "EASTER_MONDAY"
+        },
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "WHIT_MONDAY"
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "STEPHENS",
+          "month": "DECEMBER",
+          "day": 26
+        }
+      ]
+    },
+    {
+      "hierarchy": "ju",
+      "description": "Jura",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "GOOD_FRIDAY"
+        },
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "EASTER_MONDAY"
+        },
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "WHIT_MONDAY"
+        },
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "CORPUS_CHRISTI"
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "ST_BERCHTHOLD",
+          "month": "JANUARY",
+          "day": 2
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "LABOUR_DAY",
+          "month": "MAY",
+          "day": 1
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "ASSUMPTION_DAY",
+          "month": "AUGUST",
+          "day": 15
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "ALL_SAINTS",
+          "month": "NOVEMBER",
+          "day": 1
+        }
+      ]
+    },
+    {
+      "hierarchy": "lu",
+      "description": "Luzern",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "GOOD_FRIDAY"
+        },
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "EASTER_MONDAY"
+        },
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "WHIT_MONDAY"
+        },
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "CORPUS_CHRISTI"
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "ST_BERCHTHOLD",
+          "month": "JANUARY",
+          "day": 2
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "ASSUMPTION_DAY",
+          "month": "AUGUST",
+          "day": 15
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "ALL_SAINTS",
+          "month": "NOVEMBER",
+          "day": 1
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "IMMACULATE_CONCEPTION",
+          "month": "DECEMBER",
+          "day": 8
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "STEPHENS",
+          "month": "DECEMBER",
+          "day": 26
+        }
+      ]
+    },
+    {
+      "hierarchy": "ne",
+      "description": "Neuenburg",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "GOOD_FRIDAY"
+        },
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "EASTER_MONDAY"
+        },
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "WHIT_MONDAY"
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "ST_BERCHTHOLD",
+          "month": "JANUARY",
+          "day": 2
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "ASSUMPTION_DAY",
+          "month": "AUGUST",
+          "day": 15
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "LABOUR_DAY",
+          "month": "MAY",
+          "day": 1
+        }
+      ]
+    },
+    {
+      "hierarchy": "nw",
+      "description": "Nidwalden",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "GOOD_FRIDAY"
+        },
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "EASTER_MONDAY"
+        },
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "WHIT_MONDAY"
+        },
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "CORPUS_CHRISTI"
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "ST_JOSEPH",
+          "month": "MARCH",
+          "day": 19
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "ASSUMPTION_DAY",
+          "month": "AUGUST",
+          "day": 15
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "ALL_SAINTS",
+          "month": "NOVEMBER",
+          "day": 1
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "IMMACULATE_CONCEPTION",
+          "month": "DECEMBER",
+          "day": 8
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "STEPHENS",
+          "month": "DECEMBER",
+          "day": 26
+        }
+      ]
+    },
+    {
+      "hierarchy": "ow",
+      "description": "Obwalden",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "GOOD_FRIDAY"
+        },
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "EASTER_MONDAY"
+        },
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "WHIT_MONDAY"
+        },
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "CORPUS_CHRISTI"
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "ST_BERCHTHOLD",
+          "month": "JANUARY",
+          "day": 2
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "ASSUMPTION_DAY",
+          "month": "AUGUST",
+          "day": 15
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "ALL_SAINTS",
+          "month": "NOVEMBER",
+          "day": 1
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "IMMACULATE_CONCEPTION",
+          "month": "DECEMBER",
+          "day": 8
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "STEPHENS",
+          "month": "DECEMBER",
+          "day": 26
+        }
+      ]
+    },
+    {
+      "hierarchy": "sg",
+      "description": "St.Gallen",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "GOOD_FRIDAY"
+        },
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "EASTER_MONDAY"
+        },
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "WHIT_MONDAY"
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "STEPHENS",
+          "month": "DECEMBER",
+          "day": 26
+        }
+      ]
+    },
+    {
+      "hierarchy": "sh",
+      "description": "Schaffhausen",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "GOOD_FRIDAY"
+        },
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "EASTER_MONDAY"
+        },
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "WHIT_MONDAY"
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "ST_BERCHTHOLD",
+          "month": "JANUARY",
+          "day": 2
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "LABOUR_DAY",
+          "month": "MAY",
+          "day": 1
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "STEPHENS",
+          "month": "DECEMBER",
+          "day": 26
+        }
+      ]
+    },
+    {
+      "hierarchy": "so",
+      "description": "Solothurn",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "GOOD_FRIDAY"
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "ST_BERCHTHOLD",
+          "month": "JANUARY",
+          "day": 2
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "LABOUR_DAY",
+          "month": "MAY",
+          "day": 1
+        }
+      ]
+    },
+    {
+      "hierarchy": "sz",
+      "description": "Schwyz",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "GOOD_FRIDAY"
+        },
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "EASTER_MONDAY"
+        },
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "WHIT_MONDAY"
+        },
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "CORPUS_CHRISTI"
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "EPIPHANY",
+          "month": "JANUARY",
+          "day": 6
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "ST_JOSEPH",
+          "month": "MARCH",
+          "day": 19
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "ASSUMPTION_DAY",
+          "month": "AUGUST",
+          "day": 15
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "ALL_SAINTS",
+          "month": "NOVEMBER",
+          "day": 1
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "IMMACULATE_CONCEPTION",
+          "month": "DECEMBER",
+          "day": 8
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "STEPHENS",
+          "month": "DECEMBER",
+          "day": 26
+        }
+      ]
+    },
+    {
+      "hierarchy": "tg",
+      "description": "Thurgau",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "GOOD_FRIDAY"
+        },
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "EASTER_MONDAY"
+        },
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "WHIT_MONDAY"
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "ST_BERCHTHOLD",
+          "month": "JANUARY",
+          "day": 2
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "LABOUR_DAY",
+          "month": "MAY",
+          "day": 1
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "STEPHENS",
+          "month": "DECEMBER",
+          "day": 26
+        }
+      ]
+    },
+    {
+      "hierarchy": "ti",
+      "description": "Tessin",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "EASTER_MONDAY"
+        },
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "WHIT_MONDAY"
+        },
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "CORPUS_CHRISTI"
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "EPIPHANY",
+          "month": "JANUARY",
+          "day": 6
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "ST_JOSEPH",
+          "month": "MARCH",
+          "day": 19
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "LABOUR_DAY",
+          "month": "MAY",
+          "day": 1
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "ASSUMPTION_DAY",
+          "month": "AUGUST",
+          "day": 15
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "ALL_SAINTS",
+          "month": "NOVEMBER",
+          "day": 1
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "IMMACULATE_CONCEPTION",
+          "month": "DECEMBER",
+          "day": 8
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "STEPHENS",
+          "month": "DECEMBER",
+          "day": 26
+        }
+      ]
+    },
+    {
+      "hierarchy": "ur",
+      "description": "Uri",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "GOOD_FRIDAY"
+        },
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "EASTER_MONDAY"
+        },
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "WHIT_MONDAY"
+        },
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "CORPUS_CHRISTI"
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "EPIPHANY",
+          "month": "JANUARY",
+          "day": 6
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "ST_JOSEPH",
+          "month": "MARCH",
+          "day": 19
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "ASSUMPTION_DAY",
+          "month": "AUGUST",
+          "day": 15
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "ALL_SAINTS",
+          "month": "NOVEMBER",
+          "day": 1
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "IMMACULATE_CONCEPTION",
+          "month": "DECEMBER",
+          "day": 8
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "STEPHENS",
+          "month": "DECEMBER",
+          "day": 26
+        }
+      ]
+    },
+    {
+      "hierarchy": "vd",
+      "description": "Waadt",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "GOOD_FRIDAY"
+        },
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "EASTER_MONDAY"
+        },
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "WHIT_MONDAY"
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "ST_BERCHTHOLD",
+          "month": "JANUARY",
+          "day": 2
+        },
+        {
+          "holidayType": "RELATIVE_TO_WEEKDAY",
+          "key": "FEDERAL_DAY_THANKSGIVING_MON",
+          "relation": {
+            "weekday": "MONDAY",
+            "when": "AFTER"
+          },
+          "fix": {
+            "which": "THIRD",
+            "weekday": "SUNDAY",
+            "month": "SEPTEMBER"
+          }
+        }
+      ]
+    },
+    {
+      "hierarchy": "vs",
+      "description": "Wallis",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "CORPUS_CHRISTI"
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "ST_JOSEPH",
+          "month": "MARCH",
+          "day": 19
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "ASSUMPTION_DAY",
+          "month": "AUGUST",
+          "day": 15
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "ALL_SAINTS",
+          "month": "NOVEMBER",
+          "day": 1
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "IMMACULATE_CONCEPTION",
+          "month": "DECEMBER",
+          "day": 8
+        }
+      ]
+    },
+    {
+      "hierarchy": "zg",
+      "description": "Zug",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "GOOD_FRIDAY"
+        },
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "EASTER_MONDAY"
+        },
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "WHIT_MONDAY"
+        },
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "CORPUS_CHRISTI"
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "ST_BERCHTHOLD",
+          "month": "JANUARY",
+          "day": 2
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "ASSUMPTION_DAY",
+          "month": "AUGUST",
+          "day": 15
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "ALL_SAINTS",
+          "month": "NOVEMBER",
+          "day": 1
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "IMMACULATE_CONCEPTION",
+          "month": "DECEMBER",
+          "day": 8
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "STEPHENS",
+          "month": "DECEMBER",
+          "day": 26
+        }
+      ]
+    },
+    {
+      "hierarchy": "zh",
+      "description": "Zürich",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "GOOD_FRIDAY"
+        },
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "EASTER_MONDAY"
+        },
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "WHIT_MONDAY"
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "ST_BERCHTHOLD",
+          "month": "JANUARY",
+          "day": 2
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "LABOUR_DAY",
+          "month": "MAY",
+          "day": 1
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "STEPHENS",
+          "month": "DECEMBER",
+          "day": 26
+        }
+      ]
+    }
+  ]
+}

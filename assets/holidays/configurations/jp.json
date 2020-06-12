@@ -1,0 +1,177 @@
+{
+  "hierarchy": "jp",
+  "description": "Japan",
+  "holidays": [
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "NEW_YEAR",
+      "month": "JANUARY",
+      "day": 1,
+      "validFrom": 1948
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "COMING_OF_AGE",
+      "month": "JANUARY",
+      "day": 15,
+      "validFrom": 1948,
+      "validTo": 1999
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "FOUNDATION",
+      "month": "FEBRUARY",
+      "day": 11,
+      "validFrom": 1967
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "SHOWA_DAY",
+      "month": "APRIL",
+      "day": 29
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "CONSTITUTION_DAY",
+      "month": "MAY",
+      "day": 3,
+      "validFrom": 1948
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "GREENERY_DAY",
+      "month": "MAY",
+      "day": 4,
+      "validFrom": 2007
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "CHILDRENS_DAY",
+      "month": "MAY",
+      "day": 5,
+      "validFrom": 1948
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "NAVY_DAY",
+      "month": "JULY",
+      "day": 20,
+      "validTo": 2002
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "RESPECT_AGED_DAY",
+      "month": "SEPTEMBER",
+      "day": 15,
+      "validFrom": 1966,
+      "validTo": 2002
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "HEALTH_SPORTS",
+      "month": "OCTOBER",
+      "day": 10,
+      "validFrom": 1966,
+      "validTo": 1999
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "CULTURE_DAY",
+      "month": "NOVEMBER",
+      "day": 3,
+      "validFrom": 1948,
+      "moves": [
+        {
+          "condition": "IS_SUNDAY",
+          "moveTo": "NEXT",
+          "weekday": "MONDAY"
+        }
+      ]
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "LABOUR_DAY",
+      "month": "NOVEMBER",
+      "day": 23,
+      "validFrom": 1948
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "EMPERORS_BIRTHDAY",
+      "month": "DECEMBER",
+      "day": 23,
+      "validFrom": 1990
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "IMPERIAL_DAY",
+      "month": "APRIL",
+      "day": 10,
+      "validFrom": 1959,
+      "validTo": 1959
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "IMPERIAL_DAY",
+      "month": "FEBRUARY",
+      "day": 24,
+      "validFrom": 1989,
+      "validTo": 1989
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "IMPERIAL_DAY",
+      "month": "NOVEMBER",
+      "day": 12,
+      "validFrom": 1990,
+      "validTo": 1990
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "IMPERIAL_DAY",
+      "month": "JUNE",
+      "day": 9,
+      "validFrom": 1993,
+      "validTo": 1993
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "MOUNTAIN_DAY",
+      "month": "AUGUST",
+      "day": 11,
+      "validFrom": 2016
+    },
+    {
+      "holidayType": "FIXED_WEEKDAY",
+      "key": "COMING_OF_AGE",
+      "which": "SECOND",
+      "weekday": "MONDAY",
+      "month": "JANUARY",
+      "validFrom": 2000
+    },
+    {
+      "holidayType": "FIXED_WEEKDAY",
+      "key": "NAVY_DAY",
+      "which": "THIRD",
+      "weekday": "MONDAY",
+      "month": "JULY",
+      "validFrom": 2003
+    },
+    {
+      "holidayType": "FIXED_WEEKDAY",
+      "key": "RESPECT_AGED_DAY",
+      "which": "THIRD",
+      "weekday": "MONDAY",
+      "month": "SEPTEMBER",
+      "validFrom": 2003
+    },
+    {
+      "holidayType": "FIXED_WEEKDAY",
+      "key": "HEALTH_SPORTS",
+      "which": "SECOND",
+      "weekday": "MONDAY",
+      "month": "OCTOBER",
+      "validFrom": 2000
+    }
+  ]
+}

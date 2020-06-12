@@ -1,0 +1,158 @@
+{
+  "hierarchy": "ba",
+  "description": "Bosnia and Herzegovina",
+  "holidays": [
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "NEW_YEAR",
+      "month": "JANUARY",
+      "day": 1
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "CHRISTMAS",
+      "month": "JANUARY",
+      "day": 7
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "NEW_YEAR",
+      "month": "JANUARY",
+      "day": 14
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "MAY_DAY",
+      "month": "MAY",
+      "day": 1
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "ST_GEORGE",
+      "month": "MAY",
+      "day": 6
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "ST_VITUS",
+      "month": "JUNE",
+      "day": 28
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "ST_PETER",
+      "month": "JULY",
+      "day": 12
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "ST_ELIJAH",
+      "month": "AUGUST",
+      "day": 2
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "ASSUMPTION_DAY",
+      "month": "AUGUST",
+      "day": 15
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "ASSUMPTION_DAY",
+      "month": "AUGUST",
+      "day": 28
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "NATIVITY_MARY",
+      "month": "SEPTEMBER",
+      "day": 8
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "NATIVITY_MARY",
+      "month": "SEPTEMBER",
+      "day": 21
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "ALL_SAINTS",
+      "month": "NOVEMBER",
+      "day": 1
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "ALL_SOULS",
+      "month": "NOVEMBER",
+      "day": 2
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "ST_DEMETRIUS",
+      "month": "NOVEMBER",
+      "day": 8
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "CHRISTMAS",
+      "month": "DECEMBER",
+      "day": 25
+    },
+    {
+      "holidayType": "ISLAMIC",
+      "key": "ID_AL_FITR"
+    },
+    {
+      "holidayType": "ISLAMIC",
+      "key": "ID_UL_ADHA"
+    },
+    {
+      "holidayType": "ISLAMIC",
+      "key": "MAWLID_AN_NABI"
+    }
+  ],
+  "subConfigurations": [
+    {
+      "hierarchy": "rs",
+      "description": "Republika Srpska",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "REPUBLIC_DAY",
+          "month": "JANUARY",
+          "day": 9
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "VICTORY",
+          "month": "MAY",
+          "day": 9
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "DAYTON",
+          "month": "NOVEMBER",
+          "day": 21
+        }
+      ]
+    },
+    {
+      "hierarchy": "fbh",
+      "description": "Federation of Bosnia and Herzegovina",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "INDEPENDENCE_DAY",
+          "month": "MARCH",
+          "day": 1
+        },
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "NATIONAL_DAY",
+          "month": "NOVEMBER",
+          "day": 25
+        }
+      ]
+    }
+  ]
+}

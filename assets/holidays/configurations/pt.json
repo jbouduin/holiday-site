@@ -1,0 +1,3300 @@
+{
+  "hierarchy": "pt",
+  "description": "Portugal",
+  "holidays": [
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "EASTER"
+    },
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "CARNIVAL"
+    },
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "GOOD_FRIDAY"
+    },
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "CORPUS_CHRISTI"
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "NEW_YEAR",
+      "month": "JANUARY",
+      "day": 1
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "LABOUR_DAY",
+      "month": "MAY",
+      "day": 1
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "FREEDOM_DEMOCRACY",
+      "month": "APRIL",
+      "day": 25
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "NATIONAL_DAY",
+      "month": "JUNE",
+      "day": 10
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "ASSUMPTION_DAY",
+      "month": "AUGUST",
+      "day": 15
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "REPUBLIC_DAY",
+      "month": "OCTOBER",
+      "day": 5
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "ALL_SAINTS",
+      "month": "NOVEMBER",
+      "day": 1
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "INDEPENDENCE_DAY",
+      "month": "DECEMBER",
+      "day": 1
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "IMMACULATE_CONCEPTION",
+      "month": "DECEMBER",
+      "day": 8
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "CHRISTMAS",
+      "month": "DECEMBER",
+      "day": 25
+    }
+  ],
+  "subConfigurations": [
+    {
+      "hierarchy": "ABT",
+      "description": "Abrantes",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 14
+        }
+      ]
+    },
+    {
+      "hierarchy": "AGD",
+      "description": "Águeda",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "PENTECOST_MONDAY",
+          "category": "OFFICIAL_HOLIDAY"
+        }
+      ]
+    },
+    {
+      "hierarchy": "AGB",
+      "description": "Aguiar da Beira",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 24
+        }
+      ]
+    },
+    {
+      "hierarchy": "ADL",
+      "description": "Alandroal",
+      "holidays": []
+    },
+    {
+      "hierarchy": "ALB",
+      "description": "Albergaria-a-Velha",
+      "holidays": []
+    },
+    {
+      "hierarchy": "ABF",
+      "description": "Albufeira",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "AUGUST",
+          "day": 20
+        }
+      ]
+    },
+    {
+      "hierarchy": "ASL",
+      "description": "Alcácer do Sal",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 24
+        }
+      ]
+    },
+    {
+      "hierarchy": "ACN",
+      "description": "Alcanena",
+      "holidays": []
+    },
+    {
+      "hierarchy": "ACB",
+      "description": "Alcobaça",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "AUGUST",
+          "day": 20
+        }
+      ]
+    },
+    {
+      "hierarchy": "ACH",
+      "description": "Alcochete",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 24
+        }
+      ]
+    },
+    {
+      "hierarchy": "ACT",
+      "description": "Alcoutim",
+      "holidays": [
+        {
+          "holidayType": "RELATIVE_TO_WEEKDAY",
+          "key": "CITY_DAY",
+          "relation": {
+            "weekday": "SUNDAY",
+            "when": "AFTER"
+          },
+          "fix": {
+            "which": "FIRST",
+            "weekday": "FRIDAY",
+            "month": "SEPTEMBER"
+          }
+        }
+      ]
+    },
+    {
+      "hierarchy": "ALQ",
+      "description": "Alenquer",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 2
+        }
+      ]
+    },
+    {
+      "hierarchy": "AFE",
+      "description": "Alfândega da Fé",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 29
+        }
+      ]
+    },
+    {
+      "hierarchy": "ALJ",
+      "description": "Alijó",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "NOVEMBER",
+          "day": 11
+        }
+      ]
+    },
+    {
+      "hierarchy": "AJZ",
+      "description": "Aljezur",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "AUGUST",
+          "day": 29
+        }
+      ]
+    },
+    {
+      "hierarchy": "AJT",
+      "description": "Aljustrel",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 13
+        }
+      ]
+    },
+    {
+      "hierarchy": "ALM",
+      "description": "Almada",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 24
+        }
+      ]
+    },
+    {
+      "hierarchy": "ALD",
+      "description": "Almeida",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JULY",
+          "day": 2
+        }
+      ]
+    },
+    {
+      "hierarchy": "ALR",
+      "description": "Almeirim",
+      "holidays": []
+    },
+    {
+      "hierarchy": "ADV",
+      "description": "Almodôvar",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 24
+        }
+      ]
+    },
+    {
+      "hierarchy": "APC",
+      "description": "Alpiarça",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "APRIL",
+          "day": 2
+        }
+      ]
+    },
+    {
+      "hierarchy": "ALT",
+      "description": "Alter do Chão",
+      "holidays": []
+    },
+    {
+      "hierarchy": "AVZ",
+      "description": "Alvaiázere",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 13
+        }
+      ]
+    },
+    {
+      "hierarchy": "AVT",
+      "description": "Alvito",
+      "holidays": []
+    },
+    {
+      "hierarchy": "AMD",
+      "description": "Amadora",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "SEPTEMBER",
+          "day": 11
+        }
+      ]
+    },
+    {
+      "hierarchy": "AMT",
+      "description": "Amarante",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JULY",
+          "day": 8
+        }
+      ]
+    },
+    {
+      "hierarchy": "AMR",
+      "description": "Amares",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 13
+        }
+      ]
+    },
+    {
+      "hierarchy": "AND",
+      "description": "Anadia",
+      "holidays": []
+    },
+    {
+      "hierarchy": "AGH",
+      "description": "Angra do Heroísmo",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 24
+        }
+      ]
+    },
+    {
+      "hierarchy": "ANS",
+      "description": "Ansião",
+      "holidays": []
+    },
+    {
+      "hierarchy": "AVV",
+      "description": "Arcos de Valdevez",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 11
+        }
+      ]
+    },
+    {
+      "hierarchy": "AGN",
+      "description": "Arganil",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "SEPTEMBER",
+          "day": 7
+        }
+      ]
+    },
+    {
+      "hierarchy": "AMM",
+      "description": "Armamar",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 24
+        }
+      ]
+    },
+    {
+      "hierarchy": "ARC",
+      "description": "Arouca",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "MAY",
+          "day": 2
+        }
+      ]
+    },
+    {
+      "hierarchy": "ARL",
+      "description": "Arraiolos",
+      "holidays": []
+    },
+    {
+      "hierarchy": "ARR",
+      "description": "Arronches",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 24
+        }
+      ]
+    },
+    {
+      "hierarchy": "ARV",
+      "description": "Arruda dos Vinhos",
+      "holidays": []
+    },
+    {
+      "hierarchy": "AVR",
+      "description": "Aveiro",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "MAY",
+          "day": 12
+        }
+      ]
+    },
+    {
+      "hierarchy": "AVS",
+      "description": "Avis",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "EASTER_MONDAY"
+        }
+      ]
+    },
+    {
+      "hierarchy": "AZB",
+      "description": "Azambuja",
+      "holidays": []
+    },
+    {
+      "hierarchy": "BAO",
+      "description": "Baião",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "AUGUST",
+          "day": 24
+        }
+      ]
+    },
+    {
+      "hierarchy": "BCL",
+      "description": "Barcelos",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "MAY",
+          "day": 3
+        }
+      ]
+    },
+    {
+      "hierarchy": "BRC",
+      "description": "Barrancos",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "AUGUST",
+          "day": 28
+        }
+      ]
+    },
+    {
+      "hierarchy": "BRR",
+      "description": "Barreiro",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 28
+        }
+      ]
+    },
+    {
+      "hierarchy": "BTL",
+      "description": "Batalha",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "AUGUST",
+          "day": 14
+        }
+      ]
+    },
+    {
+      "hierarchy": "BJA",
+      "description": "Beja",
+      "holidays": []
+    },
+    {
+      "hierarchy": "BMT",
+      "description": "Belmonte",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "APRIL",
+          "day": 26
+        }
+      ]
+    },
+    {
+      "hierarchy": "BNV",
+      "description": "Benavente",
+      "holidays": []
+    },
+    {
+      "hierarchy": "BBR",
+      "description": "Bombarral",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 29
+        }
+      ]
+    },
+    {
+      "hierarchy": "BRB",
+      "description": "Borba",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "EASTER_MONDAY"
+        }
+      ]
+    },
+    {
+      "hierarchy": "BTC",
+      "description": "Boticas",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "NOVEMBER",
+          "day": 6
+        }
+      ]
+    },
+    {
+      "hierarchy": "BRG",
+      "description": "Braga",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 24
+        }
+      ]
+    },
+    {
+      "hierarchy": "BGC",
+      "description": "Bragança",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "AUGUST",
+          "day": 22
+        }
+      ]
+    },
+    {
+      "hierarchy": "CBC",
+      "description": "Cabeceiras de Basto",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "SEPTEMBER",
+          "day": 29
+        }
+      ]
+    },
+    {
+      "hierarchy": "CDV",
+      "description": "Cadaval",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JANUARY",
+          "day": 13
+        }
+      ]
+    },
+    {
+      "hierarchy": "CLD",
+      "description": "Caldas da Rainha",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "MAY",
+          "day": 15
+        }
+      ]
+    },
+    {
+      "hierarchy": "CHT",
+      "description": "Calheta (Açores)",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "NOVEMBER",
+          "day": 25
+        }
+      ]
+    },
+    {
+      "hierarchy": "CLT",
+      "description": "Calheta (Madeira)",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 24
+        }
+      ]
+    },
+    {
+      "hierarchy": "CML",
+      "description": "Câmara de Lobos",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "OCTOBER",
+          "day": 16
+        }
+      ]
+    },
+    {
+      "hierarchy": "CMN",
+      "description": "Caminha",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "EASTER_MONDAY"
+        }
+      ]
+    },
+    {
+      "hierarchy": "CMR",
+      "description": "Campo Maior",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "EASTER_MONDAY"
+        }
+      ]
+    },
+    {
+      "hierarchy": "CNT",
+      "description": "Cantanhede",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JULY",
+          "day": 25
+        }
+      ]
+    },
+    {
+      "hierarchy": "CRZ",
+      "description": "Carrazeda de Ansiães",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "AUGUST",
+          "day": 31
+        }
+      ]
+    },
+    {
+      "hierarchy": "CTX",
+      "description": "Cartaxo",
+      "holidays": []
+    },
+    {
+      "hierarchy": "CSC",
+      "description": "Cascais",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 13
+        }
+      ]
+    },
+    {
+      "hierarchy": "CTB",
+      "description": "Castelo Branco",
+      "holidays": []
+    },
+    {
+      "hierarchy": "CPV",
+      "description": "Castelo de Paiva",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 24
+        }
+      ]
+    },
+    {
+      "hierarchy": "CVD",
+      "description": "Castelo de Vide",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "EASTER_MONDAY"
+        }
+      ]
+    },
+    {
+      "hierarchy": "CDR",
+      "description": "Castro Daire",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 29
+        }
+      ]
+    },
+    {
+      "hierarchy": "CTM",
+      "description": "Castro Marim",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 24
+        }
+      ]
+    },
+    {
+      "hierarchy": "CVR",
+      "description": "Castro Verde",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 29
+        }
+      ]
+    },
+    {
+      "hierarchy": "CLB",
+      "description": "Celorico da Beira",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "MAY",
+          "day": 13
+        }
+      ]
+    },
+    {
+      "hierarchy": "CBT",
+      "description": "Celorico de Basto",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 29
+        }
+      ]
+    },
+    {
+      "hierarchy": "CHM",
+      "description": "Chamusca",
+      "holidays": []
+    },
+    {
+      "hierarchy": "CHV",
+      "description": "Chaves",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JULY",
+          "day": 8
+        }
+      ]
+    },
+    {
+      "hierarchy": "CNF",
+      "description": "Cinfães",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 24
+        }
+      ]
+    },
+    {
+      "hierarchy": "CBR",
+      "description": "Coimbra",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JULY",
+          "day": 4
+        }
+      ]
+    },
+    {
+      "hierarchy": "CDN",
+      "description": "Condeixa-a-Nova",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JULY",
+          "day": 24
+        }
+      ]
+    },
+    {
+      "hierarchy": "CNS",
+      "description": "Constância",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "EASTER_MONDAY"
+        }
+      ]
+    },
+    {
+      "hierarchy": "CCH",
+      "description": "Coruche",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "AUGUST",
+          "day": 17
+        }
+      ]
+    },
+    {
+      "hierarchy": "CVL",
+      "description": "Covilhã",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "OCTOBER",
+          "day": 20
+        }
+      ]
+    },
+    {
+      "hierarchy": "CRT",
+      "description": "Crato",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "EASTER_MONDAY"
+        }
+      ]
+    },
+    {
+      "hierarchy": "CBA",
+      "description": "Cuba",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "EASTER_MONDAY"
+        }
+      ]
+    },
+    {
+      "hierarchy": "ELV",
+      "description": "Elvas",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JANUARY",
+          "day": 14
+        }
+      ]
+    },
+    {
+      "hierarchy": "ENT",
+      "description": "Entroncamento",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "NOVEMBER",
+          "day": 24
+        }
+      ]
+    },
+    {
+      "hierarchy": "ESP",
+      "description": "Espinho",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 16
+        }
+      ]
+    },
+    {
+      "hierarchy": "EPS",
+      "description": "Esposende",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "AUGUST",
+          "day": 19
+        }
+      ]
+    },
+    {
+      "hierarchy": "ETR",
+      "description": "Estarreja",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 13
+        }
+      ]
+    },
+    {
+      "hierarchy": "ETZ",
+      "description": "Estremoz",
+      "holidays": []
+    },
+    {
+      "hierarchy": "EVR",
+      "description": "Évora",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 29
+        }
+      ]
+    },
+    {
+      "hierarchy": "FAF",
+      "description": "Fafe",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "MAY",
+          "day": 16
+        }
+      ]
+    },
+    {
+      "hierarchy": "FAR",
+      "description": "Faro",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "SEPTEMBER",
+          "day": 7
+        }
+      ]
+    },
+    {
+      "hierarchy": "FLG",
+      "description": "Felgueiras",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 29
+        }
+      ]
+    },
+    {
+      "hierarchy": "FAL",
+      "description": "Ferreira do Alentejo",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "MARCH",
+          "day": 5
+        }
+      ]
+    },
+    {
+      "hierarchy": "FZZ",
+      "description": "Ferreira do Zêzere",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 13
+        }
+      ]
+    },
+    {
+      "hierarchy": "FIG",
+      "description": "Figueira da Foz",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 24
+        }
+      ]
+    },
+    {
+      "hierarchy": "FCR",
+      "description": "Figueira de Castelo Rodrigo",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JULY",
+          "day": 7
+        }
+      ]
+    },
+    {
+      "hierarchy": "FVN",
+      "description": "Figueiró dos Vinhos",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 24
+        }
+      ]
+    },
+    {
+      "hierarchy": "FAG",
+      "description": "Fornos de Algodres",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "SEPTEMBER",
+          "day": 29
+        }
+      ]
+    },
+    {
+      "hierarchy": "FEC",
+      "description": "Freixo de Espada à Cinta",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "EASTER_MONDAY"
+        }
+      ]
+    },
+    {
+      "hierarchy": "FTR",
+      "description": "Fronteira",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "APRIL",
+          "day": 6
+        }
+      ]
+    },
+    {
+      "hierarchy": "FNC",
+      "description": "Funchal",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "AUGUST",
+          "day": 21
+        }
+      ]
+    },
+    {
+      "hierarchy": "FND",
+      "description": "Fundão",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "SEPTEMBER",
+          "day": 15
+        }
+      ]
+    },
+    {
+      "hierarchy": "GAV",
+      "description": "Gavião",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "NOVEMBER",
+          "day": 23
+        }
+      ]
+    },
+    {
+      "hierarchy": "GOI",
+      "description": "Góis",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "AUGUST",
+          "day": 13
+        }
+      ]
+    },
+    {
+      "hierarchy": "GLG",
+      "description": "Golegã",
+      "holidays": []
+    },
+    {
+      "hierarchy": "GDM",
+      "description": "Gondomar",
+      "holidays": []
+    },
+    {
+      "hierarchy": "GVA",
+      "description": "Gouveia",
+      "holidays": []
+    },
+    {
+      "hierarchy": "GDL",
+      "description": "Grândola",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "OCTOBER",
+          "day": 22
+        }
+      ]
+    },
+    {
+      "hierarchy": "GRD",
+      "description": "Guarda",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "NOVEMBER",
+          "day": 27
+        }
+      ]
+    },
+    {
+      "hierarchy": "GMR",
+      "description": "Guimarães",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 24
+        }
+      ]
+    },
+    {
+      "hierarchy": "HRT",
+      "description": "Horta",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 24
+        }
+      ]
+    },
+    {
+      "hierarchy": "IDN",
+      "description": "Idanha-a-Nova",
+      "holidays": []
+    },
+    {
+      "hierarchy": "ILH",
+      "description": "Ílhavo",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "EASTER_MONDAY"
+        }
+      ]
+    },
+    {
+      "hierarchy": "LAG",
+      "description": "Lagoa (Açores)",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "APRIL",
+          "day": 11
+        }
+      ]
+    },
+    {
+      "hierarchy": "LGA",
+      "description": "Lagoa (Algarve)",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "SEPTEMBER",
+          "day": 8
+        }
+      ]
+    },
+    {
+      "hierarchy": "LGS",
+      "description": "Lagos",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "OCTOBER",
+          "day": 27
+        }
+      ]
+    },
+    {
+      "hierarchy": "LGF",
+      "description": "Lajes das Flores",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 24
+        }
+      ]
+    },
+    {
+      "hierarchy": "LGP",
+      "description": "Lajes do Pico",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 29
+        }
+      ]
+    },
+    {
+      "hierarchy": "LMG",
+      "description": "Lamego",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "SEPTEMBER",
+          "day": 8
+        }
+      ]
+    },
+    {
+      "hierarchy": "LRA",
+      "description": "Leiria",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "MAY",
+          "day": 22
+        }
+      ]
+    },
+    {
+      "hierarchy": "LSB",
+      "description": "Lisboa",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 13
+        }
+      ]
+    },
+    {
+      "hierarchy": "LLE",
+      "description": "Loulé",
+      "holidays": []
+    },
+    {
+      "hierarchy": "LRS",
+      "description": "Loures",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JULY",
+          "day": 26
+        }
+      ]
+    },
+    {
+      "hierarchy": "LNH",
+      "description": "Lourinhã",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 24
+        }
+      ]
+    },
+    {
+      "hierarchy": "LSA",
+      "description": "Lousã",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 24
+        }
+      ]
+    },
+    {
+      "hierarchy": "MAC",
+      "description": "Mação",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "EASTER_MONDAY"
+        }
+      ]
+    },
+    {
+      "hierarchy": "MCD",
+      "description": "Macedo de Cavaleiros",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 29
+        }
+      ]
+    },
+    {
+      "hierarchy": "MCH",
+      "description": "Machico",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "OCTOBER",
+          "day": 9
+        }
+      ]
+    },
+    {
+      "hierarchy": "MAD",
+      "description": "Madalena",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JULY",
+          "day": 22
+        }
+      ]
+    },
+    {
+      "hierarchy": "MFR",
+      "description": "Mafra",
+      "holidays": []
+    },
+    {
+      "hierarchy": "MAI",
+      "description": "Maia",
+      "holidays": []
+    },
+    {
+      "hierarchy": "MGL",
+      "description": "Mangualde",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "SEPTEMBER",
+          "day": 8
+        }
+      ]
+    },
+    {
+      "hierarchy": "MTG",
+      "description": "Manteigas",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "MARCH",
+          "day": 4
+        }
+      ]
+    },
+    {
+      "hierarchy": "MCN",
+      "description": "Marco de Canaveses",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "SEPTEMBER",
+          "day": 8
+        }
+      ]
+    },
+    {
+      "hierarchy": "MGR",
+      "description": "Marinha Grande",
+      "holidays": []
+    },
+    {
+      "hierarchy": "MRV",
+      "description": "Marvão",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "SEPTEMBER",
+          "day": 8
+        }
+      ]
+    },
+    {
+      "hierarchy": "MTS",
+      "description": "Matosinhos",
+      "holidays": []
+    },
+    {
+      "hierarchy": "MLD",
+      "description": "Mealhada",
+      "holidays": []
+    },
+    {
+      "hierarchy": "MED",
+      "description": "Mêda",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "NOVEMBER",
+          "day": 11
+        }
+      ]
+    },
+    {
+      "hierarchy": "MLG",
+      "description": "Melgaço",
+      "holidays": []
+    },
+    {
+      "hierarchy": "MTL",
+      "description": "Mértola",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 24
+        }
+      ]
+    },
+    {
+      "hierarchy": "MSF",
+      "description": "Mesão Frio",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "NOVEMBER",
+          "day": 30
+        }
+      ]
+    },
+    {
+      "hierarchy": "MIR",
+      "description": "Mira",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JULY",
+          "day": 25
+        }
+      ]
+    },
+    {
+      "hierarchy": "MCV",
+      "description": "Miranda do Corvo",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 1
+        }
+      ]
+    },
+    {
+      "hierarchy": "MDR",
+      "description": "Miranda do Douro",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JULY",
+          "day": 10
+        }
+      ]
+    },
+    {
+      "hierarchy": "MDL",
+      "description": "Mirandela",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "MAY",
+          "day": 25
+        }
+      ]
+    },
+    {
+      "hierarchy": "MGD",
+      "description": "Mogadouro",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "OCTOBER",
+          "day": 15
+        }
+      ]
+    },
+    {
+      "hierarchy": "MBR",
+      "description": "Moimenta da Beira",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 24
+        }
+      ]
+    },
+    {
+      "hierarchy": "MTA",
+      "description": "Moita",
+      "holidays": []
+    },
+    {
+      "hierarchy": "MNC",
+      "description": "Monção",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "EASTER_MONDAY"
+        }
+      ]
+    },
+    {
+      "hierarchy": "MCQ",
+      "description": "Monchique",
+      "holidays": []
+    },
+    {
+      "hierarchy": "MDB",
+      "description": "Mondim de Basto",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 25
+        }
+      ]
+    },
+    {
+      "hierarchy": "MFT",
+      "description": "Monforte",
+      "holidays": []
+    },
+    {
+      "hierarchy": "MTR",
+      "description": "Montalegre",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 9
+        }
+      ]
+    },
+    {
+      "hierarchy": "MMN",
+      "description": "Montemor-o-Novo",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "MARCH",
+          "day": 8
+        }
+      ]
+    },
+    {
+      "hierarchy": "MMV",
+      "description": "Montemor-o-Velho",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "SEPTEMBER",
+          "day": 8
+        }
+      ]
+    },
+    {
+      "hierarchy": "MTJ",
+      "description": "Montijo",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 29
+        }
+      ]
+    },
+    {
+      "hierarchy": "MOR",
+      "description": "Mora",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "EASTER_MONDAY"
+        }
+      ]
+    },
+    {
+      "hierarchy": "MRT",
+      "description": "Mortágua",
+      "holidays": []
+    },
+    {
+      "hierarchy": "MRA",
+      "description": "Moura",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 24
+        }
+      ]
+    },
+    {
+      "hierarchy": "MOU",
+      "description": "Mourão",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "FEBRUARY",
+          "day": 2
+        }
+      ]
+    },
+    {
+      "hierarchy": "MUR",
+      "description": "Murça",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "MAY",
+          "day": 8
+        }
+      ]
+    },
+    {
+      "hierarchy": "MRS",
+      "description": "Murtosa",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "SEPTEMBER",
+          "day": 8
+        }
+      ]
+    },
+    {
+      "hierarchy": "NZR",
+      "description": "Nazaré",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "SEPTEMBER",
+          "day": 8
+        }
+      ]
+    },
+    {
+      "hierarchy": "NLS",
+      "description": "Nelas",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 24
+        }
+      ]
+    },
+    {
+      "hierarchy": "NIS",
+      "description": "Nisa",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "EASTER_MONDAY"
+        }
+      ]
+    },
+    {
+      "hierarchy": "OBD",
+      "description": "Óbidos",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JANUARY",
+          "day": 11
+        }
+      ]
+    },
+    {
+      "hierarchy": "ODM",
+      "description": "Odemira",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "SEPTEMBER",
+          "day": 8
+        }
+      ]
+    },
+    {
+      "hierarchy": "ODV",
+      "description": "Odivelas",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "NOVEMBER",
+          "day": 19
+        }
+      ]
+    },
+    {
+      "hierarchy": "OER",
+      "description": "Oeiras",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 7
+        }
+      ]
+    },
+    {
+      "hierarchy": "OLR",
+      "description": "Oleiros",
+      "holidays": []
+    },
+    {
+      "hierarchy": "OAZ",
+      "description": "Oliveira de Azeméis",
+      "holidays": []
+    },
+    {
+      "hierarchy": "OFR",
+      "description": "Oliveira de Frades",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "OCTOBER",
+          "day": 7
+        }
+      ]
+    },
+    {
+      "hierarchy": "OBR",
+      "description": "Oliveira do Bairro",
+      "holidays": []
+    },
+    {
+      "hierarchy": "OHP",
+      "description": "Oliveira do Hospital",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "OCTOBER",
+          "day": 7
+        }
+      ]
+    },
+    {
+      "hierarchy": "ORM",
+      "description": "Ourém",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 20
+        }
+      ]
+    },
+    {
+      "hierarchy": "ORQ",
+      "description": "Ourique",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "SEPTEMBER",
+          "day": 8
+        }
+      ]
+    },
+    {
+      "hierarchy": "OVR",
+      "description": "Ovar",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JULY",
+          "day": 25
+        }
+      ]
+    },
+    {
+      "hierarchy": "PFR",
+      "description": "Paços de Ferreira",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "NOVEMBER",
+          "day": 6
+        }
+      ]
+    },
+    {
+      "hierarchy": "PLM",
+      "description": "Palmela",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 1
+        }
+      ]
+    },
+    {
+      "hierarchy": "PPS",
+      "description": "Pampilhosa da Serra",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "APRIL",
+          "day": 10
+        }
+      ]
+    },
+    {
+      "hierarchy": "PRD",
+      "description": "Paredes",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 20
+        }
+      ]
+    },
+    {
+      "hierarchy": "PCR",
+      "description": "Paredes de Coura",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "AUGUST",
+          "day": 10
+        }
+      ]
+    },
+    {
+      "hierarchy": "PCV",
+      "description": "Penacova",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JULY",
+          "day": 17
+        }
+      ]
+    },
+    {
+      "hierarchy": "PNF",
+      "description": "Penafiel",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "NOVEMBER",
+          "day": 11
+        }
+      ]
+    },
+    {
+      "hierarchy": "PNC",
+      "description": "Penamacor",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "EASTER_MONDAY"
+        }
+      ]
+    },
+    {
+      "hierarchy": "PND",
+      "description": "Penedono",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 29
+        }
+      ]
+    },
+    {
+      "hierarchy": "PNL",
+      "description": "Penela",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "SEPTEMBER",
+          "day": 29
+        }
+      ]
+    },
+    {
+      "hierarchy": "PNI",
+      "description": "Peniche",
+      "holidays": []
+    },
+    {
+      "hierarchy": "PRG",
+      "description": "Peso da Régua",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "AUGUST",
+          "day": 16
+        }
+      ]
+    },
+    {
+      "hierarchy": "PNH",
+      "description": "Pinhel",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "AUGUST",
+          "day": 25
+        }
+      ]
+    },
+    {
+      "hierarchy": "PBL",
+      "description": "Pombal",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "NOVEMBER",
+          "day": 11
+        }
+      ]
+    },
+    {
+      "hierarchy": "PDL",
+      "description": "Ponta Delgada",
+      "holidays": []
+    },
+    {
+      "hierarchy": "PTS",
+      "description": "Ponta do Sol",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "SEPTEMBER",
+          "day": 8
+        }
+      ]
+    },
+    {
+      "hierarchy": "PTB",
+      "description": "Ponte da Barca",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "AUGUST",
+          "day": 24
+        }
+      ]
+    },
+    {
+      "hierarchy": "PTL",
+      "description": "Ponte de Lima",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "SEPTEMBER",
+          "day": 20
+        }
+      ]
+    },
+    {
+      "hierarchy": "PSR",
+      "description": "Ponte de Sor",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "EASTER_MONDAY"
+        }
+      ]
+    },
+    {
+      "hierarchy": "PTG",
+      "description": "Portalegre",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "MAY",
+          "day": 23
+        }
+      ]
+    },
+    {
+      "hierarchy": "PRL",
+      "description": "Portel",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "EASTER_MONDAY"
+        }
+      ]
+    },
+    {
+      "hierarchy": "PTM",
+      "description": "Portimão",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "DECEMBER",
+          "day": 11
+        }
+      ]
+    },
+    {
+      "hierarchy": "PRT",
+      "description": "Porto",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 1
+        }
+      ]
+    },
+    {
+      "hierarchy": "PMS",
+      "description": "Porto de Mós",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 29
+        }
+      ]
+    },
+    {
+      "hierarchy": "PMZ",
+      "description": "Porto Moniz",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JULY",
+          "day": 22
+        }
+      ]
+    },
+    {
+      "hierarchy": "PST",
+      "description": "Porto Santo",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 24
+        }
+      ]
+    },
+    {
+      "hierarchy": "PVL",
+      "description": "Póvoa de Lanhoso",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "MARCH",
+          "day": 19
+        }
+      ]
+    },
+    {
+      "hierarchy": "PVZ",
+      "description": "Póvoa de Varzim",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 29
+        }
+      ]
+    },
+    {
+      "hierarchy": "PVC",
+      "description": "Povoação",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JULY",
+          "day": 3
+        }
+      ]
+    },
+    {
+      "hierarchy": "VPV",
+      "description": "Praia da Vitória",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 20
+        }
+      ]
+    },
+    {
+      "hierarchy": "PNV",
+      "description": "Proença-a-Nova",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 13
+        }
+      ]
+    },
+    {
+      "hierarchy": "RDD",
+      "description": "Redondo",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "EASTER_MONDAY"
+        }
+      ]
+    },
+    {
+      "hierarchy": "RMZ",
+      "description": "Reguengos de Monsaraz",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 13
+        }
+      ]
+    },
+    {
+      "hierarchy": "RSD",
+      "description": "Resende",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "SEPTEMBER",
+          "day": 29
+        }
+      ]
+    },
+    {
+      "hierarchy": "RBR",
+      "description": "Ribeira Brava",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 29
+        }
+      ]
+    },
+    {
+      "hierarchy": "RPN",
+      "description": "Ribeira de Pena",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "AUGUST",
+          "day": 16
+        }
+      ]
+    },
+    {
+      "hierarchy": "RGR",
+      "description": "Ribeira Grande",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 29
+        }
+      ]
+    },
+    {
+      "hierarchy": "RMR",
+      "description": "Rio Maior",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "NOVEMBER",
+          "day": 6
+        }
+      ]
+    },
+    {
+      "hierarchy": "SBS",
+      "description": "Sabrosa",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "SEPTEMBER",
+          "day": 8
+        }
+      ]
+    },
+    {
+      "hierarchy": "SBG",
+      "description": "Sabugal",
+      "holidays": []
+    },
+    {
+      "hierarchy": "SMG",
+      "description": "Salvaterra de Magos",
+      "holidays": []
+    },
+    {
+      "hierarchy": "SCD",
+      "description": "Santa Comba Dão",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "MAY",
+          "day": 3
+        }
+      ]
+    },
+    {
+      "hierarchy": "SCR",
+      "description": "Santa Cruz",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JANUARY",
+          "day": 15
+        }
+      ]
+    },
+    {
+      "hierarchy": "SCG",
+      "description": "Santa Cruz da Graciosa",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 24
+        }
+      ]
+    },
+    {
+      "hierarchy": "SCF",
+      "description": "Santa Cruz das Flores",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 24
+        }
+      ]
+    },
+    {
+      "hierarchy": "VFR",
+      "description": "Santa Maria da Feira",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JANUARY",
+          "day": 20
+        }
+      ]
+    },
+    {
+      "hierarchy": "SMP",
+      "description": "Santa Marta de Penaguião",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JANUARY",
+          "day": 13
+        }
+      ]
+    },
+    {
+      "hierarchy": "STN",
+      "description": "Santana",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "MAY",
+          "day": 25
+        }
+      ]
+    },
+    {
+      "hierarchy": "STR",
+      "description": "Santarém",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "MARCH",
+          "day": 19
+        }
+      ]
+    },
+    {
+      "hierarchy": "STC",
+      "description": "Santiago do Cacém",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JULY",
+          "day": 25
+        }
+      ]
+    },
+    {
+      "hierarchy": "STS",
+      "description": "Santo Tirso",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JULY",
+          "day": 11
+        }
+      ]
+    },
+    {
+      "hierarchy": "SBA",
+      "description": "São Brás de Alportel",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 1
+        }
+      ]
+    },
+    {
+      "hierarchy": "SJM",
+      "description": "São João da Madeira",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "OCTOBER",
+          "day": 11
+        }
+      ]
+    },
+    {
+      "hierarchy": "SPS",
+      "description": "São Pedro do Sul",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 29
+        }
+      ]
+    },
+    {
+      "hierarchy": "SRQ",
+      "description": "São Roque do Pico",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "AUGUST",
+          "day": 16
+        }
+      ]
+    },
+    {
+      "hierarchy": "SVC",
+      "description": "São Vicente",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JANUARY",
+          "day": 22
+        }
+      ]
+    },
+    {
+      "hierarchy": "SRD",
+      "description": "Sardoal",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "SEPTEMBER",
+          "day": 22
+        }
+      ]
+    },
+    {
+      "hierarchy": "SAT",
+      "description": "Sátão",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "AUGUST",
+          "day": 20
+        }
+      ]
+    },
+    {
+      "hierarchy": "SEI",
+      "description": "Seia",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JULY",
+          "day": 3
+        }
+      ]
+    },
+    {
+      "hierarchy": "SXL",
+      "description": "Seixal",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 29
+        }
+      ]
+    },
+    {
+      "hierarchy": "SRN",
+      "description": "Sernancelhe",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "MAY",
+          "day": 3
+        }
+      ]
+    },
+    {
+      "hierarchy": "SRT",
+      "description": "Sertã",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 24
+        }
+      ]
+    },
+    {
+      "hierarchy": "SSB",
+      "description": "Sesimbra",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "MAY",
+          "day": 4
+        }
+      ]
+    },
+    {
+      "hierarchy": "STB",
+      "description": "Setúbal",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "SEPTEMBER",
+          "day": 15
+        }
+      ]
+    },
+    {
+      "hierarchy": "SVV",
+      "description": "Sever do Vouga",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "SEPTEMBER",
+          "day": 21
+        }
+      ]
+    },
+    {
+      "hierarchy": "SLV",
+      "description": "Silves",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "SEPTEMBER",
+          "day": 3
+        }
+      ]
+    },
+    {
+      "hierarchy": "SNS",
+      "description": "Sines",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "NOVEMBER",
+          "day": 24
+        }
+      ]
+    },
+    {
+      "hierarchy": "SNT",
+      "description": "Sintra",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 29
+        }
+      ]
+    },
+    {
+      "hierarchy": "SMA",
+      "description": "Sobral de Monte Agraço",
+      "holidays": []
+    },
+    {
+      "hierarchy": "SRE",
+      "description": "Soure",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "SEPTEMBER",
+          "day": 21
+        }
+      ]
+    },
+    {
+      "hierarchy": "SSL",
+      "description": "Sousel",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "EASTER_MONDAY"
+        }
+      ]
+    },
+    {
+      "hierarchy": "TBU",
+      "description": "Tábua",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "APRIL",
+          "day": 10
+        }
+      ]
+    },
+    {
+      "hierarchy": "TBC",
+      "description": "Tabuaço",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 24
+        }
+      ]
+    },
+    {
+      "hierarchy": "TRC",
+      "description": "Tarouca",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "SEPTEMBER",
+          "day": 29
+        }
+      ]
+    },
+    {
+      "hierarchy": "TVR",
+      "description": "Tavira",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 24
+        }
+      ]
+    },
+    {
+      "hierarchy": "TBR",
+      "description": "Terras de Bouro",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 24
+        }
+      ]
+    },
+    {
+      "hierarchy": "TMR",
+      "description": "Tomar",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "MARCH",
+          "day": 1
+        }
+      ]
+    },
+    {
+      "hierarchy": "TND",
+      "description": "Tondela",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "SEPTEMBER",
+          "day": 16
+        }
+      ]
+    },
+    {
+      "hierarchy": "TMC",
+      "description": "Torre de Moncorvo",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "MARCH",
+          "day": 19
+        }
+      ]
+    },
+    {
+      "hierarchy": "TNV",
+      "description": "Torres Novas",
+      "holidays": []
+    },
+    {
+      "hierarchy": "TVD",
+      "description": "Torres Vedras",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 24
+        }
+      ]
+    },
+    {
+      "hierarchy": "TCR",
+      "description": "Trancoso",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "MAY",
+          "day": 29
+        }
+      ]
+    },
+    {
+      "hierarchy": "TRF",
+      "description": "Trofa",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "NOVEMBER",
+          "day": 19
+        }
+      ]
+    },
+    {
+      "hierarchy": "VGS",
+      "description": "Vagos",
+      "holidays": [
+        {
+          "holidayType": "CHRISTIAN",
+          "key": "PENTECOST_MONDAY",
+          "category": "OFFICIAL_HOLIDAY"
+        }
+      ]
+    },
+    {
+      "hierarchy": "VAC",
+      "description": "Vale de Cambra",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 13
+        }
+      ]
+    },
+    {
+      "hierarchy": "VLC",
+      "description": "Valença",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "FEBRUARY",
+          "day": 18
+        }
+      ]
+    },
+    {
+      "hierarchy": "VLG",
+      "description": "Valongo",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 24
+        }
+      ]
+    },
+    {
+      "hierarchy": "VPC",
+      "description": "Valpaços",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "NOVEMBER",
+          "day": 6
+        }
+      ]
+    },
+    {
+      "hierarchy": "VLS",
+      "description": "Velas",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "APRIL",
+          "day": 23
+        }
+      ]
+    },
+    {
+      "hierarchy": "VND",
+      "description": "Vendas Novas",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "SEPTEMBER",
+          "day": 7
+        }
+      ]
+    },
+    {
+      "hierarchy": "VNT",
+      "description": "Viana do Alentejo",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JANUARY",
+          "day": 13
+        }
+      ]
+    },
+    {
+      "hierarchy": "VCT",
+      "description": "Viana do Castelo",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "AUGUST",
+          "day": 20
+        }
+      ]
+    },
+    {
+      "hierarchy": "VDG",
+      "description": "Vidigueira",
+      "holidays": []
+    },
+    {
+      "hierarchy": "VRM",
+      "description": "Vieira do Minho",
+      "holidays": []
+    },
+    {
+      "hierarchy": "VBP",
+      "description": "Vila do Bispo",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "SEPTEMBER",
+          "day": 20
+        }
+      ]
+    },
+    {
+      "hierarchy": "VCD",
+      "description": "Vila do Conde",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 24
+        }
+      ]
+    },
+    {
+      "hierarchy": "VPT",
+      "description": "Vila do Porto",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 24
+        }
+      ]
+    },
+    {
+      "hierarchy": "VFL",
+      "description": "Vila Flor",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "AUGUST",
+          "day": 24
+        }
+      ]
+    },
+    {
+      "hierarchy": "VFX",
+      "description": "Vila Franca de Xira",
+      "holidays": []
+    },
+    {
+      "hierarchy": "VFC",
+      "description": "Vila Franca do Campo",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 24
+        }
+      ]
+    },
+    {
+      "hierarchy": "VNB",
+      "description": "Vila Nova da Barquinha",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 13
+        }
+      ]
+    },
+    {
+      "hierarchy": "VNC",
+      "description": "Vila Nova de Cerveira",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "OCTOBER",
+          "day": 1
+        }
+      ]
+    },
+    {
+      "hierarchy": "VNF",
+      "description": "Vila Nova de Famalicão",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 13
+        }
+      ]
+    },
+    {
+      "hierarchy": "VLF",
+      "description": "Vila Nova de Foz Côa",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "MAY",
+          "day": 21
+        }
+      ]
+    },
+    {
+      "hierarchy": "VNG",
+      "description": "Vila Nova de Gaia",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 24
+        }
+      ]
+    },
+    {
+      "hierarchy": "VNP",
+      "description": "Vila Nova de Paiva",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "MARCH",
+          "day": 2
+        }
+      ]
+    },
+    {
+      "hierarchy": "PRS",
+      "description": "Vila Nova de Poiares",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JANUARY",
+          "day": 13
+        }
+      ]
+    },
+    {
+      "hierarchy": "VPA",
+      "description": "Vila Pouca de Aguiar",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 22
+        }
+      ]
+    },
+    {
+      "hierarchy": "VRL",
+      "description": "Vila Real",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "MAY",
+          "day": 13
+        }
+      ]
+    },
+    {
+      "hierarchy": "VRS",
+      "description": "Vila Real de Santo António",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "MAY",
+          "day": 13
+        }
+      ]
+    },
+    {
+      "hierarchy": "VVR",
+      "description": "Vila Velha de Ródão",
+      "holidays": []
+    },
+    {
+      "hierarchy": "VVD",
+      "description": "Vila Verde",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "JUNE",
+          "day": 13
+        }
+      ]
+    },
+    {
+      "hierarchy": "VVC",
+      "description": "Vila Viçosa",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "AUGUST",
+          "day": 16
+        }
+      ]
+    },
+    {
+      "hierarchy": "VMS",
+      "description": "Vimioso",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "AUGUST",
+          "day": 10
+        }
+      ]
+    },
+    {
+      "hierarchy": "VNH",
+      "description": "Vinhais",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "MAY",
+          "day": 20
+        }
+      ]
+    },
+    {
+      "hierarchy": "VIS",
+      "description": "Viseu",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "SEPTEMBER",
+          "day": 21
+        }
+      ]
+    },
+    {
+      "hierarchy": "VIZ",
+      "description": "Vizela",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "MARCH",
+          "day": 19
+        }
+      ]
+    },
+    {
+      "hierarchy": "VZL",
+      "description": "Vouzela",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "CITY_DAY",
+          "month": "MAY",
+          "day": 14
+        }
+      ]
+    }
+  ]
+}

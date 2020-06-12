@@ -1,0 +1,90 @@
+{
+  "hierarchy": "ng",
+  "description": "Nigeria",
+  "holidays": [
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "EASTER"
+    },
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "GOOD_FRIDAY"
+    },
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "EASTER_MONDAY"
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "NEW_YEAR",
+      "month": "JANUARY",
+      "day": 1
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "LABOUR_DAY",
+      "month": "MAY",
+      "day": 1
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "CHILDRENS_DAY",
+      "month": "MAY",
+      "day": 27
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "FREEDOM_DEMOCRACY",
+      "month": "MAY",
+      "day": 29
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "INDEPENDENCE_DAY",
+      "month": "OCTOBER",
+      "day": 1
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "CHRISTMAS",
+      "month": "DECEMBER",
+      "day": 25
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "BOXING_DAY",
+      "month": "DECEMBER",
+      "day": 26
+    },
+    {
+      "holidayType": "ISLAMIC",
+      "key": "RAMADAN"
+    },
+    {
+      "holidayType": "ISLAMIC",
+      "key": "MAWLID_AN_NABI"
+    },
+    {
+      "holidayType": "ISLAMIC",
+      "key": "ID_AL_FITR"
+    },
+    {
+      "holidayType": "ISLAMIC",
+      "key": "ID_UL_ADHA"
+    }
+  ],
+  "subConfigurations": [
+    {
+      "hierarchy": "lag",
+      "description": "Lagos",
+      "holidays": [
+        {
+          "holidayType": "FIXED_DATE",
+          "key": "ELECTION_DAY",
+          "month": "JUNE",
+          "day": 12
+        }
+      ]
+    }
+  ]
+}

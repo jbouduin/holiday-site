@@ -1,0 +1,80 @@
+{
+  "hierarchy": "et",
+  "description": "Ethiopia",
+  "holidays": [
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "EASTER",
+      "chronology": "JULIAN"
+    },
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "GOOD_FRIDAY",
+      "chronology": "JULIAN"
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "NEW_YEAR",
+      "month": "JANUARY",
+      "day": 1
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "CHRISTMAS",
+      "month": "JANUARY",
+      "day": 7
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "VICTORY_ADWA",
+      "month": "MARCH",
+      "day": 2
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "LABOUR_DAY",
+      "month": "MAY",
+      "day": 1
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "VICTORY",
+      "month": "MAY",
+      "day": 5
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "NATIONAL_DAY",
+      "month": "MAY",
+      "day": 28
+    },
+    {
+      "holidayType": "ETHIOPIAN_ORTHODOX",
+      "key": "TIMKAT"
+    },
+    {
+      "holidayType": "ETHIOPIAN_ORTHODOX",
+      "key": "ENKUTATASH"
+    },
+    {
+      "holidayType": "ETHIOPIAN_ORTHODOX",
+      "key": "MESKEL"
+    },
+    {
+      "holidayType": "ISLAMIC",
+      "key": "RAMADAN"
+    },
+    {
+      "holidayType": "ISLAMIC",
+      "key": "MAWLID_AN_NABI"
+    },
+    {
+      "holidayType": "ISLAMIC",
+      "key": "ID_AL_FITR"
+    },
+    {
+      "holidayType": "ISLAMIC",
+      "key": "ID_UL_ADHA"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "hierarchy": "eg",
+  "description": "Egypt",
+  "holidays": [
+    {
+      "holidayType": "CHRISTIAN",
+      "key": "EASTER_MONDAY",
+      "chronology": "JULIAN"
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "EGYPT_COPTIC_CHRISTMAS",
+      "month": "JANUARY",
+      "day": 7
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "EGYPT_25_JAN_REVOLUTION",
+      "month": "JANUARY",
+      "day": 25,
+      "validFrom": 2012
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "EGYPT_SINAI_LIBERATION",
+      "month": "APRIL",
+      "day": 25
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "LABOUR_DAY",
+      "month": "MAY",
+      "day": 1
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "EGYPT_30_JUNE_REVOLUTION",
+      "month": "JUNE",
+      "day": 30,
+      "validFrom": 2015
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "EGYPT_23_JULY_REVOLUTION",
+      "month": "JULY",
+      "day": 23
+    },
+    {
+      "holidayType": "FIXED_DATE",
+      "key": "EGYPT_ARMED_FORCES_DAY",
+      "month": "OCTOBER",
+      "day": 6
+    },
+    {
+      "holidayType": "ISLAMIC",
+      "key": "ID_AL_FITR"
+    },
+    {
+      "holidayType": "ISLAMIC",
+      "key": "ID_AL_FITR_2"
+    },
+    {
+      "holidayType": "ISLAMIC",
+      "key": "ID_AL_FITR_3"
+    },
+    {
+      "holidayType": "ISLAMIC",
+      "key": "ARAFAAT"
+    },
+    {
+      "holidayType": "ISLAMIC",
+      "key": "ID_UL_ADHA"
+    },
+    {
+      "holidayType": "ISLAMIC",
+      "key": "ID_UL_ADHA_2"
+    },
+    {
+      "holidayType": "ISLAMIC",
+      "key": "ID_UL_ADHA_3"
+    },
+    {
+      "holidayType": "ISLAMIC",
+      "key": "NEWYEAR"
+    },
+    {
+      "holidayType": "ISLAMIC",
+      "key": "MAWLID_AN_NABI"
+    }
+  ]
+}
