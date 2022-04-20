@@ -2,7 +2,7 @@ import { DataSource } from '@angular/cdk/collections';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
 import { map } from 'rxjs/operators';
-import { Observable, of as observableOf, merge } from 'rxjs';
+import { Observable, merge } from 'rxjs';
 import { HolidayListItem } from './holiday-list-item';
 import { HolidayService } from 'src/app/services/holiday.service';
 import { IHierarchy, IHoliday } from '@jbouduin/holidays-lib';
@@ -33,15 +33,14 @@ export class HolidayListDataSource extends DataSource<HolidayListItem> {
     void this.holidayService.changeSelection(hierarchy, year);
   }
 
-  public connect(): Observable<HolidayListItem[]> {
+  public connect(): Observable<Array<HolidayListItem>> {
     if (this.paginator && this.sort) {
       // Combine everything that affects the rendered data into one update
       // stream for the data-table to consume.
       return merge(this.holidayService.getHolidays, this.paginator.page, this.sort.sortChange)
         .pipe(map((observing) => {
           if (Array.isArray(observing)) {
-            const src = observing as Array<IHoliday>;
-            this.data = src.map((holiday: IHoliday) => new HolidayListItem(holiday.date, holiday.key, holiday.hierarchy, holiday.name));
+            this.data = observing.map((holiday: IHoliday) => new HolidayListItem(holiday.date, holiday.key, holiday.hierarchy, holiday.name));
           }
           if (this.paginator) {
             this.paginator.length = this.data.length;
@@ -53,6 +52,7 @@ export class HolidayListDataSource extends DataSource<HolidayListItem> {
     }
   }
 
+  /* eslint-disable-next-line @typescript-eslint/no-empty-function */
   public disconnect(): void { }
   //#endregion
 

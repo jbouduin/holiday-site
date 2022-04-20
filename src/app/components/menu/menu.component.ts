@@ -1,7 +1,6 @@
-import { AfterViewInit, Component, EventEmitter, OnInit, Output } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 import { MatTreeFlatDataSource, MatTreeFlattener } from '@angular/material/tree';
 import { FlatTreeControl } from '@angular/cdk/tree';
-import { files } from './example-data';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { HolidayService } from 'src/app/services/holiday.service';
 import { IHierarchy } from '@jbouduin/holidays-lib';
@@ -43,14 +42,19 @@ export class MenuComponent implements OnInit {
   constructor(formBuilder: FormBuilder, holidayService: HolidayService) {
     this.holidayService = holidayService;
     this.treeFlattener = new MatTreeFlattener(
-      this.transformer,
-      this.getLevel,
-      this.isExpandable,
-      this.getChildren);
+      (hierarchy: IHierarchy, level: number) => this.transformer(hierarchy, level),
+      (node: FlatTreeNode) => this.getLevel(node),
+      (node: FlatTreeNode) => this.isExpandable(node),
+      (hierarchy: IHierarchy) => this.getChildren(hierarchy)
+    );
 
-    this.treeControl = new FlatTreeControl(this.getLevel, this.isExpandable);
+    this.treeControl = new FlatTreeControl(
+      (node: FlatTreeNode) => this.getLevel(node),
+      (node: FlatTreeNode) => this.isExpandable(node)
+    );
     this.dataSource = new MatTreeFlatDataSource(this.treeControl, this.treeFlattener);
     this.formGroup = formBuilder.group(
+      /* eslint-disable-next-line @typescript-eslint/unbound-method */
       { year: new FormControl(2023, Validators.required) }
     );
     this.nodeSelected = new EventEmitter<IHierarchy>();
@@ -60,11 +64,11 @@ export class MenuComponent implements OnInit {
   public ngOnInit(): void {
     // TODO sort by description
     this.holidayService.getHierarchyTree().subscribe((tree: Array<IHierarchy>) => this.dataSource.data = tree);
-    this.yearChanged.emit(this.formGroup.controls['year'].value);
+    this.yearChanged.emit(this.formGroup.controls['year'].value as number);
   }
 
   /** Transform the data to something the tree can read. */
-  transformer(node: IHierarchy, level: number): FlatTreeNode {
+  private transformer(node: IHierarchy, level: number): FlatTreeNode {
     return {
       name: node.description,
       type: node.code,
@@ -75,38 +79,36 @@ export class MenuComponent implements OnInit {
   }
 
   /** Get the level of the node */
-  getLevel(node: FlatTreeNode): number {
+  private getLevel(node: FlatTreeNode): number {
     return node.level;
   }
 
   /** Get whether the node is expanded or not. */
-  isExpandable(node: FlatTreeNode): boolean {
+  private isExpandable(node: FlatTreeNode): boolean {
     return node.expandable;
   }
 
   /** Get whether the node has children or not. */
-  hasChild(_index: number, node: FlatTreeNode): boolean {
+  public hasChild(_index: number, node: FlatTreeNode): boolean {
     return node.expandable;
   }
 
   /** Get the children for the node. */
-  getChildren(node: IHierarchy): IHierarchy[] | null | undefined {
+  private getChildren(node: IHierarchy): Array<IHierarchy> | null | undefined {
     return node.children;
   }
 
-  clickNode(node: FlatTreeNode): void {
-    console.log(`clicked ${JSON.stringify(node, null, 2)}`)
+  public clickNode(node: FlatTreeNode): void {
     this.nodeSelected.emit(node.hierarchy);
   }
 
-  yearUp(): void {
-    this.formGroup.controls['year'].patchValue(Number.parseInt(this.formGroup.value.year) + 1);
-    this.yearChanged.emit(this.formGroup.controls['year'].value)
+  public yearUp(): void {
+    this.formGroup.controls['year'].patchValue((this.formGroup.controls['year'].value as number) + 1);
+    this.yearChanged.emit(this.formGroup.controls['year'].value as number)
   }
 
-  yearDown(): void {
-    this.formGroup.controls['year'].patchValue(Number.parseInt(this.formGroup.value.year) - 1);
-    this.yearChanged.emit(this.formGroup.controls['year'].value)
+  public yearDown(): void {
+    this.formGroup.controls['year'].patchValue((this.formGroup.controls['year'].value as number) - 1);
+    this.yearChanged.emit(this.formGroup.controls['year'].value as number)
   }
-
 }

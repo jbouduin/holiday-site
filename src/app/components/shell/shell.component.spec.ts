@@ -14,7 +14,7 @@ describe('ShellComponent', () => {
   let fixture: ComponentFixture<ShellComponent>;
 
   beforeEach(waitForAsync(() => {
-    TestBed.configureTestingModule({
+    void TestBed.configureTestingModule({
       declarations: [ShellComponent],
       imports: [
         NoopAnimationsModule,

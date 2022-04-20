@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { HierarchyCalculator, IHierarchy, IHierarchyCalculator, IHoliday, IHolidays } from '@jbouduin/holidays-lib';
+import { HierarchyCalculator, IHierarchy, IHierarchyCalculator, IHoliday } from '@jbouduin/holidays-lib';
 import { from, Observable, Subject } from 'rxjs';
 import { FileProviderService } from './file-provider.service';
 

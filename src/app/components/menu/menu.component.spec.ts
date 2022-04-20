@@ -10,7 +10,7 @@ describe('MenuComponent', () => {
   let fixture: ComponentFixture<MenuComponent>;
 
   beforeEach(waitForAsync(() => {
-    TestBed.configureTestingModule({
+    void TestBed.configureTestingModule({
       declarations: [ MenuComponent ],
       imports: [
         MatButtonModule,

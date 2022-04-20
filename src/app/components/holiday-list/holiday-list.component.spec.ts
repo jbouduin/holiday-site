@@ -11,7 +11,7 @@ describe('HolidayListComponent', () => {
   let fixture: ComponentFixture<HolidayListComponent>;
 
   beforeEach(waitForAsync(() => {
-    TestBed.configureTestingModule({
+    void TestBed.configureTestingModule({
       declarations: [ HolidayListComponent ],
       imports: [
         NoopAnimationsModule,
