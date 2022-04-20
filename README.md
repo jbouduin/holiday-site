@@ -7,4 +7,4 @@ The site itself is implemented very rudimentary and there is plenty of room for 
 
 You can see the site [here](https://jbouduin.github.io/holiday-site/)
 
-This project was generated with [ngX-Rocket](https://github.com/ngx-rocket/generator-ngx-rocket/) version 8.0.1
+

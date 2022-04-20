@@ -1,38 +1,51 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http';
-import { TranslateModule } from '@ngx-translate/core';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MaterialModule } from './material.module';
+import { BrowserModule } from '@angular/platform-browser';
 
-import { CoreModule } from '@core';
-import { SharedModule } from '@shared';
-import { HomeModule } from './home/home.module';
-import { ShellModule } from './shell/shell.module';
-import { AboutModule } from './about/about.module';
 import { AppComponent } from './app.component';
-import { AppRoutingModule } from './app-routing.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ShellComponent } from './components/shell/shell.component';
+import { LayoutModule } from '@angular/cdk/layout';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatButtonModule } from '@angular/material/button';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatIconModule } from '@angular/material/icon';
+import { MatListModule } from '@angular/material/list';
+import { MenuComponent } from './components/menu/menu.component';
+import { MatTreeModule } from '@angular/material/tree';
+import { HolidayListComponent } from './components/holiday-list/holiday-list.component';
+import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatSortModule } from '@angular/material/sort';
+import { MatInputModule } from '@angular/material/input';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
+  declarations: [
+    AppComponent,
+    ShellComponent,
+    MenuComponent,
+    HolidayListComponent
+  ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
+    LayoutModule,
     FormsModule,
     ReactiveFormsModule,
-    HttpClientModule,
-    TranslateModule.forRoot(),
-    BrowserAnimationsModule,
-    MaterialModule,
-    CoreModule,
-    SharedModule,
-    ShellModule,
-    HomeModule,
-    AboutModule,
-    AppRoutingModule // must be imported as the last module as it contains the fallback route
+    MatToolbarModule,
+    MatButtonModule,
+    MatSidenavModule,
+    MatIconModule,
+    MatListModule,
+    MatTreeModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule,
+    MatInputModule,
+    MatFormFieldModule
   ],
-  declarations: [AppComponent],
-  providers: [
-  ],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
