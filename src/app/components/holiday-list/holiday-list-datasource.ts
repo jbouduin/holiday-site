@@ -11,8 +11,9 @@ import { IHierarchy, IHoliday } from '@jbouduin/holidays-lib';
 export class HolidayListDataSource extends DataSource<HolidayListItem> {
 
   //#region Private properties ------------------------------------------------
-  private readonly holidayService: HolidayService;
   private data: Array<HolidayListItem>;
+  private readonly holidayService: HolidayService;
+  private readonly hierarchyTranslations: Map<string, Array<string>>;
   //#endregion
 
   //#region Public properties -------------------------------------------------
@@ -25,6 +26,11 @@ export class HolidayListDataSource extends DataSource<HolidayListItem> {
     super();
     this.holidayService = holidayService;
     this.data = new Array<HolidayListItem>();
+    this.hierarchyTranslations = new Map<string, Array<string>>();
+    this.holidayService.getHierarchyTree().subscribe((tree: Array<IHierarchy>) => {
+      this.hierarchyTranslations.clear();
+      this.fillHierarchyTranslations(tree, new Array<string>());
+    });
   }
   //#endregion
 
@@ -40,7 +46,10 @@ export class HolidayListDataSource extends DataSource<HolidayListItem> {
       return merge(this.holidayService.getHolidays, this.paginator.page, this.sort.sortChange)
         .pipe(map((observing) => {
           if (Array.isArray(observing)) {
-            this.data = observing.map((holiday: IHoliday) => new HolidayListItem(holiday.date, holiday.key, holiday.hierarchy, holiday.name));
+            this.data = observing.map((holiday: IHoliday) => {
+              const translation = this.hierarchyTranslations.get(holiday.fullPath);
+              const location = translation ? translation[translation.length - 1] : '';
+              return new HolidayListItem(holiday.date, holiday.key, location, holiday.name)});
           }
           if (this.paginator) {
             this.paginator.length = this.data.length;
@@ -57,6 +66,19 @@ export class HolidayListDataSource extends DataSource<HolidayListItem> {
   //#endregion
 
   //#region Private methods ---------------------------------------------------
+  private fillHierarchyTranslations(list: Array<IHierarchy>, parentTranslations: Array<string>): void {
+    list.forEach((item: IHierarchy) => {
+      const translations = new Array<string>(
+        ...parentTranslations,
+        item.description
+      );
+      this.hierarchyTranslations.set(item.fullPath, translations);
+      if (item.children) {
+        this.fillHierarchyTranslations(item.children, translations);
+      }
+    });
+  }
+
   private getPagedData(data: Array<HolidayListItem>): Array<HolidayListItem> {
     if (this.paginator) {
       const startIndex = this.paginator.pageIndex * this.paginator.pageSize;
