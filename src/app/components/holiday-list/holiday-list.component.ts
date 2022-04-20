@@ -2,7 +2,7 @@ import { AfterViewInit, Component, Input, ViewChild } from '@angular/core';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
 import { MatTable } from '@angular/material/table';
-import { FileNode } from '../menu/menu.component';
+import { IHierarchy } from '@jbouduin/holidays-lib';
 import { HolidayListDataSource, HolidayListItem } from './holiday-list-datasource';
 
 @Component({
@@ -11,7 +11,7 @@ import { HolidayListDataSource, HolidayListItem } from './holiday-list-datasourc
   styleUrls: ['./holiday-list.component.scss']
 })
 export class HolidayListComponent implements AfterViewInit {
-  @Input() public selectedNode: FileNode | undefined;
+  @Input() public selectedNode: IHierarchy | undefined;
   @Input() public selectedYear: number | undefined;
 
   @ViewChild(MatPaginator) paginator!: MatPaginator;

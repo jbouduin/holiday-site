@@ -1,15 +1,10 @@
-import { AfterViewInit, Component, EventEmitter, Output } from '@angular/core';
+import { AfterViewInit, Component, EventEmitter, OnInit, Output } from '@angular/core';
 import { MatTreeFlatDataSource, MatTreeFlattener } from '@angular/material/tree';
 import { FlatTreeControl } from '@angular/cdk/tree';
 import { files } from './example-data';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
-
-/** File node data with possible child nodes. */
-export interface FileNode {
-  name: string;
-  type: string;
-  children?: FileNode[];
-}
+import { HolidayService } from 'src/app/services/holiday.service';
+import { IHierarchy } from '@jbouduin/holidays-lib';
 
 /**
  * Flattened tree node that has been created from a FileNode through the flattener. Flattened
@@ -20,6 +15,7 @@ export interface FlatTreeNode {
   type: string;
   level: number;
   expandable: boolean;
+  hierarchy: IHierarchy;
 }
 
 @Component({
@@ -27,23 +23,25 @@ export interface FlatTreeNode {
   templateUrl: './menu.component.html',
   styleUrls: ['./menu.component.scss']
 })
-export class MenuComponent implements AfterViewInit {
+export class MenuComponent implements OnInit {
 
-  @Output() public nodeSelected: EventEmitter<FileNode>;
+  @Output() public nodeSelected: EventEmitter<IHierarchy>;
   @Output() public yearChanged: EventEmitter<number>;
 
+  private readonly holidayService: HolidayService;
   /** The TreeControl controls the expand/collapse state of tree nodes.  */
   treeControl: FlatTreeControl<FlatTreeNode>;
 
   /** The TreeFlattener is used to generate the flat list of items from hierarchical data. */
-  treeFlattener: MatTreeFlattener<FileNode, FlatTreeNode>;
+  treeFlattener: MatTreeFlattener<IHierarchy, FlatTreeNode>;
 
   /** The MatTreeFlatDataSource connects the control and flattener to provide data. */
-  dataSource: MatTreeFlatDataSource<FileNode, FlatTreeNode>;
+  dataSource: MatTreeFlatDataSource<IHierarchy, FlatTreeNode>;
 
-  public formGroup: FormGroup;
+  public readonly formGroup: FormGroup;
 
-  constructor(formBuilder: FormBuilder) {
+  constructor(formBuilder: FormBuilder, holidayService: HolidayService) {
+    this.holidayService = holidayService;
     this.treeFlattener = new MatTreeFlattener(
       this.transformer,
       this.getLevel,
@@ -52,24 +50,28 @@ export class MenuComponent implements AfterViewInit {
 
     this.treeControl = new FlatTreeControl(this.getLevel, this.isExpandable);
     this.dataSource = new MatTreeFlatDataSource(this.treeControl, this.treeFlattener);
-    this.dataSource.data = files;
+    // this.dataSource.data = files;
     this.formGroup = formBuilder.group(
       { year: new FormControl(2023, Validators.required) }
     );
-    this.nodeSelected = new EventEmitter<FileNode>();
+    this.nodeSelected = new EventEmitter<IHierarchy>();
     this.yearChanged = new EventEmitter<number>();
   }
 
-  public ngAfterViewInit(): void {
-    this.yearChanged.emit(this.formGroup.controls['year'].value)
+  public ngOnInit(): void {
+    // TODO sort by description
+    this.holidayService.getHierarchyTree().subscribe((tree: Array<IHierarchy>) => this.dataSource.data = tree);
+    this.yearChanged.emit(this.formGroup.controls['year'].value);
   }
+
   /** Transform the data to something the tree can read. */
-  transformer(node: FileNode, level: number): FlatTreeNode {
+  transformer(node: IHierarchy, level: number): FlatTreeNode {
     return {
-      name: node.name,
-      type: node.type,
+      name: node.description,
+      type: node.code,
       level,
-      expandable: !!node.children
+      expandable: !!node.children,
+      hierarchy: node
     };
   }
 
@@ -84,18 +86,18 @@ export class MenuComponent implements AfterViewInit {
   }
 
   /** Get whether the node has children or not. */
-  hasChild(index: number, node: FlatTreeNode): boolean {
+  hasChild(_index: number, node: FlatTreeNode): boolean {
     return node.expandable;
   }
 
   /** Get the children for the node. */
-  getChildren(node: FileNode): FileNode[] | null | undefined {
+  getChildren(node: IHierarchy): IHierarchy[] | null | undefined {
     return node.children;
   }
 
-  clickNode(node: FileNode): void {
+  clickNode(node: FlatTreeNode): void {
     console.log(`clicked ${JSON.stringify(node, null, 2)}`)
-    this.nodeSelected.emit(node);
+    this.nodeSelected.emit(node.hierarchy);
   }
 
   yearUp(): void {
@@ -107,4 +109,5 @@ export class MenuComponent implements AfterViewInit {
     this.formGroup.controls['year'].patchValue(Number.parseInt(this.formGroup.value.year) - 1);
     this.yearChanged.emit(this.formGroup.controls['year'].value)
   }
+
 }

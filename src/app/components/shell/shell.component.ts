@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 import { Observable } from 'rxjs';
 import { map, shareReplay } from 'rxjs/operators';
-import { FileNode } from '../menu/menu.component';
+import { IHierarchy } from '@jbouduin/holidays-lib';
 
 @Component({
   selector: 'app-shell',
@@ -11,7 +11,7 @@ import { FileNode } from '../menu/menu.component';
 })
 export class ShellComponent {
 
-  public selectedNode: FileNode | undefined;
+  public selectedNode: IHierarchy | undefined;
   public selectedYear: number | undefined;
 
   isHandset$: Observable<boolean> = this.breakpointObserver.observe(Breakpoints.Handset)
@@ -25,7 +25,7 @@ export class ShellComponent {
     this.selectedYear = undefined;
   }
 
-  nodeSelected(node: FileNode): void {
+  nodeSelected(node: IHierarchy): void {
     this.selectedNode = node;
   }
 
