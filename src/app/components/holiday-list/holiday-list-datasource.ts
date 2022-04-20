@@ -21,6 +21,9 @@ export class HolidayListDataSource extends DataSource<HolidayListItem> {
   public sort: MatSort | undefined;
   //#endregion
 
+  //#region Getters -----------------------------------------------------------
+  //#endregion
+
   //#region Constructor & C° --------------------------------------------------
   constructor(holidayService: HolidayService) {
     super();
@@ -63,6 +66,10 @@ export class HolidayListDataSource extends DataSource<HolidayListItem> {
 
   /* eslint-disable-next-line @typescript-eslint/no-empty-function */
   public disconnect(): void { }
+
+  public fullTranslatedPath(fullPath: string): Array<string> {
+    return this.hierarchyTranslations.get(fullPath) || new Array<string>();
+  }
   //#endregion
 
   //#region Private methods ---------------------------------------------------

@@ -29,6 +29,7 @@ export class HolidayListComponent implements AfterViewInit, OnChanges {
 
   //#region Public properties -------------------------------------------------
   public readonly displayedColumns: Array<string>;
+  public currentHierarchy: string | undefined;
   //#endregion
 
   //#region Constructor & C° --------------------------------------------------
@@ -37,6 +38,7 @@ export class HolidayListComponent implements AfterViewInit, OnChanges {
     this.displayedColumns = ['date', 'location', 'name'];
     this.selectedHierarchy = undefined;
     this.selectedYear = undefined;
+    this.currentHierarchy = undefined;
   }
 
   ngAfterViewInit(): void {
@@ -46,8 +48,11 @@ export class HolidayListComponent implements AfterViewInit, OnChanges {
   }
 
   ngOnChanges(_changes: SimpleChanges): void {
-    if (this.selectedHierarchy && this.selectedYear) {
-      this.dataSource.changeSelection(this.selectedHierarchy, this.selectedYear);
+    if (this.selectedHierarchy) {
+      this.currentHierarchy = this.dataSource.fullTranslatedPath(this.selectedHierarchy.fullPath).join(' - ');
+      if (this.selectedYear) {
+        this.dataSource.changeSelection(this.selectedHierarchy, this.selectedYear);
+      }
     }
   }
   //#endregion
