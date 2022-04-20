@@ -1,30 +1,41 @@
-import { AfterViewInit, Component, Input, ViewChild } from '@angular/core';
+import { AfterViewInit, Component, Input, OnChanges, SimpleChanges, ViewChild } from '@angular/core';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
 import { MatTable } from '@angular/material/table';
 import { IHierarchy } from '@jbouduin/holidays-lib';
-import { HolidayListDataSource, HolidayListItem } from './holiday-list-datasource';
+import { HolidayService } from 'src/app/services/holiday.service';
+import { HolidayListDataSource } from './holiday-list-datasource';
+import { HolidayListItem } from './holiday-list-item';
 
 @Component({
   selector: 'app-holiday-list',
   templateUrl: './holiday-list.component.html',
   styleUrls: ['./holiday-list.component.scss']
 })
-export class HolidayListComponent implements AfterViewInit {
-  @Input() public selectedNode: IHierarchy | undefined;
+export class HolidayListComponent implements AfterViewInit, OnChanges {
+
+  //#region @Input/@Output/@ViewChild -----------------------------------------
+  @Input() public selectedHierarchy: IHierarchy | undefined;
   @Input() public selectedYear: number | undefined;
 
-  @ViewChild(MatPaginator) paginator!: MatPaginator;
-  @ViewChild(MatSort) sort!: MatSort;
-  @ViewChild(MatTable) table!: MatTable<HolidayListItem>;
-  dataSource: HolidayListDataSource;
+  @ViewChild(MatPaginator) public paginator!: MatPaginator;
+  @ViewChild(MatSort) public sort!: MatSort;
+  @ViewChild(MatTable) public table!: MatTable<HolidayListItem>;
+  //#endregion
 
-  /** Columns displayed in the table. Columns IDs can be added, removed, or reordered. */
-  displayedColumns = ['id', 'name'];
+  //#region Private properties ------------------------------------------------
+  private readonly dataSource: HolidayListDataSource;
+  //#endregion
 
-  constructor() {
-    this.dataSource = new HolidayListDataSource();
-    this.selectedNode = undefined;
+  //#region Public properties -------------------------------------------------
+  public readonly displayedColumns: Array<string>;
+  //#endregion
+
+  //#region Constructor & C° --------------------------------------------------
+  constructor(holidayService: HolidayService) {
+    this.dataSource = new HolidayListDataSource(holidayService);
+    this.displayedColumns = ['date', 'location', 'name'];
+    this.selectedHierarchy = undefined;
     this.selectedYear = undefined;
   }
 
@@ -33,4 +44,11 @@ export class HolidayListComponent implements AfterViewInit {
     this.dataSource.paginator = this.paginator;
     this.table.dataSource = this.dataSource;
   }
+
+  ngOnChanges(_changes: SimpleChanges): void {
+    if (this.selectedHierarchy && this.selectedYear) {
+      this.dataSource.changeSelection(this.selectedHierarchy, this.selectedYear);
+    }
+  }
+  //#endregion
 }

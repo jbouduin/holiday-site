@@ -50,7 +50,6 @@ export class MenuComponent implements OnInit {
 
     this.treeControl = new FlatTreeControl(this.getLevel, this.isExpandable);
     this.dataSource = new MatTreeFlatDataSource(this.treeControl, this.treeFlattener);
-    // this.dataSource.data = files;
     this.formGroup = formBuilder.group(
       { year: new FormControl(2023, Validators.required) }
     );

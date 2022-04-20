@@ -11,25 +11,26 @@ import { IHierarchy } from '@jbouduin/holidays-lib';
 })
 export class ShellComponent {
 
-  public selectedNode: IHierarchy | undefined;
+  public selectedHierarchy: IHierarchy | undefined;
   public selectedYear: number | undefined;
 
-  isHandset$: Observable<boolean> = this.breakpointObserver.observe(Breakpoints.Handset)
-    .pipe(
-      map(result => result.matches),
-      shareReplay()
-    );
+  public readonly isHandset$: Observable<boolean>;
 
-  constructor(private breakpointObserver: BreakpointObserver) {
-    this.selectedNode = undefined;
+  constructor(breakpointObserver: BreakpointObserver) {
+    this.selectedHierarchy = undefined;
     this.selectedYear = undefined;
+    this.isHandset$ = breakpointObserver.observe(Breakpoints.Handset)
+      .pipe(
+        map(result => result.matches),
+        shareReplay()
+      );
   }
 
-  nodeSelected(node: IHierarchy): void {
-    this.selectedNode = node;
+  public nodeSelected(node: IHierarchy): void {
+    this.selectedHierarchy = node;
   }
 
-  yearChanged(year: number): void {
+  public yearChanged(year: number): void {
     this.selectedYear = year;
   }
 }

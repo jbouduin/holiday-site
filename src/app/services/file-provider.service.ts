@@ -24,7 +24,6 @@ export class FileProviderService implements IFileProvider {
 
   public async loadHierarchies(): Promise<string> {
     const fileName = `${this.assetsPath}/configurations.json`;
-    // this.httpClient.get(fileName, this.httpOptions).subscribe(s => console.log(s));
     const res = await lastValueFrom(this.httpClient.get<any>(fileName));
     return JSON.stringify(res);
   }
