@@ -24,21 +24,23 @@ export interface FlatTreeNode {
 })
 export class MenuComponent implements OnInit {
 
+  //#region @Input/@Output/@ViewChild -----------------------------------------
   @Output() public nodeSelected: EventEmitter<IHierarchy>;
   @Output() public yearChanged: EventEmitter<number>;
+  //#endregion
 
+  //#region Private properties ------------------------------------------------
   private readonly holidayService: HolidayService;
-  /** The TreeControl controls the expand/collapse state of tree nodes.  */
-  treeControl: FlatTreeControl<FlatTreeNode>;
+  private readonly treeFlattener: MatTreeFlattener<IHierarchy, FlatTreeNode>;
+  //#endregion
 
-  /** The TreeFlattener is used to generate the flat list of items from hierarchical data. */
-  treeFlattener: MatTreeFlattener<IHierarchy, FlatTreeNode>;
-
-  /** The MatTreeFlatDataSource connects the control and flattener to provide data. */
-  dataSource: MatTreeFlatDataSource<IHierarchy, FlatTreeNode>;
-
+  //#region Public properties -------------------------------------------------
+  public readonly dataSource: MatTreeFlatDataSource<IHierarchy, FlatTreeNode>;
   public readonly formGroup: FormGroup;
+  public readonly treeControl: FlatTreeControl<FlatTreeNode>;
+  //#endregion
 
+  //#region Constructor & C° --------------------------------------------------
   constructor(formBuilder: FormBuilder, holidayService: HolidayService) {
     this.holidayService = holidayService;
     this.treeFlattener = new MatTreeFlattener(
@@ -62,42 +64,13 @@ export class MenuComponent implements OnInit {
   }
 
   public ngOnInit(): void {
-    // TODO sort by description
-    this.holidayService.getHierarchyTree().subscribe((tree: Array<IHierarchy>) => this.dataSource.data = tree);
+    this.holidayService.getHierarchyTree()
+      .subscribe((tree: Array<IHierarchy>) => this.dataSource.data = this.sortHierarchyTree(tree));
     this.yearChanged.emit(this.formGroup.controls['year'].value as number);
   }
+  //#endregion
 
-  /** Transform the data to something the tree can read. */
-  private transformer(node: IHierarchy, level: number): FlatTreeNode {
-    return {
-      name: node.description,
-      type: node.code,
-      level,
-      expandable: !!node.children,
-      hierarchy: node
-    };
-  }
-
-  /** Get the level of the node */
-  private getLevel(node: FlatTreeNode): number {
-    return node.level;
-  }
-
-  /** Get whether the node is expanded or not. */
-  private isExpandable(node: FlatTreeNode): boolean {
-    return node.expandable;
-  }
-
-  /** Get whether the node has children or not. */
-  public hasChild(_index: number, node: FlatTreeNode): boolean {
-    return node.expandable;
-  }
-
-  /** Get the children for the node. */
-  private getChildren(node: IHierarchy): Array<IHierarchy> | null | undefined {
-    return node.children;
-  }
-
+  //#region UI-triggers -------------------------------------------------------
   public clickNode(node: FlatTreeNode): void {
     this.nodeSelected.emit(node.hierarchy);
   }
@@ -111,4 +84,43 @@ export class MenuComponent implements OnInit {
     this.formGroup.controls['year'].patchValue((this.formGroup.controls['year'].value as number) - 1);
     this.yearChanged.emit(this.formGroup.controls['year'].value as number)
   }
+  //#endregion
+
+  //#region Private methods ---------------------------------------------------
+  private transformer(node: IHierarchy, level: number): FlatTreeNode {
+    return {
+      name: node.description,
+      type: node.code,
+      level,
+      expandable: !!node.children,
+      hierarchy: node
+    };
+  }
+
+  private getLevel(node: FlatTreeNode): number {
+    return node.level;
+  }
+
+  private isExpandable(node: FlatTreeNode): boolean {
+    return node.expandable;
+  }
+
+  public hasChild(_index: number, node: FlatTreeNode): boolean {
+    return node.expandable;
+  }
+
+  private getChildren(node: IHierarchy): Array<IHierarchy> | null | undefined {
+    return node.children;
+  }
+
+  private sortHierarchyTree(tree: Array<IHierarchy>): Array<IHierarchy> {
+    tree.sort((a: IHierarchy, b: IHierarchy) => a.description.localeCompare(b.description));
+    tree.forEach((item: IHierarchy) => {
+      if (item.children) {
+        this.sortHierarchyTree(item.children)
+      }
+    });
+    return tree;
+  }
+  //#endregion
 }
