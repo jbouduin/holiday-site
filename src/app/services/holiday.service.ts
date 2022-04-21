@@ -1,4 +1,3 @@
-import { ThisReceiver } from '@angular/compiler';
 import { Injectable } from '@angular/core';
 import { HierarchyCalculator, IHierarchy, IHierarchyCalculator, IHoliday } from '@jbouduin/holidays-lib';
 import { from, Observable, Subject } from 'rxjs';
@@ -32,8 +31,8 @@ export class HolidayService {
   public set currentLanguage(value: string) {
     this._currentLanguage = value;
     this.calculator = new HierarchyCalculator(this._currentLanguage, this.fp);
-    this.fetchHierarchyTree();
-    this.fetchHolidays();
+    void this.fetchHierarchyTree();
+    void this.fetchHolidays();
   }
 
   public get currentLanguage(): string {
@@ -57,10 +56,10 @@ export class HolidayService {
   //#endregion
 
   //#region Public methods ----------------------------------------------------
-  public async changeSelection(hierarchy: IHierarchy, year: number): Promise<void> {
+  public changeSelection(hierarchy: IHierarchy, year: number): void {
     this.currentHierarchy = hierarchy;
     this.currentYear = year;
-    this.fetchHolidays();
+    void this.fetchHolidays();
   }
 
   public getSupportedLanguages(): Observable<Array<string>> {

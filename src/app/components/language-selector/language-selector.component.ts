@@ -1,11 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { HolidayService } from 'src/app/services/holiday.service';
-
-
-// import { CookiesService } from '../../../core/services/cookies.service';
-// import { ConfirmationDialogComponent } from '../../../shared/components/confirmation-dialog/confirmation-dialog.component';
-// import { I18nService } from '../../../core/services/i18n.service';
-// import { FormDataService } from 'curriculum-site/src/app/core/services/form-data.service';
 
 @Component({
   selector: 'app-language-selector',

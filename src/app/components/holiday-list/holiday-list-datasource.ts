@@ -2,7 +2,7 @@ import { DataSource } from '@angular/cdk/collections';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
 import { map } from 'rxjs/operators';
-import { Observable, merge, Subject, from } from 'rxjs';
+import { Observable, merge } from 'rxjs';
 import { HolidayListItem } from './holiday-list-item';
 import { HolidayService } from 'src/app/services/holiday.service';
 import { IHierarchy, IHoliday } from '@jbouduin/holidays-lib';
@@ -30,7 +30,7 @@ export class HolidayListDataSource extends DataSource<HolidayListItem> {
 
   //#region Public methods ----------------------------------------------------
   public changeSelection(hierarchy: IHierarchy, year: number): void {
-    void this.holidayService.changeSelection(hierarchy, year);
+    this.holidayService.changeSelection(hierarchy, year);
   }
 
   public connect(): Observable<Array<HolidayListItem>> {
