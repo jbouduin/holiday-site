@@ -9,6 +9,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
+import { MatMenuModule } from '@angular/material/menu';
 import { MatListModule } from '@angular/material/list';
 import { MenuComponent } from './components/menu/menu.component';
 import { MatTreeModule } from '@angular/material/tree';
@@ -21,13 +22,15 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { MatCardModule } from '@angular/material/card';
+import { LanguageSelectorComponent } from './components/language-selector/language-selector.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ShellComponent,
     MenuComponent,
-    HolidayListComponent
+    HolidayListComponent,
+    LanguageSelectorComponent
   ],
   imports: [
     BrowserModule,
@@ -41,6 +44,7 @@ import { MatCardModule } from '@angular/material/card';
     MatSidenavModule,
     MatIconModule,
     MatListModule,
+    MatMenuModule,
     MatTreeModule,
     MatTableModule,
     MatPaginatorModule,

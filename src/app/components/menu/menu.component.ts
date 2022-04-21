@@ -64,9 +64,10 @@ export class MenuComponent implements OnInit {
   }
 
   public ngOnInit(): void {
-    this.holidayService.getHierarchyTree()
+    this.holidayService.getHierarchyTree
       .subscribe((tree: Array<IHierarchy>) => this.dataSource.data = this.sortHierarchyTree(tree));
     this.yearChanged.emit(this.formGroup.controls['year'].value as number);
+    this.holidayService.currentLanguage = 'en';
   }
   //#endregion
 

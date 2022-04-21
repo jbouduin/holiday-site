@@ -30,7 +30,7 @@ export class HolidayListDataSource extends DataSource<HolidayListItem> {
     this.holidayService = holidayService;
     this.data = new Array<HolidayListItem>();
     this.hierarchyTranslations = new Map<string, Array<string>>();
-    this.holidayService.getHierarchyTree().subscribe((tree: Array<IHierarchy>) => {
+    this.holidayService.getHierarchyTree.subscribe((tree: Array<IHierarchy>) => {
       this.hierarchyTranslations.clear();
       this.fillHierarchyTranslations(tree, new Array<string>());
     });
