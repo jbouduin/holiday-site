@@ -5,6 +5,7 @@ import { MatTable } from '@angular/material/table';
 import { IHierarchy } from '@jbouduin/holidays-lib';
 import { Subscription } from 'rxjs';
 import { HolidayService } from 'src/app/services/holiday.service';
+import { versionInfo } from 'src/environments/version-info';
 import { HolidayListDataSource } from './holiday-list-datasource';
 import { HolidayListItem } from './holiday-list-item';
 
@@ -32,6 +33,7 @@ export class HolidayListComponent implements AfterViewInit, OnChanges, OnDestroy
   //#region Public properties -------------------------------------------------
   public currentHierarchy: string | undefined;
   public readonly displayedColumns: Array<string>;
+  public readonly libVersion: string;
   //#endregion
 
   //#region Constructor & C° --------------------------------------------------
@@ -41,6 +43,7 @@ export class HolidayListComponent implements AfterViewInit, OnChanges, OnDestroy
     this.currentHierarchy = undefined;
     this.selectedHierarchy = undefined;
     this.selectedYear = undefined;
+    this.libVersion = `Using @jbouduin/holiday-lib v${versionInfo.libVersion}`
     this.pathChangedSubscription = holidayService.fullTranslatedPathChanged
       .subscribe((path: Array<string> | undefined) => this.currentHierarchy = path ? path.join(' > ') : undefined)
   }

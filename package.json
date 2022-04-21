@@ -5,10 +5,11 @@
     "bump": "npm version -m \"Bumped to %s\"",
     "postversion": "git push && git push --tags",
     "preversion": "npm run lint && npm run build",
+    "prebuild": "node prebuild.js",
     "deploy": "npm run lint && npm run build && angular-cli-ghpages --dir=dist/holiday-site/",
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build --base-href https://jbouduin.github.io/holiday-site/",
+    "start": "npm run prebuild && ng serve",
+    "build": "npm run prebuild && ng build --base-href https://jbouduin.github.io/holiday-site/",
     "lint": "eslint ./src --ext .js,.jsx,.ts,.tsx",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"

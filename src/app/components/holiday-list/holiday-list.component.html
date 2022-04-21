@@ -1,16 +1,11 @@
 <mat-card>
   <mat-card-header>
-
-
-
     {{selectedYear}}
     <ng-container *ngIf="selectedHierarchy">
       : {{currentHierarchy}}
     </ng-container>
-
   </mat-card-header>
   <mat-card-content>
-
     <table mat-table class="full-width-table" matSort aria-label="Holidays">
       <!-- Date Column -->
       <ng-container matColumnDef="date">
@@ -31,10 +26,9 @@
       <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
       <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
     </table>
-
     <mat-paginator #paginator [pageIndex]="0" [pageSize]="20" [pageSizeOptions]="[10, 20, 50]" aria-label="Select page">
     </mat-paginator>
-
+    <div class="footer">{{libVersion}}</div>
   </mat-card-content>
 
 </mat-card>
