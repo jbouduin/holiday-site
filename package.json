@@ -1,6 +1,6 @@
 {
   "name": "holiday-site",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "scripts": {
     "bump": "npm version -m \"Bumped to %s\"",
     "postversion": "git push && git push --tags",
