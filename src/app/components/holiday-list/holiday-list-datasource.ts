@@ -2,18 +2,17 @@ import { DataSource } from '@angular/cdk/collections';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
 import { map } from 'rxjs/operators';
-import { Observable, merge } from 'rxjs';
+import { Observable, merge, Subject, from } from 'rxjs';
 import { HolidayListItem } from './holiday-list-item';
 import { HolidayService } from 'src/app/services/holiday.service';
 import { IHierarchy, IHoliday } from '@jbouduin/holidays-lib';
-
 
 export class HolidayListDataSource extends DataSource<HolidayListItem> {
 
   //#region Private properties ------------------------------------------------
   private data: Array<HolidayListItem>;
   private readonly holidayService: HolidayService;
-  private readonly hierarchyTranslations: Map<string, Array<string>>;
+
   //#endregion
 
   //#region Public properties -------------------------------------------------
@@ -21,19 +20,11 @@ export class HolidayListDataSource extends DataSource<HolidayListItem> {
   public sort: MatSort | undefined;
   //#endregion
 
-  //#region Getters -----------------------------------------------------------
-  //#endregion
-
   //#region Constructor & C° --------------------------------------------------
   constructor(holidayService: HolidayService) {
     super();
     this.holidayService = holidayService;
     this.data = new Array<HolidayListItem>();
-    this.hierarchyTranslations = new Map<string, Array<string>>();
-    this.holidayService.getHierarchyTree.subscribe((tree: Array<IHierarchy>) => {
-      this.hierarchyTranslations.clear();
-      this.fillHierarchyTranslations(tree, new Array<string>());
-    });
   }
   //#endregion
 
@@ -50,9 +41,10 @@ export class HolidayListDataSource extends DataSource<HolidayListItem> {
         .pipe(map((observing) => {
           if (Array.isArray(observing)) {
             this.data = observing.map((holiday: IHoliday) => {
-              const translation = this.hierarchyTranslations.get(holiday.fullPath);
+              const translation = this.holidayService.hierarchyTranslations.get(holiday.fullPath);
               const location = translation ? translation[translation.length - 1] : '';
-              return new HolidayListItem(holiday.date, holiday.key, location, holiday.name)});
+              return new HolidayListItem(holiday.date, holiday.key, location, holiday.name)
+            });
           }
           if (this.paginator) {
             this.paginator.length = this.data.length;
@@ -66,25 +58,10 @@ export class HolidayListDataSource extends DataSource<HolidayListItem> {
 
   /* eslint-disable-next-line @typescript-eslint/no-empty-function */
   public disconnect(): void { }
-
-  public fullTranslatedPath(fullPath: string): Array<string> {
-    return this.hierarchyTranslations.get(fullPath) || new Array<string>();
-  }
   //#endregion
 
   //#region Private methods ---------------------------------------------------
-  private fillHierarchyTranslations(list: Array<IHierarchy>, parentTranslations: Array<string>): void {
-    list.forEach((item: IHierarchy) => {
-      const translations = new Array<string>(
-        ...parentTranslations,
-        item.description
-      );
-      this.hierarchyTranslations.set(item.fullPath, translations);
-      if (item.children) {
-        this.fillHierarchyTranslations(item.children, translations);
-      }
-    });
-  }
+
 
   private getPagedData(data: Array<HolidayListItem>): Array<HolidayListItem> {
     if (this.paginator) {

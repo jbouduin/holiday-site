@@ -1,3 +1,4 @@
+import { ThisReceiver } from '@angular/compiler';
 import { Injectable } from '@angular/core';
 import { HierarchyCalculator, IHierarchy, IHierarchyCalculator, IHoliday } from '@jbouduin/holidays-lib';
 import { from, Observable, Subject } from 'rxjs';
@@ -9,18 +10,22 @@ import { FileProviderService } from './file-provider.service';
 export class HolidayService {
 
   //#region private properties ------------------------------------------------
+  private readonly fullTranslatedPath: Subject<Array<string> | undefined>;
+  private readonly fp: FileProviderService;
   private readonly holidays: Subject<Array<IHoliday>>;
   private readonly hierarchy: Subject<Array<IHierarchy>>;
-  private readonly fp: FileProviderService;
   private _currentLanguage: string;
   private calculator: IHierarchyCalculator;
   private currentHierarchy: IHierarchy | undefined;
   private currentYear: number | undefined;
+
   //#endregion
 
   //#region Public properties -------------------------------------------------
+  public fullTranslatedPathChanged: Observable<Array<string> | undefined>;
   public getHolidays: Observable<Array<IHoliday>>;
   public getHierarchyTree: Observable<Array<IHierarchy>>;
+  public hierarchyTranslations: Map<string, Array<string>>;
   //#endregion
 
   //#region Setters/Getters ---------------------------------------------------
@@ -28,7 +33,7 @@ export class HolidayService {
     this._currentLanguage = value;
     this.calculator = new HierarchyCalculator(this._currentLanguage, this.fp);
     this.fetchHierarchyTree();
-    this.fetchHoldidays();
+    this.fetchHolidays();
   }
 
   public get currentLanguage(): string {
@@ -41,8 +46,11 @@ export class HolidayService {
     this.fp = fp;
     this._currentLanguage = 'en';
     this.calculator = new HierarchyCalculator(this._currentLanguage, fp);
+    this.fullTranslatedPath = new Subject<Array<string> | undefined>();
     this.holidays = new Subject<Array<IHoliday>>();
     this.hierarchy = new Subject<Array<IHierarchy>>();
+    this.hierarchyTranslations = new Map<string, Array<string>>();
+    this.fullTranslatedPathChanged = from(this.fullTranslatedPath);
     this.getHolidays = from(this.holidays);
     this.getHierarchyTree = from(this.hierarchy);
   }
@@ -52,7 +60,7 @@ export class HolidayService {
   public async changeSelection(hierarchy: IHierarchy, year: number): Promise<void> {
     this.currentHierarchy = hierarchy;
     this.currentYear = year;
-    this.fetchHoldidays();
+    this.fetchHolidays();
   }
 
   public getSupportedLanguages(): Observable<Array<string>> {
@@ -61,16 +69,36 @@ export class HolidayService {
   //#endregion
 
   //#region Private methods ---------------------------------------------------
-  private async fetchHoldidays(): Promise<void> {
+  private async fetchHolidays(): Promise<void> {
     if (this.currentHierarchy && this.currentYear) {
       const result = await this.calculator.getHolidays(this.currentHierarchy.fullPath, this.currentYear, false);
       this.holidays.next(result);
+      if (this.currentHierarchy) {
+        this.fullTranslatedPath.next(this.hierarchyTranslations.get(this.currentHierarchy.fullPath))
+      }
     }
   }
 
   private async fetchHierarchyTree(): Promise<void> {
     const result = await this.calculator.getHierarchyTree();
+    this.fillHierarchyTranslations(result, new Array<string>());
     this.hierarchy.next(result);
+    if (this.currentHierarchy) {
+      this.fullTranslatedPath.next(this.hierarchyTranslations.get(this.currentHierarchy.fullPath))
+    }
+  }
+
+  private fillHierarchyTranslations(list: Array<IHierarchy>, parentTranslations: Array<string>): void {
+    list.forEach((item: IHierarchy) => {
+      const translations = new Array<string>(
+        ...parentTranslations,
+        item.description
+      );
+      this.hierarchyTranslations.set(item.fullPath, translations);
+      if (item.children) {
+        this.fillHierarchyTranslations(item.children, translations);
+      }
+    });
   }
   //#endregion
 }

@@ -1,8 +1,9 @@
-import { AfterViewInit, Component, Input, OnChanges, SimpleChanges, ViewChild } from '@angular/core';
+import { AfterViewInit, Component, Input, OnChanges, OnDestroy, SimpleChanges, ViewChild } from '@angular/core';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
 import { MatTable } from '@angular/material/table';
 import { IHierarchy } from '@jbouduin/holidays-lib';
+import { Subscription } from 'rxjs';
 import { HolidayService } from 'src/app/services/holiday.service';
 import { HolidayListDataSource } from './holiday-list-datasource';
 import { HolidayListItem } from './holiday-list-item';
@@ -12,7 +13,7 @@ import { HolidayListItem } from './holiday-list-item';
   templateUrl: './holiday-list.component.html',
   styleUrls: ['./holiday-list.component.scss']
 })
-export class HolidayListComponent implements AfterViewInit, OnChanges {
+export class HolidayListComponent implements AfterViewInit, OnChanges, OnDestroy {
 
   //#region @Input/@Output/@ViewChild -----------------------------------------
   @Input() public selectedHierarchy: IHierarchy | undefined;
@@ -25,35 +26,39 @@ export class HolidayListComponent implements AfterViewInit, OnChanges {
 
   //#region Private properties ------------------------------------------------
   private readonly dataSource: HolidayListDataSource;
+  private readonly pathChangedSubscription: Subscription;
   //#endregion
 
   //#region Public properties -------------------------------------------------
-  public readonly displayedColumns: Array<string>;
   public currentHierarchy: string | undefined;
+  public readonly displayedColumns: Array<string>;
   //#endregion
 
   //#region Constructor & C° --------------------------------------------------
   constructor(holidayService: HolidayService) {
     this.dataSource = new HolidayListDataSource(holidayService);
     this.displayedColumns = ['date', 'location', 'name'];
+    this.currentHierarchy = undefined;
     this.selectedHierarchy = undefined;
     this.selectedYear = undefined;
-    this.currentHierarchy = undefined;
+    this.pathChangedSubscription = holidayService.fullTranslatedPathChanged
+      .subscribe((path: Array<string> | undefined) => this.currentHierarchy = path ? path.join(' > ') : undefined)
   }
 
-  ngAfterViewInit(): void {
+  public ngAfterViewInit(): void {
     this.dataSource.sort = this.sort;
     this.dataSource.paginator = this.paginator;
     this.table.dataSource = this.dataSource;
   }
 
-  ngOnChanges(_changes: SimpleChanges): void {
-    if (this.selectedHierarchy) {
-      this.currentHierarchy = this.dataSource.fullTranslatedPath(this.selectedHierarchy.fullPath).join(' - ');
-      if (this.selectedYear) {
-        this.dataSource.changeSelection(this.selectedHierarchy, this.selectedYear);
-      }
+  public ngOnChanges(_changes: SimpleChanges): void {
+    if (this.selectedHierarchy && this.selectedYear) {
+      this.dataSource.changeSelection(this.selectedHierarchy, this.selectedYear);
     }
+  }
+
+  public ngOnDestroy(): void {
+    this.pathChangedSubscription.unsubscribe();
   }
   //#endregion
 }
