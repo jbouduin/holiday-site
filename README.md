@@ -3,8 +3,8 @@
 ![screenshot](demo.jpg)
 
 This is a demo-site using the [@jbouduin/holiday-lib](https://github.com/jbouduin/holiday) npm-package.
-The site itself is implemented very rudimentary and there is plenty of room for improvement.
+The site itself is implemented very rudimentary.
 
-You can see the site [here](https://jbouduin.github.io/holiday-site/)
+You can visit the site [here](https://jbouduin.github.io/holiday-site/)
 
 

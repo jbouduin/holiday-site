@@ -3,6 +3,7 @@ import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 import { Observable } from 'rxjs';
 import { map, shareReplay } from 'rxjs/operators';
 import { IHierarchy } from '@jbouduin/holidays-lib';
+import { versionInfo } from 'src/environments/version-info';
 
 @Component({
   selector: 'app-shell',
@@ -11,11 +12,14 @@ import { IHierarchy } from '@jbouduin/holidays-lib';
 })
 export class ShellComponent {
 
+  //#region public properties -------------------------------------------------
+  public readonly title: string;
+  public readonly isHandset$: Observable<boolean>;
   public selectedHierarchy: IHierarchy | undefined;
   public selectedYear: number | undefined;
+  //#endregion
 
-  public readonly isHandset$: Observable<boolean>;
-
+  //#region Constructor & C° --------------------------------------------------
   constructor(breakpointObserver: BreakpointObserver) {
     this.selectedHierarchy = undefined;
     this.selectedYear = undefined;
@@ -24,8 +28,11 @@ export class ShellComponent {
         map(result => result.matches),
         shareReplay()
       );
+    this.title = `Holiday calculator (v${versionInfo.version})`;
   }
+  //#endregion
 
+  //#region UI triggered methods ----------------------------------------------
   public nodeSelected(node: IHierarchy): void {
     this.selectedHierarchy = node;
   }
@@ -33,4 +40,5 @@ export class ShellComponent {
   public yearChanged(year: number): void {
     this.selectedYear = year;
   }
+  //#endregion
 }

@@ -57,16 +57,17 @@ export class MenuComponent implements OnInit {
     this.dataSource = new MatTreeFlatDataSource(this.treeControl, this.treeFlattener);
     this.formGroup = formBuilder.group(
       /* eslint-disable-next-line @typescript-eslint/unbound-method */
-      { year: new FormControl(2023, Validators.required) }
+      { year: new FormControl(new Date().getFullYear(), Validators.required) }
     );
     this.nodeSelected = new EventEmitter<IHierarchy>();
     this.yearChanged = new EventEmitter<number>();
   }
 
   public ngOnInit(): void {
-    this.holidayService.getHierarchyTree()
+    this.holidayService.getHierarchyTree
       .subscribe((tree: Array<IHierarchy>) => this.dataSource.data = this.sortHierarchyTree(tree));
     this.yearChanged.emit(this.formGroup.controls['year'].value as number);
+    this.holidayService.currentLanguage = 'en';
   }
   //#endregion
 
